@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.4)  4 MAY 2020 23:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.4)  5 MAY 2020 16:09
 entering extended mode
 **./Main_Diploma.tex
 (Main_Diploma.tex
@@ -938,7 +938,11 @@ File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 )
 (Main_Diploma.aux (sampul.aux) (orisinalitas.aux) (pengesahan.aux) (abstrak.aux
 ) (abstract.aux) (persembahan.aux) (pengantar.aux) (bab1.aux) (bab2.aux)
-(bab3.aux) (bab4.aux) (bab5.aux) (lampiran.aux))
+(bab3.aux
+
+LaTeX Warning: Label `fig:31' multiply defined.
+
+) (bab4.aux) (bab5.aux) (lampiran.aux))
 \openout1 = `Main_Diploma.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
@@ -1088,7 +1092,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<pics/Untel.jpg, id=220, 148.8105pt x 148.8105pt>
+<pics/Untel.jpg, id=240, 148.8105pt x 148.8105pt>
 File: pics/Untel.jpg Graphic file (type jpg)
 <use pics/Untel.jpg>
 Package pdftex.def Info: pics/Untel.jpg  used on input line 33.
@@ -1225,12 +1229,6 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 2.
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 11--13
-\OT1/ptm/m/n/12 akan dipin-dahkan den-gan ap-likasi \\OT1/ptm/b/n/12 SiPJabS: S
-is-tem Pen-gawakan Ja-batan
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 11--13
 
  []
@@ -1245,7 +1243,7 @@ l.15
 
 
 ] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 63--66
+Underfull \hbox (badness 10000) in paragraph at lines 64--67
 
  []
 
@@ -1258,85 +1256,60 @@ BAB II.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 2.
 
-
-LaTeX Warning: Citation `Hoffstein1998' on page 5 undefined on input line 10.
-
-
-LaTeX Warning: Citation `Saxena2018' on page 5 undefined on input line 10.
-
-
-LaTeX Warning: Citation `cloud' on page 5 undefined on input line 10.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
-<pics/android-10.jpg, id=477, 1284.8pt x 602.25pt>
-File: pics/android-10.jpg Graphic file (type jpg)
-<use pics/android-10.jpg>
-Package pdftex.def Info: pics/android-10.jpg  used on input line 15.
-(pdftex.def)             Requested size: 159.333pt x 74.68373pt.
-
-LaTeX Warning: Citation `Joshi2015' on page 5 undefined on input line 24.
-
-
-LaTeX Warning: Citation `storage' on page 5 undefined on input line 24.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
-
- []
-
-<pics/FirebasePre.png, id=478, 1003.75pt x 436.63126pt>
-File: pics/FirebasePre.png Graphic file (type png)
-<use pics/FirebasePre.png>
-Package pdftex.def Info: pics/FirebasePre.png  used on input line 29.
-(pdftex.def)             Requested size: 318.67209pt x 138.62555pt.
 [5
 
 
 
- <./pics/android-10.jpg>]
+] [6] [7]
+Underfull \hbox (badness 1062) in paragraph at lines 120--122
+\OT1/ptm/m/n/12 berma-cam { macam ap-likasi kom-puter yang di-t-ulis den-gan be
+rba-gai ba-hasa
+ []
 
-LaTeX Warning: Citation `Mittal2016' on page 6 undefined on input line 38.
 
-
-LaTeX Warning: Citation `uu11' on page 6 undefined on input line 38.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
+Underfull \hbox (badness 10000) in paragraph at lines 120--122
 
  []
 
-<pics/python.png, id=483, 632.3625pt x 323.70938pt>
-File: pics/python.png Graphic file (type png)
-<use pics/python.png>
-Package pdftex.def Info: pics/python.png  used on input line 43.
-(pdftex.def)             Requested size: 239.00558pt x 122.34402pt.
+[8]
+Underfull \hbox (badness 2035) in paragraph at lines 139--140
+[]\OT1/ptm/m/n/12 Kemampuan banyak \OT1/ptm/m/it/12 client \OT1/ptm/m/n/12 da-p
+at berhubun-gan \OT1/ptm/m/it/12 server \OT1/ptm/m/n/12 pada saat yang
+ []
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
-[6 <./pics/FirebasePre.png> <./pics/python.png>]
+<pics/ilustrasimvc.jpg, id=544, 384.6872pt x 231.11343pt>
+File: pics/ilustrasimvc.jpg Graphic file (type jpg)
+<use pics/ilustrasimvc.jpg>
+Package pdftex.def Info: pics/ilustrasimvc.jpg  used on input line 161.
+(pdftex.def)             Requested size: 358.50229pt x 215.39877pt.
+[10 <./pics/ilustrasimvc.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
 
-LaTeX Warning: Citation `Narayana2010' on page 7 undefined on input line 61.
+ []
+
+[11]
+
+LaTeX Warning: Citation `Narayana2010' on page 12 undefined on input line 225.
 
 
-LaTeX Warning: Citation `Patel2016' on page 7 undefined on input line 62.
+LaTeX Warning: Citation `Patel2016' on page 12 undefined on input line 226.
 
 
-LaTeX Warning: Citation `Phadte2017' on page 7 undefined on input line 63.
+LaTeX Warning: Citation `Phadte2017' on page 12 undefined on input line 227.
 
 
-LaTeX Warning: Citation `Rachmawanto2017' on page 7 undefined on input line 64.
+LaTeX Warning: Citation `Rachmawanto2017' on page 12 undefined on input line 22
+8.
 
 
+LaTeX Warning: Citation `Reddy2016' on page 12 undefined on input line 229.
 
-LaTeX Warning: Citation `Reddy2016' on page 7 undefined on input line 65.
-
-) [7]
+) [12]
 \openout2 = `bab3.aux'.
 
  (bab3.tex
@@ -1345,7 +1318,7 @@ BAB III.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 2.
 
-<pics/low_level.png, id=494, 522.45187pt x 344.78813pt>
+<pics/low_level.png, id=573, 522.45187pt x 344.78813pt>
 File: pics/low_level.png Graphic file (type png)
 <use pics/low_level.png>
 Package pdftex.def Info: pics/low_level.png  used on input line 12.
@@ -1360,7 +1333,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
-[8
+[13
 
 
 
@@ -1374,7 +1347,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
-[9]
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
@@ -1384,37 +1357,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
-<pics/use-case-example.png, id=504, 81.906pt x 72.39046pt>
+<pics/use-case-example.png, id=583, 81.906pt x 72.39046pt>
 File: pics/use-case-example.png Graphic file (type png)
 <use pics/use-case-example.png>
 Package pdftex.def Info: pics/use-case-example.png  used on input line 61.
 (pdftex.def)             Requested size: 358.50229pt x 316.97144pt.
-[10]
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
 
-<pics/wireframe-design.jpg, id=509, 1606.0pt x 1204.5pt>
+<pics/wireframe-design.jpg, id=588, 1606.0pt x 1204.5pt>
 File: pics/wireframe-design.jpg Graphic file (type jpg)
 <use pics/wireframe-design.jpg>
 Package pdftex.def Info: pics/wireframe-design.jpg  used on input line 79.
 (pdftex.def)             Requested size: 358.50229pt x 268.86882pt.
-[11 <./pics/use-case-example.png>]
+[16 <./pics/use-case-example.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
-<pics/high_level.png, id=515, 1980.39874pt x 1573.88pt>
+<pics/high_level.png, id=594, 1980.39874pt x 1573.88pt>
 File: pics/high_level.png Graphic file (type png)
 <use pics/high_level.png>
 Package pdftex.def Info: pics/high_level.png  used on input line 91.
 (pdftex.def)             Requested size: 358.50229pt x 284.89522pt.
-[12 <./pics/wireframe-design.jpg>])
+[17 <./pics/wireframe-design.jpg>])
 Underfull \hbox (badness 10000) in paragraph at lines 96--79
 
  []
 
-[13 <./pics/high_level.png>]
+[18 <./pics/high_level.png>]
 \openout2 = `bab4.aux'.
 
  (bab4.tex
@@ -1428,7 +1401,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-<pics/PagingLib.png, id=524, 1606.0pt x 691.58376pt>
+<pics/PagingLib.png, id=603, 1606.0pt x 691.58376pt>
 File: pics/PagingLib.png Graphic file (type png)
 <use pics/PagingLib.png>
 Package pdftex.def Info: pics/PagingLib.png  used on input line 14.
@@ -1438,7 +1411,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
 
-[14
+[19
 
 
 
@@ -1447,12 +1420,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
-<pics/lena.png, id=530, 513.92pt x 513.92pt>
+<pics/lena.png, id=608, 513.92pt x 513.92pt>
 File: pics/lena.png Graphic file (type png)
 <use pics/lena.png>
 Package pdftex.def Info: pics/lena.png  used on input line 32.
 (pdftex.def)             Requested size: 179.25114pt x 179.25519pt.
-<pics/baboon.png, id=531, 30.8352pt x 30.8352pt>
+<pics/baboon.png, id=609, 30.8352pt x 30.8352pt>
 File: pics/baboon.png Graphic file (type png)
 <use pics/baboon.png>
 Package pdftex.def Info: pics/baboon.png  used on input line 38.
@@ -1462,7 +1435,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
-[15 <./pics/lena.png (PNG copy)> <./pics/baboon.png (PNG copy)>]
+[20 <./pics/lena.png (PNG copy)> <./pics/baboon.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
@@ -1477,8 +1450,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
-[16]
-<pics/graph1.jpg, id=540, 736.25063pt x 321.45094pt>
+[21]
+<pics/graph1.jpg, id=619, 736.25063pt x 321.45094pt>
 File: pics/graph1.jpg Graphic file (type jpg)
 <use pics/graph1.jpg>
 Package pdftex.def Info: pics/graph1.jpg  used on input line 75.
@@ -1488,7 +1461,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--82
 
  []
 
-[17 <./pics/graph1.jpg>]
+[22 <./pics/graph1.jpg>]
 \openout2 = `bab5.aux'.
 
  (bab5.tex
@@ -1507,7 +1480,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--85
 
  []
 
-[18
+[23
 
 
 
@@ -1528,11 +1501,11 @@ Package pdftex.def Info: pics/lena.png  used on input line 26.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[19
+[24
 
 
 
-] [20]
+] [25]
 LAMPIRAN B.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 46.
@@ -1550,7 +1523,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--70
 . docs-[]2 . 2 . 183 . 17 . 33-[]APK4Fun .
  []
 
-[21
+[26
 
 
 ]
@@ -1559,7 +1532,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--113
  / com . crashlytics . sdk .
  []
 
-[22
+[27
 
 
 ]
@@ -1580,7 +1553,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--142
 ew _ 30733826851 _ 1 _
  []
 
-[23
+[28
 
 
 ]
@@ -1682,7 +1655,7 @@ Overfull \hbox (17.09679pt too wide) in paragraph at lines 174--193
  [][] 
  []
 
-[24
+[29
 
 
 ]
@@ -1741,7 +1714,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 226--226
 \OT1/pcr/m/n/8 0 / Android / data / com . box . android / ID / cache / dl _
  []
 
-) [25]
+) [30]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 94.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 94.
  (Main_Diploma.aux (sampul.aux) (orisinalitas.aux) (pengesahan.aux)
@@ -1750,19 +1723,22 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 94.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 94.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 94.
 Package rerunfilecheck Info: File `Main_Diploma.out' has not changed.
-(rerunfilecheck)             Checksum: 983824A623A90564555401999142CDE2;3581.
+(rerunfilecheck)             Checksum: 27116D0590C247F48A8B0657EBBAA47F;3964.
 
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 94.
  ) 
 Here is how much of TeX's memory you used:
- 22588 strings out of 480930
- 403861 string characters out of 2909522
- 669526 words of memory out of 3000000
- 37738 multiletter control sequences out of 15000+200000
- 569157 words of font info for 99 fonts, out of 3000000 for 9000
+ 22619 strings out of 480930
+ 403747 string characters out of 2909522
+ 669426 words of memory out of 3000000
+ 37724 multiletter control sequences out of 15000+200000
+ 570786 words of font info for 101 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,15n,64p,1063b,612s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
@@ -1770,9 +1746,9 @@ KTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/u
 tmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Main_Diploma.pdf (36 pages, 2152263 bytes).
+Output written on Main_Diploma.pdf (41 pages, 1964464 bytes).
 PDF statistics:
- 626 PDF objects out of 1000 (max. 8388607)
- 130 named destinations out of 1000 (max. 500000)
- 505 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 716 PDF objects out of 1000 (max. 8388607)
+ 176 named destinations out of 1000 (max. 500000)
+ 535 words of extra memory for PDF output out of 10000 (max. 10000000)
 
