@@ -1,0 +1,232 @@
+
+\begin{appendices}
+	%-----------------------------------------------------------------------------%
+	%\setcounter{chapter}{0}
+	\chapter{Evolved Packet Core (EPC)}
+	\label{app:3gpp}
+	%-----------------------------------------------------------------------------%
+	
+	\section{Architecture EPC by 3GPP}
+	\label{app:epcv1}
+	
+	\begin{figure}[h]
+		\centering
+		% Requires \usepackage{graphicx}
+		\includegraphics [width=0.65\textwidth]{pics/baboon.png} \\
+		\caption {EPC architecture on LTE-A Networks}
+		\label{fig:epcc1}
+	\end{figure}
+	
+	\section{Proposed a new architecture EPC}
+	\label{app:epcv2}
+	
+	\begin{figure}[h]
+		\centering
+		% Requires \usepackage{graphicx}
+		\includegraphics [width=0.65\textwidth]{pics/lena.png} \\
+		\caption {Proposed EPC version 2 architecture for 5G Networks}
+		\label{fig:epcc2}
+	\end{figure}
+	
+	\begin{landscape}
+		
+		%	\setcounter{chapter}{0}
+		\chapter{Preservation Process for Cloud Forensics}
+		\label{app:preservation}
+		
+		\section{SHA-2 Hash Value of Gdrive Activities}
+		\label{app:hash1}
+		
+		\begin{table}[h]
+			
+			\centering
+			\tiny
+			\caption{Samples of Gdrive Acquisition Files}
+			\label{tab:app11}
+			\begin{tabular}{ | l | l | p{8cm} | p{7.8cm} | }
+				\hline
+				\textbf{No} & \textbf{User Activity} & \textbf{Activity Directory}                           	& \textbf{SHA Hash Value (256 bits)} \\ \hline
+				1 & Install data-1        			& \path{data/app/com.google.android.apps.docs-1.apk                } 	& 26d98e49706bb80abaa6e7a9d284d67fc8aefd087a10a6aec3c212cea4e1ddd1 \\ \hline
+				2 & Install data-2         			& \path{data/dalvik-cache/data@app@com.google.android.apps.docs-1.apk@classes.dex} 	& 9455a8fd8c43fc5363419cfc3fc35d14e2f7046cc3c442a944bc6ad135e2f394 \\ \hline
+				3 & Signup Data-1                 	& \path{data/data/com.google.android.apps.docs/databases/DocList.db} 	& 12b6d89102127aafdcf9d2fa94cf81474a5144eff471c73a2d954df2fc166428 \\ \hline
+				4 & Signup Data-2                 	& \path{data/data/com.google.android.apps.docs/files/gaClientId} 		& a4c3beefea9b6dd834db78900772db189539a59cb19ea9d5de38cf0a0f4b5ea5 \\ \hline
+				5 & Logout Data-1                 	& \path{data/data/com.google.android.apps.docs/databases/DocList.db} 	& e77b8ba8b888811902ccb6391d6278565f2991c56d7dc81541ff9893a9094fbb \\ \hline
+				6 & Logout Data-2                 	& \path{data/data/com.google.android.apps.docs/databases/google_analytics_v2.db} 	& 99e62c8758d099e6764bbff9de400403742524d2c9153ff6f0649c7f2bbda7e8 \\ \hline
+				7 & Login Data-1                   	& \path{data/data/com.google.android.apps.docs/databases/DocList.db} 	& e798896e7f87f7d96863e379b13045a22007cb5af3760fe874346f1063dc3e27 \\ \hline
+				8 & Login Data-2                   	& \path{data/data/com.google.android.apps.docs/files/gaClientId} 	& bd8c601729889828803ca740190b9f0fcca3ef8b10be1c225f0777238ec18853 \\ \hline		
+				9 & Upload Data                 	& \path{data/data/com.google.android.apps.docs/databases/DocList.db} 	& 13e510398106d51bb363f3fce90224113015742b5eac3520c92758d258e3ef6d \\ \hline
+				10 & Upload Data                 	& \path{data/data/com.google.android.apps.docs/files/fileinternal/} 	& 142e1d688ef0568370c37187fd9f2351d7ddeda574f8bfa9b0fa4ef42db85aa2 \\ \hline
+				11 & Download Data-1               	& \path{data/data/com.google.android.apps.docs/databases/DocList.db} 	& 7c29e7d52d96851105cccfb9f4168b6de811393e29b5aea7aa9f3843d99436ba \\ \hline
+				12 & Download Data-2               	& \path{data/data/com.google.android.apps.docs/files/fileinternal/} 	& a26d58a426125edd723e0d5e25f2a3c3da22a703bb6e30ff376a62a8c06bd472 \\ \hline
+				13 & Operation File Data (Open)  	& \path{data/data/com.google.android.apps.docs/app_webview/Cache/  } 	& d649e8aeba9cec92e0978a562b732ebbf1e4b112e44f6d3aaa50ce459b9ce47e \\ \hline
+				14 & Operation File Data (New Folder)& \path{data/data/com.google.android.apps.docs/databases/DocList.db} 	& 6c70a911ff365c3a07427b56546ca8410f994d17eac2c11d6216652ac149c09c \\ \hline
+				15 & Operation File Data (New File)	& \path{data/data/com.google.android.apps.docs/databases/DocList.db} 	& 360f99105dbe6f4d458dd16c6a41f51bcf7e4531c86cd68710b1e0ffd65212ce \\ \hline
+				16 & Operation File Data (Move)  	& \path{data/data/com.google.android.apps.docs/databases/DocList.db} 	& 473847fc0982ebc9ea8a6d5f35970bd7283410fc908c228dff9b622b6c1ccab3 \\ \hline
+				17 & Operation File Data (Copy)    	& \path{data/data/com.google.android.apps.docs/databases/DocList.db}	& 20aa0b703c2c68e0c7ce6610702ad0f3f84f0f0766968bda20e66a821625771f \\ \hline
+				18 & Operation File Data (Rename)	& \path{data/data/com.google.android.apps.docs/databases/DocList.db} 	& 7036ba6e0b021ed5c9f5fc3e928641d91ada195be8e6cfff569b37afbb6bcd4d \\ \hline
+				19 & Operation File Data (Share)   	& \path{data/data/com.google.android.apps.docs/databases/DocList.db} 	& 87eaeebe3e7782ed2bc94b5f5f2b5ac56b9959e457a5dc9a5fe009173f2ed599 \\ \hline
+				20 & Operation File Data (Delete)  	& \path{data/data/com.google.android.apps.docs/databases/DocList.db} 	& a122ceaec10d4896122a32615201cc44964e28cbf6d943961f14005c5f0fb228 \\ \hline
+				21 & Uninstall Data (remaining-1)  	& \path{mnt/shell/emulated/0/Download/com.google.android.apps.docs-2.2.183.17.33-APK4Fun.com.apk}	& 26d98e49706bb80abaa6e7a9d284d67fc8aefd087a10a6aec3c212cea4e1ddd1 \\ \hline
+				22 & Uninstall Data (remaining-2) 	& \path{data/media/0/Download/com.google.android.apps.docs-2.2.183.17.33-APK4Fun.com.apk}	& 26d98e49706bb80abaa6e7a9d284d67fc8aefd087a10a6aec3c212cea4e1ddd1 \\ \hline
+			\end{tabular}
+		\end{table}
+	\end{landscape}
+	
+	\pagebreak
+	\begin{landscape}
+		\section{SHA-2 Hash Value of Onedrive Activities}
+		\label{app:hash2}
+		
+		\begin{table}[h]
+			
+			\centering
+			\tiny
+			\caption{Samples of Onedrive Acquisition Files}
+			\label{tab:app12}
+			\begin{tabular}{ | l | l | p{8cm} | p{7.8cm} | }
+				\hline
+				\textbf{No} & \textbf{User Activity} & \textbf{Activity Directory}                     & \textbf{SHA Hash Value (256 bits)} \\ \hline
+				1	 & Installation	        &	\path{data/app/com.microsoft.skydrive-1.apk}                       & 9d42ea40371a241674b40844eef66a4dde93e2f95d8ab8b529b492424bfe8973  \\ \hline
+				2	 & Signup Database-1	&	\path{data/data/com.microsoft.skydrive/databases/metadata-journal} & 9a7e55b105c5c74b5d4521642d422dbb6c096c676e84403f63067d739811c164  \\ \hline
+				3	 & Signup Database-2	&	\path{data/data/com.microsoft.skydrive/databases/metadata}         & 32a243dfa2c752da7e3c879517fcbe1491ffaf1ce501e8fe6890a68758cc6dfa  \\ \hline
+				4	 & Sign in Database-1	&	\path{data/data/com.microsoft.skydrive/databases/metadata-journal} & a8edd22e5fbcdf7ba3976768ac6de87259b51277b0f3e6604f6fa51136129c9e  \\ \hline
+				5	 & Sign in Database-2	&	\path{data/data/com.microsoft.skydrive/databases/metadata}         & 8b804bcdd5dd5c51a21d4e6741e14e73b72dfbe196c2035162000be8cfb0c8be  \\ \hline
+				6	 & Sign out Database-1	&	\path{data/data/com.microsoft.skydrive/databases/metadata-journal} & 49182990dc61a0ba21d13bb5f8a382834f73edfb370cec7a51758448de9c65bd  \\ \hline
+				7	 & Sign out Database-2	&	\path{data/data/com.microsoft.skydrive/databases/metadata}         & c8303ee41e9a10d6cef397c7e8c5788f3f6c9debb1d365937f9a8ef6ec02aea7  \\ \hline
+				8	 & Upload Database-1	&	\path{data/data/com.microsoft.skydrive/databases/metadata-journal} & 0514ad323bce14e07cefd1a7e5343089274ea884b8d71215607e07c185b47476  \\ \hline
+				9	 & Upload Database-2	&	\path{data/data/com.microsoft.skydrive/databases/metadata}         & e55b0761c2e57b34a6e7f0b88f14b07d6c671854dfc7ef3c0db3adb79b172e7d  \\ \hline
+				10   & Download Database-1	&	\path{data/data/com.microsoft.skydrive/databases/metadata-journal} & 0825cca4592ef06ad0db5afec75bfc8a05f1d812c7810aa6d819e7fdd3dddfa0  \\ \hline
+				11   & Download Database-2	&	\path{data/data/com.microsoft.skydrive/databases/metadata}         & 4dd1b205447a44fc948d943642e29d1678e35259b300227365c3c5dfafcfdf51  \\ \hline
+				12   & Open file-cache-1	&	\path{data/data/com.microsoft.skydrive/databases/cached_files_md.db-journal}   & 88755101b971d694b582122f1d6c26adc6e6399905bbd960198761703436ce95  \\ \hline
+				13   & Open file-cache-2	&	\path{data/data/com.microsoft.skydrive/databases/cached_files_md.db}           & 19d1142bc335515e886c90765ef7efb6810994d42b5f9a41735dd994062d2bd4  \\ \hline
+				14   & Making a new folder	&	\path{data/data/com.microsoft.skydrive/databases/metadata-journal} & fc0c8c22b939a00a5b164ae0c2a60bc40e2e3c1565763caae260a4294e0f17ac  \\ \hline
+				15   & Making a new folder	&	\path{data/data/com.microsoft.skydrive/databases/metadata}         & 72751492bf1f36879206c0dc9090df055566914a03955ed13450af1e3567abf6  \\ \hline
+				16   & Renaming Database-1  &	\path{data/data/com.microsoft.skydrive/databases/metadata-journal} & ba8f10b35c1c86e2eb2d64200e6c9368f9d050a1691c848213ef34eef834a4c1  \\ \hline
+				17   & Renaming Database-2  &	\path{data/data/com.microsoft.skydrive/databases/metadata}         & b5605ee9c2916562cc866bc8384b4f7923a05e3656502f5ac6b0867be9e43d8b  \\ \hline
+				18   & Moving Database-1    &	\path{data/data/com.microsoft.skydrive/databases/metadata-journal} & b9643de11bf14edd81b17a5bee6a1dcdfdc15966a4a9e596d85b490481628d6a  \\ \hline
+				19   & Moving Database-2    &	\path{data/data/com.microsoft.skydrive/databases/metadata}         & 7d487e59e5249a2e948a18560cc9dea364089855a91033b61d89b5bfa594bcec  \\ \hline
+				20   & Sharing a file	    &	\path{data/data/com.microsoft.skydrive/databases/metadata-journal} & c09e7e6160fda7d4a961aab3ccb9a5d78eb2add70057c62b0629abfcb5910de7  \\ \hline
+				21   & Sharing a file	    &	\path{data/data/com.microsoft.skydrive/databases/metadata}         & b0b23ad48fa0c692956ce1b72f13caa81cd324fb0d9ca054d71748efd3a36e54  \\ \hline
+				22   & Deleting Database-1  &	\path{data/data/com.microsoft.skydrive/databases/metadata-journal} & 84129c18f6655234553ae6ddbeb4bbf8164054c7001ce94d01ec9493e6414eb9  \\ \hline
+				23   & Deleting Database-1  &	\path{data/data/com.microsoft.skydrive/databases/metadata}         & c2049d1a163c09f01d573538f6efa201374dbc00e1e1b33245aaee072e90427c  \\ \hline
+				24   & Uninstall (Remaining-1)	&	\path{data/data/com.android.vending/cache/thmb_com.microsoft.skydrive}  & d4f723504186c51f47ced7defb8d5318824ac882e8a6eb03f589b6b2a9b4afeb  \\ \hline
+				25   & Uninstall (Remaining-2)	&	\path{data/com.microsoft.skydrive/files/.TwitterSdk/cl/com.crashlytics.sdk.android/session_analytics.tap}  & 5023665f370687000e12479a3c7bd1a7b7f8c6bf572fdcf1b44515f9bf56e63b  \\ \hline
+			\end{tabular}
+		\end{table}
+	\end{landscape}
+	
+	\pagebreak
+	\begin{landscape}
+		\section{SHA-2 Hash Value of Box Activities}
+		\label{app:hash3}
+		
+		\begin{table}[h]
+			\centering
+			\tiny
+			\caption{Samples of Box Acquisition Files}
+			\label{tab:app13}
+			\begin{tabular}{ | l | l | p{8cm} | p{7.8cm} | }
+				\hline
+				\textbf{No} & \textbf{User Activity} & \textbf{Activity Directory}             				& \textbf{SHA Hash Value (256 bits)} \\ \hline
+				1 & Installation-1	  &	\path{data/app/com.box.android-1.apk}                              	& bead950d0c99101925a1a839580b60b04687235427c8887da7e0e7937b52c9b9    \\ \hline
+				2 & Installation-2	  &	\path{data/com.box.android/shared_prefs/GLOBAL.xml}                	& d5361d29d3557434b5bf9bda028500c888d7b90479ff6928b03f7fd3cb35aecd    \\ \hline
+				3 & Installation-3	  &	\path{data/com.box.android/shared_prefs/device.xml}                	& b76cf6ed764e037fcef9d014c4a50c6c2971eacedbcd59c4edba969df213c147    \\ \hline
+				4 & Sign up-1 	      &	\path{data/data/com.box.android/app_webview/Cookies}               	& 525395b456ef11e1dfbff4ae13ab388602aa53d11a2aadc09fad0bb0df8311cf   \\ \hline
+				5 & Sign up-2	      &	\path{data/com.box.android/cache/com.android.opengl.shaders_cache}  & 9df77d8f22829e9e61e0dd0d270e41245ba498cb7e4a626b902d1f43c1f15baa   \\ \hline
+				6 & Login-1 	      &	\path{data/data/com.box.android/shared_prefs/GLOBAL.xml}           	& e57ac07532ad85817e58804c6e0c58723de353fcfd7a5fa4e806c8c04c2a5d88   \\ \hline
+				7 & Login-2 	      &	\path{/data/data/com.box.android/shared_prefs/myPreference238627201.xml}    & 3f5f0e0b9d137d7cbe10ccc3e011d82b0d48008d37966aa3dadd9d6d16896d9b   \\ \hline
+				8 & Upload	          &	\path{data/data/com.box.android/databases/BoxSQLiteDB_238627201}   	& 165930875e447762026cdd9b584e25ba0e79a58b04a307e3eecd29302b70344c   \\ \hline
+				9 & Download	      &	\path{data/data/com.box.android/databases/BoxSQLiteDB_238627201}   	& 7b285097c76df629a627a71f5e0550bab4419ecb87f0d79b8af2d01d845967c0   \\ \hline
+				10 & Download file-1  &	\path{mnt/shell/emulated/0/Android/data/com.box.android/238627201/cache/dl_cache/30733827613}   & 459a101e140903db92fbca26ffbb1ea98ac226c065eddd1bfabf06072eb1c461   \\ \hline
+				11 & Download file-2  &	\path{mnt/shell/emulated/0/Android/data/com.box.android/238627201/cache/dl_cache/30733826851}   & 445f8d42018bca9a59036ffffb86406a5d2195aa0542d67c7bfd098c8d0737e3   \\ \hline     	 	
+				12  & Open a file	  &	\path{data/data/com.box.android/files/previews/preview_30733826851_1_7b685782a83b2bda324ccd07377894ed4f806273.pdf}   & 1ca32f7661f6419d46c5181c0bd0d1264fef24e4abba744fa2173cc6eb39d563   \\ \hline
+				13  & Making a new folder	&	\path{data/data/com.box.android/databases/BoxSQLiteDB_238627201}    & 58ee260478f16991a6a5df8116cbff58ca5afabf30c02fdb2fb230a332a21410   \\ \hline
+				14 & Making a new file		&	\path{data/data/com.box.android/databases/BoxSQLiteDB_238627201}    & b18e9131b49c93cefb648ea5628a83be5d6cdb6fa597adb9532ee2072d297cbb   \\ \hline
+				15 & Moving a file	    	&	\path{data/data/com.box.android/databases/BoxSQLiteDB_238627201}    & a08bf1668494ecb1c445efea44980e41a9d49376c7b7d4c0f5caa67609242ead   \\ \hline
+				16 & Copying a file	    	&	\path{data/data/com.box.android/databases/BoxSQLiteDB_238627201}    & 9cf07792a5f33b6fe1b9c7b1142313077ccb8f7a4c0c7659980209a69f1711ce   \\ \hline
+				17 & Renaming a file	    &	\path{data/data/com.box.android/databases/BoxSQLiteDB_238627201}    & 441098719616d333645d5941b0e083ddc097ef0b70adab726ba3d205700b2ea0   \\ \hline
+				18 & Sharing a file	    	&	\path{data/data/com.box.android/databases/google_analytics_v4.db}   & 1b89a68e350c1cf5661b8fde4136c4b1bba398fb6010015dab11c28e65cf8038   \\ \hline
+				19 & Deleting a file	    &	\path{data/data/com.box.android/databases/BoxSQLiteDB_238627201}    & d7c95a8518f624cd6fb09b1d806b6d4e98f2e558deaa10290fc6d5c2924d5b47   \\ \hline     	 
+				20 & Logout 	   			 &	\path{data/data/com.box.android/shared_prefs/GLOBAL.xml}           	& 4c20ae16eaef09926283504d00d1701859546a85e69b89229f87cb3522c29ac2   \\ \hline
+				21 & Uninstall (Remaining-1) &	\path{data/media/0/.box/install}                					& 9ebbf47073a08448a0da91587a02d10348a1e9c37f330f522ea5e46c3f47bc5b   \\ \hline
+				22 & Uninstall (Remaining-2) &	\path{data/media/0/.boxinstall/abpercentile}    					& e28f007cfc6f4bd77321eaaebe82723da5a44443c5382c28bdc9ea3ecc9b1c4b   \\ \hline
+			\end{tabular}
+		\end{table}
+	\end{landscape}
+	
+	\pagebreak
+
+	%-----------------------------------------------------------------------------%
+	
+	
+	%-----------------------------------------------------------------------------%
+	%\setcounter{chapter}{0}
+	\chapter{Presentation Results for Box}
+	\label{app:box}
+	%-----------------------------------------------------------------------------%
+	
+	\section{Box Analysis}
+	\begin{table}[h]
+		\centering
+		\scriptsize
+		\caption{The Results of Box analysis}
+		\label{tab:app5}
+		\begin{tabular}{ | l | p{3cm} | p{5cm} | p{4.5cm} | }
+			\hline
+			\textbf{No} & \textbf{Activity} & \textbf{Path} & \textbf{Information} \\ \hline
+			1 & Install data & \path{data/app/com.box.android-1.apk} & - \\ \hline
+			2 & Sign up Data & \path{data/data/com.box.android/app_webview/} & Date and time information using adb logcat. \\ \hline
+			3 & Login Data & \path{data/data/com.box.android/shared_prefs/GLOBAL.xml} & Username used for login. \\ \hline
+			4 & Upload Data & \path{data/data/com.box.android/databases/BoxSQLiteDB_ID} & List of files uploaded by the user with information of the date of upload. \\ \hline
+			5 & Download Data & \path{mnt/shell/emulated/0/Android/data/com.box.android/ID/cache/dl_cache/} & Files that have been downloaded by the user. This file can be accessed directly. \\ \hline
+			6 & Operation File Data (Open) & \path{data/data/com.box.android/files/previews} & Files that have been previewed by the user. This file can be accessed directly. \\ \hline
+			7 & Operation File Data (New Folder) & \path{data/data/com.box.android/databases/BoxSQLiteDB_ID} & List of files uploaded by the user with information of date of the file modification. \\ \hline
+			8 & Operation File Data (New File) & \path{data/data/com.box.android/databases/BoxSQLiteDB_ID} & List of files uploaded by the user with information of date of the file modification. \\ \hline
+			9 & Operation File Data (Move) & \path{data/data/com.box.android/databases/BoxSQLiteDB_ID} & List of files uploaded by the user with information of date of the file modification. \\ \hline
+			10 & Operation File Data (Copy) & \path{data/data/com.box.android/databases/BoxSQLiteDB_ID} & List of files uploaded by the user with information of date of the file modification. \\ \hline
+			11 & Operation File Data (Rename) & \path{data/data/com.box.android/databases/BoxSQLiteDB_ID} & List of files uploaded by the user with information of date of the file modification. \\ \hline
+			12 & Operation File Data (Share) & \path{data/data/com.box.android/databases/google_analytics_v4.db} & List of files uploaded by the user with information of date of the file modification. \\ \hline
+			13 & Operation File Data (Delete) & \path{data/data/com.box.android/databases/BoxSQLiteDB_ID} & List of files deleted by the user with information of date of the file modification. \\ \hline
+			14 & Logout Data & \path{data/data/com.box.android/databases/BoxSQLiteDB_ID} & Date and time information using adb logcat. \\ \hline	
+			15 & Uninstall Data & \path{data/media/0/.boxinstall/} & Date and time information using adb logcat. \\ \hline
+		\end{tabular}
+	\end{table}
+	
+	\pagebreak
+	\section{Box Testing}
+	\begin{table}[h]
+		\centering
+		\scriptsize
+		\caption{Testing on Samsung Galaxy Note-2 (Box)}
+		\label{tab:app6}
+		\begin{tabular}{ | l | p{6.9cm} | p{1.7cm} | p{2.2cm} | }
+			\hline
+			\textbf{No} & \textbf{Inquiry / Operation} & \textbf{Found (yes / no)}? & \textbf{Description} \\ \hline
+			1 & Is there any file in “\path{data/app/com.box.android-1.apk}”? & Yes & (install data) \\ \hline
+			2 & Are there any files in directory “\path{data/media/0/.boxinstall/}”?  & Yes & (uninstall data) \\ \hline
+			3 & Are there any files in path “\path{data/data/com.box.android/shared_prefs/GLOBAL.xml}”? & Yes & (signup data or login data) \\ \hline
+			4 & Does Box table on database “\path{data/data/com.box.android/databases/BoxSQLiteDB_ID}” contain any new files? & Yes & (upload data or operation file data) \\ \hline
+			5 & Are there any files in directory “\path{mnt/shell/emulated/0/Android/data/com.box.android/ID/cache/dl_cache/}”? & Yes & (download data) \\ \hline
+			6 & Are there any files in directory “\path{data/media/0/Android/data/com.box.android/ID/cache/previews}”? & Yes & (operation file data-open) \\ \hline
+		\end{tabular}
+	\end{table}
+	
+	\begin{table}[h]
+		\centering
+		\scriptsize
+		\caption{Testing on Samsung Galaxy S4 (Box)}
+		\label{tab:app7}
+		\begin{tabular}{ | l | p{6.9cm} | p{1.7cm} | p{2.2cm} | }
+			\hline
+			\textbf{No} & \textbf{Inquiry / Operation} & \textbf{Found (yes / no)}? & \textbf{Description} \\ \hline
+			1 & Is there any file in “\path{data/app/com.box.android-1.apk}”? & Yes & (install data) \\ \hline
+			2 & Are there any files in directory “\path{data/media/0/.boxinstall/}”?  & Yes & (uninstall data) \\ \hline
+			3 & Are there any files in path “\path{data/data/com.box.android/shared_prefs/GLOBAL.xml}”? & Yes & (signup data or login data) \\ \hline
+			4 & Does Box table on database “\path{data/data/com.box.android/databases/BoxSQLiteDB_ID}” contain any new files? & Yes & (upload data or operation file data) \\ \hline
+			5 & Are there any files in directory “\path{mnt/shell/emulated/0/Android/data/com.box.android/ID/cache/dl_cache/}”? & Yes & (download data) \\ \hline
+			6 & Are there any files in directory “\path{data/media/0/Android/data/com.box.android/ID/cache/previews}”? & Yes & (operation file data-open) \\ \hline
+		\end{tabular}
+	\end{table}
+	
+\end{appendices}
+%---------------------------------------------------------------
