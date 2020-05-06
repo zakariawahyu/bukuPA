@@ -1,0 +1,70 @@
+This is BibTeX, Version 0.99d (MiKTeX 2.9.7400 64-bit)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Main_Diploma.aux
+A level-1 auxiliary file: sampul.aux
+A level-1 auxiliary file: orisinalitas.aux
+A level-1 auxiliary file: pengesahan.aux
+A level-1 auxiliary file: abstrak.aux
+A level-1 auxiliary file: abstract.aux
+A level-1 auxiliary file: persembahan.aux
+A level-1 auxiliary file: pengantar.aux
+A level-1 auxiliary file: bab1.aux
+A level-1 auxiliary file: bab2.aux
+A level-1 auxiliary file: bab3.aux
+A level-1 auxiliary file: bab4.aux
+A level-1 auxiliary file: bab5.aux
+The style file: ieeetr.bst
+A level-1 auxiliary file: lampiran.aux
+Database file #1: reference.bib
+Warning--I didn't find a database entry for "cloud"
+Warning--I didn't find a database entry for "Brakerski2014"
+Warning--I didn't find a database entry for "Goldreich1996"
+Warning--I didn't find a database entry for "Abood2017"
+Warning--I didn't find a database entry for "Bloisi2007"
+Warning--empty journal in 2
+Warning--empty journal in 3
+Warning--empty journal in 4
+Warning--empty journal in 5
+Warning--empty journal in 7
+You've used 7 entries,
+            1876 wiz_defined-function locations,
+            529 strings with 4708 characters,
+and the built_in function-call counts, 1181 in all, are:
+= -- 108
+> -- 28
+< -- 0
++ -- 14
+- -- 7
+* -- 68
+:= -- 183
+add.period$ -- 8
+call.type$ -- 7
+change.case$ -- 7
+chr.to.int$ -- 0
+cite$ -- 12
+duplicate$ -- 74
+empty$ -- 133
+format.name$ -- 7
+if$ -- 290
+int.to.chr$ -- 0
+int.to.str$ -- 7
+missing$ -- 6
+newline$ -- 25
+num.names$ -- 7
+pop$ -- 35
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 33
+stack$ -- 0
+substring$ -- 16
+swap$ -- 17
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 5
+while$ -- 11
+width$ -- 8
+write$ -- 64
+(There were 10 warnings)

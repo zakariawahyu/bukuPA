@@ -22,38 +22,45 @@
 \BOOKMARK [2][-]{subsection.2.5.1}{Manfaat Manajemen Pengawakan}{section.2.5}% 22
 \BOOKMARK [1][-]{section.2.6}{MySQL dan Basis Data}{chapter.2}% 23
 \BOOKMARK [1][-]{section.2.7}{Framework Laravel}{chapter.2}% 24
-\BOOKMARK [1][-]{section.2.8}{Aplikasi Serupa}{chapter.2}% 25
-\BOOKMARK [0][-]{chapter.3}{Analisis Kebutuhan dan Perancangan}{}% 26
-\BOOKMARK [1][-]{section.3.1}{Sistem Arsitektur}{chapter.3}% 27
-\BOOKMARK [2][-]{subsection.3.1.1}{Gambaran Umum Sistem}{section.3.1}% 28
-\BOOKMARK [2][-]{subsection.3.1.2}{Target Pengguna Aplikasi}{section.3.1}% 29
-\BOOKMARK [2][-]{subsection.3.1.3}{Spesifikasi Target Perangkat}{section.3.1}% 30
-\BOOKMARK [2][-]{subsection.3.1.4}{Diagram Alir Aplikasi}{section.3.1}% 31
-\BOOKMARK [1][-]{section.3.2}{Kebutuhan Pengembangan Sistem}{chapter.3}% 32
-\BOOKMARK [1][-]{section.3.3}{Perancangan Model Program}{chapter.3}% 33
-\BOOKMARK [2][-]{subsection.3.3.1}{Use Case Diagram}{section.3.3}% 34
-\BOOKMARK [2][-]{subsection.3.3.2}{Use Case Skenario}{section.3.3}% 35
-\BOOKMARK [1][-]{section.3.4}{Perancangan Aplikasi}{chapter.3}% 36
-\BOOKMARK [2][-]{subsection.3.4.1}{Perancangan Antar Muka}{section.3.4}% 37
-\BOOKMARK [2][-]{subsection.3.4.2}{Perancangan Level Tinggi}{section.3.4}% 38
-\BOOKMARK [0][-]{chapter.4}{Implementasi dan Pengujian}{}% 39
-\BOOKMARK [1][-]{section.4.1}{Implementasi Aplikasi}{chapter.4}% 40
-\BOOKMARK [1][-]{section.4.2}{Pengujian Aplikasi}{chapter.4}% 41
-\BOOKMARK [2][-]{subsection.4.2.1}{Pengujian Alpha}{section.4.2}% 42
-\BOOKMARK [2][-]{subsection.4.2.2}{Pengujian Fungsionalitas}{section.4.2}% 43
-\BOOKMARK [2][-]{subsection.4.2.3}{Pengujian Kesesuaian}{section.4.2}% 44
-\BOOKMARK [2][-]{subsection.4.2.4}{Pengujian Beta}{section.4.2}% 45
-\BOOKMARK [1][-]{section.4.3}{Diskusi Hasil Pengujian}{chapter.4}% 46
-\BOOKMARK [0][-]{chapter.5}{Kesimpulan dan Saran}{}% 47
-\BOOKMARK [1][-]{section.5.1}{Kesimpulan}{chapter.5}% 48
-\BOOKMARK [1][-]{section.5.2}{Saran}{chapter.5}% 49
-\BOOKMARK [0][-]{appendix.1.A}{LAMPIRAN Evolved Packet Core \(EPC\)}{}% 50
-\BOOKMARK [1][-]{section.1.A.1}{Architecture EPC by 3GPP}{appendix.1.A}% 51
-\BOOKMARK [1][-]{section.1.A.2}{Proposed a new architecture EPC}{appendix.1.A}% 52
-\BOOKMARK [0][-]{appendix.1.B}{LAMPIRAN Preservation Process for Cloud Forensics}{}% 53
-\BOOKMARK [1][-]{section.1.B.1}{SHA-2 Hash Value of Gdrive Activities}{appendix.1.B}% 54
-\BOOKMARK [1][-]{section.1.B.2}{SHA-2 Hash Value of Onedrive Activities}{appendix.1.B}% 55
-\BOOKMARK [1][-]{section.1.B.3}{SHA-2 Hash Value of Box Activities}{appendix.1.B}% 56
-\BOOKMARK [0][-]{appendix.1.C}{LAMPIRAN Presentation Results for Box}{}% 57
-\BOOKMARK [1][-]{section.1.C.1}{Box Analysis}{appendix.1.C}% 58
-\BOOKMARK [1][-]{section.1.C.2}{Box Testing}{appendix.1.C}% 59
+\BOOKMARK [1][-]{section.2.8}{Domain}{chapter.2}% 25
+\BOOKMARK [1][-]{section.2.9}{Hosting}{chapter.2}% 26
+\BOOKMARK [0][-]{chapter.3}{Analisis Kebutuhan dan Perancangan}{}% 27
+\BOOKMARK [1][-]{section.3.1}{Sistem Arsitektur}{chapter.3}% 28
+\BOOKMARK [2][-]{subsection.3.1.1}{Gambaran Umum Sistem}{section.3.1}% 29
+\BOOKMARK [2][-]{subsection.3.1.2}{Target Pengguna Aplikasi}{section.3.1}% 30
+\BOOKMARK [2][-]{subsection.3.1.3}{Spesifikasi Target Perangkat}{section.3.1}% 31
+\BOOKMARK [2][-]{subsection.3.1.4}{Diagram Alir Aplikasi}{section.3.1}% 32
+\BOOKMARK [1][-]{section.3.2}{Kebutuhan Pengembangan Sistem}{chapter.3}% 33
+\BOOKMARK [2][-]{subsection.3.2.1}{Kubutuhan Perangkat Keras \(Hardware\) }{section.3.2}% 34
+\BOOKMARK [2][-]{subsection.3.2.2}{Kebutuhkan Perangkat Lunak \(Software\)}{section.3.2}% 35
+\BOOKMARK [2][-]{subsection.3.2.3}{Kebutuhan Hosting}{section.3.2}% 36
+\BOOKMARK [1][-]{section.3.3}{Perancangan Model Program}{chapter.3}% 37
+\BOOKMARK [2][-]{subsection.3.3.1}{Use Case Diagram}{section.3.3}% 38
+\BOOKMARK [2][-]{subsection.3.3.2}{Use Case Skenario}{section.3.3}% 39
+\BOOKMARK [1][-]{section.3.4}{Perancangan Aplikasi}{chapter.3}% 40
+\BOOKMARK [2][-]{subsection.3.4.1}{Perancangan Antar Muka}{section.3.4}% 41
+\BOOKMARK [3][-]{subsubsection.3.4.1.1}{Perancangan Antar Muka Admin}{subsection.3.4.1}% 42
+\BOOKMARK [3][-]{subsubsection.3.4.1.2}{Perancangan Antar Muka User}{subsection.3.4.1}% 43
+\BOOKMARK [2][-]{subsection.3.4.2}{Perancangan Level Tinggi}{section.3.4}% 44
+\BOOKMARK [0][-]{chapter.4}{Implementasi dan Pengujian}{}% 45
+\BOOKMARK [1][-]{section.4.1}{Implementasi Aplikasi}{chapter.4}% 46
+\BOOKMARK [1][-]{section.4.2}{Pengujian Aplikasi}{chapter.4}% 47
+\BOOKMARK [2][-]{subsection.4.2.1}{Pengujian Alpha}{section.4.2}% 48
+\BOOKMARK [2][-]{subsection.4.2.2}{Pengujian Fungsionalitas}{section.4.2}% 49
+\BOOKMARK [2][-]{subsection.4.2.3}{Pengujian Kesesuaian}{section.4.2}% 50
+\BOOKMARK [2][-]{subsection.4.2.4}{Pengujian Beta}{section.4.2}% 51
+\BOOKMARK [1][-]{section.4.3}{Diskusi Hasil Pengujian}{chapter.4}% 52
+\BOOKMARK [0][-]{chapter.5}{Kesimpulan dan Saran}{}% 53
+\BOOKMARK [1][-]{section.5.1}{Kesimpulan}{chapter.5}% 54
+\BOOKMARK [1][-]{section.5.2}{Saran}{chapter.5}% 55
+\BOOKMARK [0][-]{section.5.2}{DAFTAR PUSTAKA}{}% 56
+\BOOKMARK [0][-]{appendix.1.A}{LAMPIRAN Evolved Packet Core \(EPC\)}{}% 57
+\BOOKMARK [1][-]{section.1.A.1}{Architecture EPC by 3GPP}{appendix.1.A}% 58
+\BOOKMARK [1][-]{section.1.A.2}{Proposed a new architecture EPC}{appendix.1.A}% 59
+\BOOKMARK [0][-]{appendix.1.B}{LAMPIRAN Preservation Process for Cloud Forensics}{}% 60
+\BOOKMARK [1][-]{section.1.B.1}{SHA-2 Hash Value of Gdrive Activities}{appendix.1.B}% 61
+\BOOKMARK [1][-]{section.1.B.2}{SHA-2 Hash Value of Onedrive Activities}{appendix.1.B}% 62
+\BOOKMARK [1][-]{section.1.B.3}{SHA-2 Hash Value of Box Activities}{appendix.1.B}% 63
+\BOOKMARK [0][-]{appendix.1.C}{LAMPIRAN Presentation Results for Box}{}% 64
+\BOOKMARK [1][-]{section.1.C.1}{Box Analysis}{appendix.1.C}% 65
+\BOOKMARK [1][-]{section.1.C.2}{Box Testing}{appendix.1.C}% 66
