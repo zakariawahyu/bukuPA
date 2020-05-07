@@ -1,33 +1,45 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Tabel Kebutuhan Hardware\relax }}{16}{table.caption.12}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces Tabel Kebutuhan Software\relax }}{17}{table.caption.13}%
-\contentsline {table}{\numberline {3.3}{\ignorespaces Tabel Kebutuhan Hosting\relax }}{17}{table.caption.14}%
-\contentsline {table}{\numberline {3.4}{\ignorespaces Tabel Perancangan Antar Muka Admin\relax }}{20}{table.caption.16}%
-\contentsline {table}{\numberline {3.5}{\ignorespaces Tabel Perancangan Antar Muka Admin (1)\relax }}{21}{table.caption.17}%
-\contentsline {table}{\numberline {3.6}{\ignorespaces Tabel Perancangan Antar Muka Admin (2)\relax }}{22}{table.caption.18}%
-\contentsline {table}{\numberline {3.7}{\ignorespaces Tabel Perancangan Antar Muka Admin (3)\relax }}{23}{table.caption.19}%
-\contentsline {table}{\numberline {3.8}{\ignorespaces Tabel Perancangan Antar Muka Admin (4)\relax }}{24}{table.caption.20}%
-\contentsline {table}{\numberline {3.9}{\ignorespaces Tabel Perancangan Antar Muka Admin (5)\relax }}{25}{table.caption.21}%
-\contentsline {table}{\numberline {3.10}{\ignorespaces Tabel Perancangan Antar Muka Admin (6)\relax }}{26}{table.caption.22}%
-\contentsline {table}{\numberline {3.11}{\ignorespaces Tabel Perancangan Antar Muka Admin (7)\relax }}{27}{table.caption.23}%
-\contentsline {table}{\numberline {3.12}{\ignorespaces Tabel Perancangan Antar Muka Admin (8)\relax }}{28}{table.caption.24}%
-\contentsline {table}{\numberline {3.13}{\ignorespaces Tabel Perancangan Antar Muka Admin (9)\relax }}{29}{table.caption.25}%
-\contentsline {table}{\numberline {3.14}{\ignorespaces Tabel Perancangan Antar Muka Admin (10)\relax }}{30}{table.caption.26}%
-\contentsline {table}{\numberline {3.15}{\ignorespaces Tabel Perancangan Antar Muka Admin (11)\relax }}{31}{table.caption.27}%
-\contentsline {table}{\numberline {3.16}{\ignorespaces Tabel Perancangan Antar Muka User\relax }}{32}{table.caption.28}%
-\contentsline {table}{\numberline {3.17}{\ignorespaces Tabel Perancangan Antar Muka User (1)\relax }}{33}{table.caption.29}%
-\contentsline {table}{\numberline {3.18}{\ignorespaces Tabel Perancangan Antar Muka User (1)\relax }}{34}{table.caption.30}%
-\contentsline {table}{\numberline {3.19}{\ignorespaces Tabel Perancangan Antar Muka User (1)\relax }}{35}{table.caption.31}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Tabel Kebutuhan Hardware\relax }}{17}{table.caption.13}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Tabel Kebutuhan Software\relax }}{18}{table.caption.14}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Tabel Kebutuhan Hosting\relax }}{18}{table.caption.15}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces Skenario Login\relax }}{20}{table.caption.17}%
+\contentsline {table}{\numberline {3.5}{\ignorespaces Skenario Edit Profile\relax }}{21}{table.caption.18}%
+\contentsline {table}{\numberline {3.6}{\ignorespaces Skenario Reset Password\relax }}{21}{table.caption.19}%
+\contentsline {table}{\numberline {3.7}{\ignorespaces Skenario Tambah Users\relax }}{22}{table.caption.20}%
+\contentsline {table}{\numberline {3.8}{\ignorespaces Skenario Edit Users\relax }}{23}{table.caption.21}%
+\contentsline {table}{\numberline {3.9}{\ignorespaces Skenario Delete Users\relax }}{24}{table.caption.22}%
+\contentsline {table}{\numberline {3.10}{\ignorespaces Skenario View Data Pegawai\relax }}{25}{table.caption.23}%
+\contentsline {table}{\numberline {3.11}{\ignorespaces Skenario View Data Tallent\relax }}{25}{table.caption.24}%
+\contentsline {table}{\numberline {3.12}{\ignorespaces Skenario Print Data Tallent\relax }}{26}{table.caption.25}%
+\contentsline {table}{\numberline {3.13}{\ignorespaces Skenario Tambah Unit Kerja\relax }}{27}{table.caption.26}%
+\contentsline {table}{\numberline {3.14}{\ignorespaces Skenario Edit Unit Kerja\relax }}{28}{table.caption.27}%
+\contentsline {table}{\numberline {3.15}{\ignorespaces Skenario Delete Unit Kerja\relax }}{28}{table.caption.28}%
+\contentsline {table}{\numberline {3.16}{\ignorespaces Skenario Tambah Jabatan\relax }}{29}{table.caption.29}%
+\contentsline {table}{\numberline {3.17}{\ignorespaces Skenario Edit Jabatan\relax }}{30}{table.caption.30}%
+\contentsline {table}{\numberline {3.18}{\ignorespaces Skenario Delete Jabatan\relax }}{31}{table.caption.31}%
+\contentsline {table}{\numberline {3.19}{\ignorespaces Skenario Tambah Unit Bagian\relax }}{32}{table.caption.32}%
+\contentsline {table}{\numberline {3.20}{\ignorespaces Skenario Edit Unit Bagian\relax }}{33}{table.caption.33}%
+\contentsline {table}{\numberline {3.21}{\ignorespaces Skenario Delete Unit Bagian\relax }}{34}{table.caption.34}%
+\contentsline {table}{\numberline {3.22}{\ignorespaces Skenario Tambah Jabatan Struktural\relax }}{35}{table.caption.35}%
+\contentsline {table}{\numberline {3.23}{\ignorespaces Skenario Edit Jabatan Struktural\relax }}{36}{table.caption.36}%
+\contentsline {table}{\numberline {3.24}{\ignorespaces Skenario Delete Jabatan Struktural\relax }}{37}{table.caption.37}%
+\contentsline {table}{\numberline {3.25}{\ignorespaces Tabel Perancangan Antar Muka Admin\relax }}{39}{table.caption.40}%
+\contentsline {table}{\numberline {3.26}{\ignorespaces Tabel Perancangan Antar Muka Admin (1)\relax }}{40}{table.caption.41}%
+\contentsline {table}{\numberline {3.27}{\ignorespaces Tabel Perancangan Antar Muka Admin (2)\relax }}{41}{table.caption.42}%
+\contentsline {table}{\numberline {3.28}{\ignorespaces Tabel Perancangan Antar Muka Admin (3)\relax }}{42}{table.caption.43}%
+\contentsline {table}{\numberline {3.29}{\ignorespaces Tabel Perancangan Antar Muka Admin (4)\relax }}{43}{table.caption.44}%
+\contentsline {table}{\numberline {3.30}{\ignorespaces Tabel Perancangan Antar Muka Admin (5)\relax }}{44}{table.caption.45}%
+\contentsline {table}{\numberline {3.31}{\ignorespaces Tabel Perancangan Antar Muka Admin (6)\relax }}{45}{table.caption.46}%
+\contentsline {table}{\numberline {3.32}{\ignorespaces Tabel Perancangan Antar Muka Admin (7)\relax }}{46}{table.caption.47}%
+\contentsline {table}{\numberline {3.33}{\ignorespaces Tabel Perancangan Antar Muka Admin (8)\relax }}{47}{table.caption.48}%
+\contentsline {table}{\numberline {3.34}{\ignorespaces Tabel Perancangan Antar Muka Admin (9)\relax }}{48}{table.caption.49}%
+\contentsline {table}{\numberline {3.35}{\ignorespaces Tabel Perancangan Antar Muka Admin (10)\relax }}{49}{table.caption.50}%
+\contentsline {table}{\numberline {3.36}{\ignorespaces Tabel Perancangan Antar Muka Admin (11)\relax }}{50}{table.caption.51}%
+\contentsline {table}{\numberline {3.37}{\ignorespaces Tabel Perancangan Antar Muka User\relax }}{51}{table.caption.52}%
+\contentsline {table}{\numberline {3.38}{\ignorespaces Tabel Perancangan Antar Muka User (1)\relax }}{52}{table.caption.53}%
+\contentsline {table}{\numberline {3.39}{\ignorespaces Tabel Perancangan Antar Muka User (1)\relax }}{53}{table.caption.54}%
+\contentsline {table}{\numberline {3.40}{\ignorespaces Tabel Perancangan Antar Muka User (1)\relax }}{54}{table.caption.55}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Samples of Gdrive Acquisition Files\relax }}{44}{table.caption.38}%
-\contentsline {table}{\numberline {2.2}{\ignorespaces Samples of Onedrive Acquisition Files\relax }}{45}{table.caption.39}%
-\contentsline {table}{\numberline {2.3}{\ignorespaces Samples of Box Acquisition Files\relax }}{46}{table.caption.40}%
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces The Results of Box analysis\relax }}{47}{table.caption.41}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces Testing on Samsung Galaxy Note-2 (Box)\relax }}{48}{table.caption.42}%
-\contentsline {table}{\numberline {3.3}{\ignorespaces Testing on Samsung Galaxy S4 (Box)\relax }}{48}{table.caption.43}%

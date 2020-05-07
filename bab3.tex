@@ -10,7 +10,7 @@ Perancangan sistem arsitektur aplikasi sistem pengawakan jabatan struktural dapa
 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.9\textwidth]
+	\includegraphics[width=1\textwidth]
 	{pics/LowLevelDiagram.png}
 	\caption{Low Level Design}
 	\label{fig:31}
@@ -19,7 +19,7 @@ Perancangan sistem arsitektur aplikasi sistem pengawakan jabatan struktural dapa
 
 \subsection{Gambaran Umum Sistem}
 
-Aplikasi \textbf{SiPJabS : Sistem Pengawakan Jabatan Struktural di Univertias Telkom} merupakan aplikasi berbasis web yang memudahkan bagi perusahaan dalam pencarian seorang kandidat atau posisi yang kosong. Dalam pembuatan aplikasi ini dibutuhkan fitur \textit{filtering} yang digunakan untuk pencarian kandidat baru, yang sesuai dengan ketentuan yang sudah ditetapkan oleh perusahaan. Sistem \textit{filtering} dapat dilakukan setiap saat, untuk menggantikan pekerjaan lama yang telah berhenti dikarenakan pensiun, meninggal, mengundurkan diri atau diberhentikan karena suatu kebijakan tertentu.
+Aplikasi \textbf{SiPJabS : Sistem Pengawakan Jabatan Struktural di Univertias Telkom} merupakan aplikasi berbasis web yang memudahkan bagi perusahaan dalam pencarian seorang kandidat atau posisi yang kosong. Dalam pembuatan aplikasi ini dibutuhkan fitur \textit{filtering} yang digunakan untuk pencarian kandidat baru, yang sesuai dengan ketentuan yang sudah ditetapkan oleh perusahaan. Sistem \textit{filtering} dapat dilakukan setiap saat, untuk menggantikan pekerjaan lama yang telah berhenti dikarenakan pensiun, meninggal, mengundurkan diri atau diberhentikan karena suatu kebijakan tertentu. \\
 
 Data-data pegawai yang berada di Universitas Telkom dapat dilihat dan data tersebut bersifat rahasia. Sehingga aplikasi ”\textbf{SiPJabS : Sistem Pengawakan Jabatan Struktural di Universitas Telkom}” hanya dapat diakses oleh orang tertentu. Aplikasi ini terdapat satu \textit{user} yang dapat mengelola proses \textit{filtering} dan satu \textit{admin} yang mengelola infrastruktur \textit{database} dan proyek \textit{server} serta jaringan.  
 
@@ -51,13 +51,23 @@ Spesifikasi dari target perangkat untuk mengakses aplikasi SiPJabS adalah sebaga
 \end{enumerate}
 
 \subsection{Diagram Alir Aplikasi}
-\blindtext \\
 
+Dalam membangun aplikasi SiPJabS, dibutuhkan diagram alir untuk membantu developer dan pengguna dalam memahami sistem yang akan dibuat. Berikut merupakan flowchart :
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\textwidth]
+	{pics/diagram/flowchart.png}
+	\caption{Flowchart}
+	\label{fig:31}
+\end{figure}  
+
+\newpage
 %-----------------------------------------------------------------------------%
 \section{Kebutuhan Pengembangan Sistem}
 %-----------------------------------------------------------------------------%
 
-Dalam membangun sistem, hal-hal yang dibutuhkan dalam mengembangkan aplikasi \textbf{SiPJabS} ini adalah sebagai berikut :
+Dalam membangun aplikasi \textbf{SiPJabS}, dibutuhkan beberapa perangkat untuk mengimplementasikannya. Perangkat tersebut dibagi menjadi tiga, yaitu perangkat keras (hardware), perangkat lunak (software) dan hosting. Adapun kebutuhan pengembangan sistem adalah sebagai berikut : 
 
 \subsection{Kubutuhan Perangkat Keras (Hardware) }
 
@@ -68,30 +78,33 @@ adalah sebagai berikut :
 \begin{table}[H]
 	\centering
 	\caption{Tabel Kebutuhan Hardware}
-	\begin{tabular}{ | c | l | l | }
+	\begin{tabular}{ | c | l | p{75mm} | }
 		\hline
 		No. & Perangkat Keras & Spesifikasi \\
 		\hline
-		\multirow{5}{*}{1} & \multirow{5}{*}{Laptop MSI GL62M} & Processor : Intel Core i7-7700HQ \\
+		\multirow{6}{*}{1} & \multirow{6}{*}{Laptop MSI GL62M} & Processor : Intel Core i7-7700HQ \\
 		& & Operating sistem : Windows 10 Education \\
 		& & RAM : 8 GB \\
 		& & Storage : 128 GB SSD + 1 TB Hardisk \\
 		& & Graphics Card :  nVidia Geforce GTX 1050 \\
+		& & Display : 15.6" FHD, Anti-Glare (1920 x 1080) \\
 		
 		
 		\hline
 		
-		\multirow{5}{*}{2} & \multirow{5}{*}{Laptop HP Pavilion x360} & Processor : Intel Core i3-6100U \\
+		\multirow{6}{*}{2} & \multirow{6}{*}{Laptop HP Pavilion x360} & Processor : Intel Core i3-6100U \\
 		& & Operating sistem : Windows 10 Home \\
 		& & RAM : 12 GB \\
 		& & Storage : 500 GB Hardisk\\
 		& & Graphics Card : Intel HD 520 Graphics \\
+		& & Display : 13.3" HD, Touch Screen \\
+		
 		\hline
 	\end{tabular}
 \end{table}
 
 
-
+\newpage
 \subsection{Kebutuhkan Perangkat Lunak (Software)}
 
 \textit{Software} yang dibutuhkan dalam perancangan dan pembuatan aplikasi SiPJabs
@@ -102,7 +115,7 @@ adalah sebagai berikut :
 	\caption{Tabel Kebutuhan Software}
 	\begin{tabular}{ | c | l | p{65mm} | }
 		\hline
-		No. & Software & Kegunaan \\
+		No. & Perangkat Lunak & Kegunaan \\
 		\hline
 		
 		1 & Visual Studio Code & Text editor untuk menuliskan \textit{coding} aplikasi \\
@@ -165,19 +178,1124 @@ adalah sebagai berikut :
 %-----------------------------------------------------------------------------%
 \section{Perancangan Model Program}
 %-----------------------------------------------------------------------------%
-\blindtext \\
+Perancangan model program dalam pembuatan aplikasi SiPJabS antara
+lain Use Case Diagram, Use Case Skenario, Class Diagram,
+Entity Relationship Diagram (ERD). Adapun perancangan model program adalah sebagai berikut :
 
 \subsection{Use Case Diagram}
 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.9\textwidth]
-	{pics/use-case-example.png}
-	\caption{Online shopping UML use case diagram example}
+	\includegraphics[width=1\textwidth]
+	{pics/diagram/usecase.png}
+	\caption{Use Case Diagram}
 	\label{fig:32}
 \end{figure}
 
+
 \subsection{Use Case Skenario}
+Berikut merupakan use case scenario dalam pembuatan aplikasi SiPJabS :
+
+\begin{enumerate}
+	\item Skenario Login
+	
+	Nomor \kern 3.6pc : SP-01 \\
+	Nama Use Case : Melakukan login \\
+	Aktor \kern 4.1 pc : Admin \\
+	Tipe \kern 4.6pc : Primary \\
+	Tujuan \kern 3.6pc : Penggunaan aplikasi \\
+	Deskripsi \kern 2.5pc : 
+	
+	\begin{itemize}
+		\item Admin dapat menginputkan username dan password
+		\item Sistem akan mencocokkan data
+		\item Sistem menampilkan halaman utama aplikasi
+	\end{itemize}
+
+	\begin{table}
+		\caption{Skenario Login}
+		\centering
+		\begin{tabular}{ | p{55mm} | p{60mm} |}
+			\hline 
+			\textbf{Aktor} & \textbf{Sistem} \\
+			\hline
+			
+			1.	Menginputkan username dan password &  \\
+			
+			\hline
+			
+			& 2. Mencocokkan data \\
+			
+			\hline
+			
+			& 3.	Menampilkan halaman utama aplikasi \\
+		
+			\hline
+			
+		\end{tabular}
+	\end{table}
+
+\item Skenario Edit Profile
+
+Nomor \kern 3.6pc : SP-02 \\
+Nama Use Case : Melakukan edit profile \\
+Aktor \kern 4.1 pc : Admin \\
+Tipe \kern 4.6pc : Primary \\
+Tujuan \kern 3.6pc : Admin dapat melakukan edit pada profile \\
+Deskripsi \kern 2.5pc : 
+
+\begin{itemize}
+	\item Admin menuju ke halaman profile
+	\item Sistem akan menampilkan halaman profile
+	\item Admin memilih edit profile
+	\item Sistem menampilkan pop-up form edit profile
+	\item Admin menginputkan data
+	\item Admin menyimpan perubahan
+
+\end{itemize}
+
+\begin{table}
+	\caption{Skenario Edit Profile}
+	\centering
+	\begin{tabular}{ | l | l |}
+		\hline 
+		\textbf{Aktor} & \textbf{Sistem} \\
+		\hline
+		
+		1.	Menuju ke halaman profile &  \\
+		
+		\hline
+		
+		&  2.	Menampilkan halaman profile \\
+		
+		\hline
+		
+		 3. Memilih edit profile & \\
+		
+		\hline
+		
+			& 4.	Menampilkan pop-up form edit profile \\
+		
+		\hline
+		
+		5.	Menginputkan data  & \\
+		\hline
+		
+		6.	Menyimpan perubahan & \\
+		\hline
+		
+		& 7.	Menyimpan perubahan \\
+		\hline
+		
+	\end{tabular}
+\end{table}
+
+\item Skenario Reset Password
+
+Nomor \kern 3.6pc : SP-03 \\
+Nama Use Case : Melakukan reset password \\
+Aktor \kern 4.1 pc : Admin \\
+Tipe \kern 4.6pc : Primary \\
+Tujuan \kern 3.6pc : Admin dapat melakukan reset password pada profile \\
+Deskripsi \kern 2.5pc : 
+
+\begin{itemize}
+	\item Admin menuju ke halaman profile
+	\item Sistem akan menampilkan halaman profile
+	\item Admin memilih reset password
+	\item Sistem menampilkan pop-up reset password
+	\item Admin menginputkan password
+	\item Admin menyimpan perubahan
+	\item Sistem menyimpan perubahan
+	
+\end{itemize}
+
+\begin{table}
+	\caption{Skenario Reset Password}
+	\centering
+	\begin{tabular}{ | l | l |}
+		\hline 
+		\textbf{Aktor} & \textbf{Sistem} \\
+		\hline
+		
+		1.	Menuju ke halaman profile &  \\
+		
+		\hline
+		
+		&  2.	Menampilkan halaman profile \\
+		
+		\hline
+		
+		3. Memilih reset password & \\
+		
+		\hline
+		
+		& 4.	Menampilkan pop-up reset password \\
+		
+		\hline
+		
+		5.	Menginputkan password  & \\
+		\hline
+		
+		6.	Menyimpan perubahan & \\
+		\hline
+		
+		& 7.	Menyimpan perubahan \\
+		\hline
+		
+	\end{tabular}
+\end{table}
+
+\item Skenario Tambah Users
+
+Nomor \kern 3.6pc : SP-04 \\
+Nama Use Case : Menambahkan users \\
+Aktor \kern 4.1 pc : Admin \\
+Tipe \kern 4.6pc : Primary \\
+Tujuan \kern 3.6pc : Admin dapat menambahkan users \\
+Deskripsi \kern 2.5pc : 
+
+\begin{itemize}
+	\item Admin menuju ke halaman data users
+	\item Sistem akan menampilkan halaman data users
+	\item Admin memilih tambah users
+	\item Sistem menampilkan halaman form tambah userd
+	\item Admin menginputkan data
+	\item Admin menyimpan data
+	\item Sistem menyimpan data
+	\item Sistem menampilkan pop-up tanda berhasil ditambahkan user
+	
+\end{itemize}
+
+\begin{table}
+	\caption{Skenario Tambah Users}
+	\centering
+	\begin{tabular}{ | l | p{65mm} |}
+		\hline 
+		\textbf{Aktor} & \textbf{Sistem} \\
+		\hline
+		
+		1.	Menuju ke halaman data users &  \\
+		
+		\hline
+		
+		&  2.	Menampilkan halaman data users \\
+		
+		\hline
+		
+		3. Memilih tambah users & \\
+		
+		\hline
+		
+		& 4.	Menampilkan halaman form tambah users \\
+		
+		\hline
+		
+		5.	Menginputkan data  & \\
+		\hline
+		
+		6.	Menyimpan data & \\
+		\hline
+		
+		& 7.	Menyimpan perubahan \\
+		\hline
+		
+		& 8.	Menampilkan pop-up tanda berhasil menambahkan user \\
+		\hline
+		
+	\end{tabular}
+\end{table}
+
+\newpage
+\item Skenario Edit Users
+
+Nomor \kern 3.6pc : SP-05 \\
+Nama Use Case : Melakukan edit data users \\
+Aktor \kern 4.1 pc : Admin \\
+Tipe \kern 4.6pc : Primary \\
+Tujuan \kern 3.6pc : Admin dapat edit data users \\
+Deskripsi \kern 2.5pc : 
+
+\begin{itemize}
+	\item Admin menuju ke halaman data users
+	\item Sistem akan menampilkan halaman data users
+	\item Admin memilih edit pada salah satu users
+	\item Sistem menampilkan pop-up edit profile
+	\item Admin menginputkan data
+	\item Admin menyimpan data
+	\item Sistem menyimpan data
+	\item Sistem menampilkan pop-up tanda berhasil pengubahan data
+	
+\end{itemize}
+
+\begin{table}
+	\caption{Skenario Edit Users}
+	\centering
+	\begin{tabular}{ | l | p{65mm} |}
+		\hline 
+		\textbf{Aktor} & \textbf{Sistem} \\
+		\hline
+		
+		1.	Menuju ke halaman data users &  \\
+		
+		\hline
+		
+		&  2.	Menampilkan halaman data users \\
+		
+		\hline
+		
+		3. Memilih edit pada salah satu users & \\
+		
+		\hline
+		
+		& 4.	Menampilkan pop-up form edit users \\
+		
+		\hline
+		
+		5.	Menginputkan data  & \\
+		\hline
+		
+		6.	Menyimpan data & \\
+		\hline
+		
+		& 7.	Menyimpan perubahan \\
+		\hline
+		
+		& 8.	Menampilkan pop-up tanda berhasil mengubah user \\
+		\hline
+		
+	\end{tabular}
+\end{table}
+
+\item Skenario Delete Users
+
+Nomor \kern 3.6pc : SP-06 \\
+Nama Use Case : Melakukan delete data users \\
+Aktor \kern 4.1 pc : Admin \\
+Tipe \kern 4.6pc : Primary \\
+Tujuan \kern 3.6pc : Admin dapat delete data users \\
+Deskripsi \kern 2.5pc : 
+
+\begin{itemize}
+	\item Admin menuju ke halaman data users
+	\item Sistem akan menampilkan halaman data users
+	\item Admin memilih delete pada salah satu users
+	\item Sistem menampilkan pop-up tanda berhasil hapus data
+	
+\end{itemize}
+
+\begin{table}
+	\caption{Skenario Delete Users}
+	\centering
+	\begin{tabular}{ | l | p{65mm} |}
+		\hline 
+		\textbf{Aktor} & \textbf{Sistem} \\
+		\hline
+		
+		1.	Menuju ke halaman data users &  \\
+		
+		\hline
+		
+		&  2.	Menampilkan halaman data users \\
+		
+		\hline
+		
+		3. Memilih delete pada salah satu users & \\
+		
+		\hline
+		
+		& 4.	Menampilkan pop-up tanda berhasil delete data \\
+		
+		\hline
+		
+	\end{tabular}
+\end{table}
+
+\item Skenario View Data Pegawai
+
+Nomor \kern 3.6pc : SP-07 \\
+Nama Use Case : Melakukan view data pegawai \\
+Aktor \kern 4.1 pc : Admin \\
+Tipe \kern 4.6pc : Primary \\
+Tujuan \kern 3.6pc : Admin dapat melihat data pegawai \\
+Deskripsi \kern 2.5pc : 
+
+\begin{itemize}
+	\item Admin menuju ke halaman data pegawai
+	\item Sistem akan menampilkan halaman data pegawai
+	\item Admin memilih view pada salah satu pegawai
+	\item Sistem menampilkan detail pegawai
+	\item Admin dapat melihat data detail pegawai
+	
+\end{itemize}
+
+\begin{table}
+	\caption{Skenario View Data Pegawai}
+	\centering
+	\begin{tabular}{ | l | p{55mm} |}
+		\hline 
+		\textbf{Aktor} & \textbf{Sistem} \\
+		\hline
+		
+		1.	Menuju ke halaman data pegawai &  \\
+		
+		\hline
+		
+		&  2.	Menampilkan halaman data pegawai \\
+		
+		\hline
+		
+		3. Memilih view pada salah satu pegawai & \\
+		
+		\hline
+		
+		& 4.	Menampilkan pop-up data detail pegawai \\
+		
+		\hline
+		
+		5.	Admin dapat melihat data detail pegawai  & \\
+		\hline
+		
+		
+	\end{tabular}
+\end{table}
+
+\item Skenario View Data Tallent
+
+Nomor \kern 3.6pc : SP-08 \\
+Nama Use Case : Melakukan view data tallent \\
+Aktor \kern 4.1 pc : Admin \\
+Tipe \kern 4.6pc : Primary \\
+Tujuan \kern 3.6pc : Admin dapat melihat data tallent \\
+Deskripsi \kern 2.5pc : 
+
+\begin{itemize}
+	\item Admin menuju ke halaman data tallent
+	\item Sistem akan menampilkan halaman data tallent
+	\item Admin memilih view pada salah satu data tallent
+	\item Sistem menampilkan detail talent
+	\item Admin dapat melihat data detail tallent
+	
+\end{itemize}
+
+\begin{table}
+	\caption{Skenario View Data Tallent}
+	\centering
+	\begin{tabular}{ |  p{50mm} | p{70mm} |}
+		\hline 
+		\textbf{Aktor} & \textbf{Sistem} \\
+		\hline
+		
+		1.	Menuju ke halaman data tallent &  \\
+		
+		\hline
+		
+		&  2.	Menampilkan halaman data tallent \\
+		
+		\hline
+		
+		3. Memilih view pada salah satu data tallent & \\
+		
+		\hline
+		
+		& 4.	Menampilkan pop-up data detail tallent \\
+		
+		\hline
+		
+		5.	Admin dapat melihat data detail tallent  & \\
+		\hline
+		
+		
+	\end{tabular}
+\end{table}
+
+\newpage
+\item Skenario Print Data Tallent
+
+Nomor \kern 3.6pc : SP-09 \\
+Nama Use Case : Melakukan print data tallent \\
+Aktor \kern 4.1 pc : Admin \\
+Tipe \kern 4.6pc : Primary \\
+Tujuan \kern 3.6pc : Admin dapat mencetak data tallent \\
+Deskripsi \kern 2.5pc : 
+
+\begin{itemize}
+	\item Admin menuju ke halaman data tallent
+	\item Sistem akan menampilkan halaman data tallent
+	\item Admin memilih print pada salah satu data tallent
+	\item Sistem mendownload file data tallent
+	
+\end{itemize}
+
+\begin{table}
+	\caption{Skenario Print Data Tallent}
+	\centering
+	\begin{tabular}{ | p{50mm} | p{70mm} |}
+		\hline 
+		\textbf{Aktor} & \textbf{Sistem} \\
+		\hline
+		
+		1.	Menuju ke halaman data tallent &  \\
+		
+		\hline
+		
+		&  2.	Menampilkan halaman data tallent \\
+		
+		\hline
+		
+		3. Memilih print pada salah satu data tallent & \\
+		
+		\hline
+		
+		& 4.	Mendownload data tallent \\
+		
+		\hline
+		
+	\end{tabular}
+\end{table}
+
+\item Skenario Tambah Unit Kerja
+
+Nomor \kern 3.6pc : SP-10 \\
+Nama Use Case : Menambahkan data unit kerja \\
+Aktor \kern 4.1 pc : Admin \\
+Tipe \kern 4.6pc : Primary \\
+Tujuan \kern 3.6pc : Admin dapat menambahkan data unit kerja \\
+Deskripsi \kern 2.5pc : 
+
+\begin{itemize}
+	\item Admin menuju ke halaman data unit kerja
+	\item Sistem akan menampilkan halaman data unit kerja
+	\item Admin memilih tambah unit kerja
+	\item Sistem menampilkan pop-up tambah unit kerja
+	\item Admin menginputkan data
+	\item Sistem menyimpan data
+	\item Sistem menampilkan pop-up tanda berhasil ditambahkan
+	
+\end{itemize}
+
+\begin{table}
+	\caption{Skenario Tambah Unit Kerja}
+	\centering
+	\begin{tabular}{ | l | p{65mm} |}
+		\hline 
+		\textbf{Aktor} & \textbf{Sistem} \\
+		\hline
+		
+		1.	Menuju ke halaman data unit kerja &  \\
+		
+		\hline
+		
+		&  2.	Menampilkan halaman data unit kerja \\
+		
+		\hline
+		
+		3. Memilih tambah unit kerja & \\
+		
+		\hline
+		
+		& 4.	Menampilkan pop-up tambah unit kerja \\
+		
+		\hline
+		
+		5.	Menginputkan data  & \\
+		\hline
+		
+		& 6.	Menyimpan data \\
+		\hline
+		
+		& 7.	Menampilkan pop-up tanda berhasil menambahkan data \\
+		\hline
+		
+	\end{tabular}
+\end{table}
+
+\item Skenario Edit Unit Kerja
+
+Nomor \kern 3.6pc : SP-11 \\
+Nama Use Case : Mengubah data unit kerja \\
+Aktor \kern 4.1 pc : Admin \\
+Tipe \kern 4.6pc : Primary \\
+Tujuan \kern 3.6pc : Admin dapat mengubah data unit kerja \\
+Deskripsi \kern 2.5pc : 
+
+\begin{itemize}
+	\item Admin menuju ke halaman data unit kerja
+	\item Sistem akan menampilkan halaman data unit kerja
+	\item Admin memilih edit pada suatu data unit kerja
+	\item Sistem menampilkan pop-up edit unit kerja
+	\item Admin menginputkan data
+	\item Sistem menyimpan data
+	\item Sistem menampilkan pop-up tanda berhasil di edit
+	
+\end{itemize}
+
+\begin{table}
+	\caption{Skenario Edit Unit Kerja}
+	\centering
+	\begin{tabular}{ | p{55mm} | p{70mm} |}
+		\hline 
+		\textbf{Aktor} & \textbf{Sistem} \\
+		\hline
+		
+		1.	Menuju ke halaman data unit kerja &  \\
+		
+		\hline
+		
+		&  2.	Menampilkan halaman data unit kerja \\
+		
+		\hline
+		
+		3. Memilih edit pada suatu data unit kerja & \\
+		
+		\hline
+		
+		& 4.	Menampilkan pop-up edit unit kerja \\
+		
+		\hline
+		
+		5.	Menginputkan data  & \\
+		\hline
+		
+		& 6.	Menyimpan data \\
+		\hline
+		
+		& 7.	Menampilkan pop-up tanda berhasil edit data \\
+		\hline
+		
+	\end{tabular}
+\end{table}
+
+\item Skenario Delete Unit Kerja
+
+Nomor \kern 3.6pc : SP-12 \\
+Nama Use Case : Menghaous data unit kerja \\
+Aktor \kern 4.1 pc : Admin \\
+Tipe \kern 4.6pc : Primary \\
+Tujuan \kern 3.6pc : Admin dapat menghapus data unit kerja \\
+Deskripsi \kern 2.5pc : 
+
+\begin{itemize}
+	\item Admin menuju ke halaman data unit kerja
+	\item Sistem akan menampilkan halaman data unit kerja
+	\item Admin memilih delete pada suatu data unit kerja
+	\item Sistem menampilkan pop-up tanda berhasil di hapus
+	
+\end{itemize}
+
+\begin{table}
+	\caption{Skenario Delete Unit Kerja}
+	\centering
+	\begin{tabular}{ | p{55mm} | p{70mm} |}
+		\hline 
+		\textbf{Aktor} & \textbf{Sistem} \\
+		\hline
+		
+		1.	Menuju ke halaman data unit kerja &  \\
+		
+		\hline
+		
+		&  2.	Menampilkan halaman data unit kerja \\
+		
+		\hline
+		
+		3. Memilih delete pada suatu data unit kerja & \\
+		
+		\hline
+		
+		& 4.	Menampilkan pop-up tanda berhasil delete data \\
+		\hline
+		
+	\end{tabular}
+\end{table}
+
+\newpage
+\item Skenario Tambah Jabatan
+
+Nomor \kern 3.6pc : SP-13 \\
+Nama Use Case : Menambahkan data jabatan \\
+Aktor \kern 4.1 pc : Admin \\
+Tipe \kern 4.6pc : Primary \\
+Tujuan \kern 3.6pc : Admin dapat menambahkan data jabatan \\
+Deskripsi \kern 2.5pc : 
+
+\begin{itemize}
+	\item Admin menuju ke halaman data jabatan
+	\item Sistem akan menampilkan halaman data jabatan
+	\item Admin memilih tambah jabatan
+	\item Sistem menampilkan pop-up tambah jabatan
+	\item Admin menginputkan data
+	\item Sistem menyimpan data
+	\item Sistem menampilkan pop-up tanda berhasil ditambahkan
+	
+\end{itemize}
+
+\begin{table}
+	\caption{Skenario Tambah Jabatan}
+	\centering
+	\begin{tabular}{ | l | p{65mm} |}
+		\hline 
+		\textbf{Aktor} & \textbf{Sistem} \\
+		\hline
+		
+		1.	Menuju ke halaman data jabatan &  \\
+		
+		\hline
+		
+		&  2.	Menampilkan halaman data jabatan \\
+		
+		\hline
+		
+		3. Memilih tambah jabatan & \\
+		
+		\hline
+		
+		& 4.	Menampilkan pop-up tambah jabatan \\
+		
+		\hline
+		
+		5.	Menginputkan data  & \\
+		\hline
+		
+		& 6.	Menyimpan data \\
+		\hline
+		
+		& 7.	Menampilkan pop-up tanda berhasil menambahkan data \\
+		\hline
+		
+	\end{tabular}
+\end{table}
+
+\item Skenario Edit Jabatan
+
+Nomor \kern 3.6pc : SP-14 \\
+Nama Use Case : Mengubah data jabatan \\
+Aktor \kern 4.1 pc : Admin \\
+Tipe \kern 4.6pc : Primary \\
+Tujuan \kern 3.6pc : Admin dapat mengubah data jabatan \\
+Deskripsi \kern 2.5pc : 
+
+\begin{itemize}
+	\item Admin menuju ke halaman data jabatan
+	\item Sistem akan menampilkan halaman data jabatan
+	\item Admin memilih edit pada suatu data jabatan
+	\item Sistem menampilkan pop-up edit jabatan
+	\item Admin menginputkan data
+	\item Sistem menyimpan data
+	\item Sistem menampilkan pop-up tanda berhasil di edit
+	
+\end{itemize}
+
+\begin{table}
+	\caption{Skenario Edit Jabatan}
+	\centering
+	\begin{tabular}{ | l | p{65mm} |}
+		\hline 
+		\textbf{Aktor} & \textbf{Sistem} \\
+		\hline
+		
+		1.	Menuju ke halaman data jabatan &  \\
+		
+		\hline
+		
+		&  2.	Menampilkan halaman data jabatan \\
+		
+		\hline
+		
+		3. Memilih edit pada suatu data jabatan & \\
+		
+		\hline
+		
+		& 4.	Menampilkan pop-up edit jabatan \\
+		
+		\hline
+		
+		5.	Menginputkan data  & \\
+		\hline
+		
+		& 6.	Menyimpan data \\
+		\hline
+		
+		& 7.	Menampilkan pop-up tanda berhasil edit data \\
+		\hline
+		
+	\end{tabular}
+\end{table}
+
+\item Skenario Delete Jabatan
+
+Nomor \kern 3.6pc : SP-15 \\
+Nama Use Case : Menghaous data jabatan \\
+Aktor \kern 4.1 pc : Admin \\
+Tipe \kern 4.6pc : Primary \\
+Tujuan \kern 3.6pc : Admin dapat menghapus data jabatan \\
+Deskripsi \kern 2.5pc : 
+
+\begin{itemize}
+	\item Admin menuju ke halaman data jabatan
+	\item Sistem akan menampilkan halaman data jabatan
+	\item Admin memilih delete pada suatu data jabatan
+	\item Sistem menampilkan pop-up tanda berhasil di hapus
+	
+\end{itemize}
+
+\begin{table}
+	\caption{Skenario Delete Jabatan}
+	\centering
+	\begin{tabular}{ | p{55mm} | p{70mm}|}
+		\hline 
+		\textbf{Aktor} & \textbf{Sistem} \\
+		\hline
+		
+		1.	Menuju ke halaman data jabatan &  \\
+		
+		\hline
+		
+		&  2.	Menampilkan halaman data jabatan \\
+		
+		\hline
+		
+		3. Memilih delete pada suatu data jabatan & \\
+		
+		\hline
+		
+		& 4.	Menampilkan pop-up tanda berhasil delete data \\
+		\hline
+		
+	\end{tabular}
+\end{table}
+
+\item Skenario Tambah Unit Bagian
+
+Nomor \kern 3.6pc : SP-16 \\
+Nama Use Case : Menambahkan data unit bagian \\
+Aktor \kern 4.1 pc : Admin \\
+Tipe \kern 4.6pc : Primary \\
+Tujuan \kern 3.6pc : Admin dapat menambahkan data unit bagian \\
+Deskripsi \kern 2.5pc : 
+
+\begin{itemize}
+	\item Admin menuju ke halaman data unit bagian
+	\item Sistem akan menampilkan halaman data unit bagian
+	\item Admin memilih tambah unit bagian
+	\item Sistem menampilkan pop-up tambah unit bagian
+	\item Admin menginputkan data
+	\item Sistem menyimpan data
+	\item Sistem menampilkan pop-up tanda berhasil ditambahkan
+	
+\end{itemize}
+
+\begin{table}
+	\caption{Skenario Tambah Unit Bagian}
+	\centering
+	\begin{tabular}{ | p{55mm} | p{70mm} |}
+		\hline 
+		\textbf{Aktor} & \textbf{Sistem} \\
+		\hline
+		
+		1.	Menuju ke halaman data unit bagian &  \\
+		
+		\hline
+		
+		&  2.	Menampilkan halaman data unit bagian \\
+		
+		\hline
+		
+		3. Memilih tambah unit bagian & \\
+		
+		\hline
+		
+		& 4.	Menampilkan pop-up tambah unit bagian \\
+		
+		\hline
+		
+		5.	Menginputkan data  & \\
+		\hline
+		
+		& 6.	Menyimpan data \\
+		\hline
+		
+		& 7.	Menampilkan pop-up tanda berhasil menambahkan data \\
+		\hline
+		
+	\end{tabular}
+\end{table}
+
+\item Skenario Edit Unit Bagian
+
+Nomor \kern 3.6pc : SP-17 \\
+Nama Use Case : Mengubah data unit bagian \\
+Aktor \kern 4.1 pc : Admin \\
+Tipe \kern 4.6pc : Primary \\
+Tujuan \kern 3.6pc : Admin dapat mengubah data unit bagian \\
+Deskripsi \kern 2.5pc : 
+
+\begin{itemize}
+	\item Admin menuju ke halaman data unit bagian
+	\item Sistem akan menampilkan halaman data unit bagian
+	\item Admin memilih edit pada suatu data unit bagian
+	\item Sistem menampilkan pop-up edit unit bagian
+	\item Admin menginputkan data
+	\item Sistem menyimpan data
+	\item Sistem menampilkan pop-up tanda berhasil di edit
+	
+\end{itemize}
+
+\begin{table}
+	\caption{Skenario Edit Unit Bagian}
+	\centering
+	\begin{tabular}{ | p{55mm} | p{70mm} |}
+		\hline 
+		\textbf{Aktor} & \textbf{Sistem} \\
+		\hline
+		
+		1.	Menuju ke halaman data unit bagian &  \\
+		
+		\hline
+		
+		&  2.	Menampilkan halaman data unit bagian \\
+		
+		\hline
+		
+		3. Memilih edit pada suatu data unit bagian & \\
+		
+		\hline
+		
+		& 4.	Menampilkan pop-up edit unit bagian \\
+		
+		\hline
+		
+		5.	Menginputkan data  & \\
+		\hline
+		
+		& 6.	Menyimpan data \\
+		\hline
+		
+		& 7.	Menampilkan pop-up tanda berhasil edit data \\
+		\hline
+		
+	\end{tabular}
+\end{table}
+
+\item Skenario Delete Unit Bagian
+
+Nomor \kern 3.6pc : SP-18 \\
+Nama Use Case : Menghaous data unit bagian \\
+Aktor \kern 4.1 pc : Admin \\
+Tipe \kern 4.6pc : Primary \\
+Tujuan \kern 3.6pc : Admin dapat menghapus data unit bagian \\
+Deskripsi \kern 2.5pc : 
+
+\begin{itemize}
+	\item Admin menuju ke halaman data unit bagian
+	\item Sistem akan menampilkan halaman data unit bagian
+	\item Admin memilih delete pada suatu data unit bagian
+	\item Sistem menampilkan pop-up tanda berhasil di hapus
+	
+\end{itemize}
+
+\begin{table}
+	\caption{Skenario Delete Unit Bagian}
+	\centering
+	\begin{tabular}{ | p{55mm} | p{70mm} |}
+		\hline 
+		\textbf{Aktor} & \textbf{Sistem} \\
+		\hline
+		
+		1.	Menuju ke halaman data unit bagian &  \\
+		
+		\hline
+		
+		&  2.	Menampilkan halaman data unit bagian \\
+		
+		\hline
+		
+		3. Memilih delete pada suatu data unit bagian & \\
+		
+		\hline
+		
+		& 4.	Menampilkan pop-up tanda berhasil delete data \\
+		\hline
+		
+	\end{tabular}
+\end{table}
+
+\item Skenario Tambah Jabatan Struktural
+
+Nomor \kern 3.6pc : SP-19 \\
+Nama Use Case : Menambahkan data jabatan struktural \\
+Aktor \kern 4.1 pc : Admin \\
+Tipe \kern 4.6pc : Primary \\
+Tujuan \kern 3.6pc : Admin dapat menambahkan data jabatan struktural\\
+Deskripsi \kern 2.5pc : 
+
+\begin{itemize}
+	\item Admin menuju ke halaman data jabatan struktural
+	\item Sistem akan menampilkan halaman data jabatan struktural
+	\item Admin memilih tambah jabatan struktural
+	\item Sistem menampilkan pop-up tambah jabatan struktural
+	\item Admin menginputkan data
+	\item Sistem menyimpan data
+	\item Sistem menampilkan pop-up tanda berhasil ditambahkan
+	
+\end{itemize}
+
+\begin{table}
+	\caption{Skenario Tambah Jabatan Struktural}
+	\centering
+	\begin{tabular}{ | p{55mm} | p{70mm} |}
+		\hline 
+		\textbf{Aktor} & \textbf{Sistem} \\
+		\hline
+		
+		1.	Menuju ke halaman data jabatan struktural &  \\
+		
+		\hline
+		
+		&  2.	Menampilkan halaman data jabatan struktural\\
+		
+		\hline
+		
+		3. Memilih tambah jabatan struktural& \\
+		
+		\hline
+		
+		& 4.	Menampilkan pop-up tambah jabatan struktural\\
+		
+		\hline
+		
+		5.	Menginputkan data  & \\
+		\hline
+		
+		& 6.	Menyimpan data \\
+		\hline
+		
+		& 7.	Menampilkan pop-up tanda berhasil menambahkan data \\
+		\hline
+		
+	\end{tabular}
+\end{table}
+
+\item Skenario Edit Jabatan Struktural
+
+Nomor \kern 3.6pc : SP-20 \\
+Nama Use Case : Mengubah data jabatan struktural \\
+Aktor \kern 4.1 pc : Admin \\
+Tipe \kern 4.6pc : Primary \\
+Tujuan \kern 3.6pc : Admin dapat mengubah data jabatan struktural\\
+Deskripsi \kern 2.5pc : 
+
+\begin{itemize}
+	\item Admin menuju ke halaman data jabatan struktural
+	\item Sistem akan menampilkan halaman data jabatan struktural
+	\item Admin memilih edit pada suatu data jabatan struktural
+	\item Sistem menampilkan pop-up edit jabatan struktural
+	\item Admin menginputkan data
+	\item Sistem menyimpan data
+	\item Sistem menampilkan pop-up tanda berhasil di edit
+	
+\end{itemize}
+
+\begin{table}
+	\caption{Skenario Edit Jabatan Struktural}
+	\centering
+	\begin{tabular}{ |p{55mm} | p{70mm} |}
+		\hline 
+		\textbf{Aktor} & \textbf{Sistem} \\
+		\hline
+		
+		1.	Menuju ke halaman data jabatan struktural &  \\
+		
+		\hline
+		
+		&  2.	Menampilkan halaman data jabatan struktural \\
+		
+		\hline
+		
+		3. Memilih edit pada suatu data jabatan struktural & \\
+		
+		\hline
+		
+		& 4.	Menampilkan pop-up edit jabatan struktural\\
+		
+		\hline
+		
+		5.	Menginputkan data  & \\
+		\hline
+		
+		& 6.	Menyimpan data \\
+		\hline
+		
+		& 7.	Menampilkan pop-up tanda berhasil edit data \\
+		\hline
+		
+	\end{tabular}
+\end{table}
+
+\item Skenario Delete Jabatan Struktural
+
+Nomor \kern 3.6pc : SP-21 \\
+Nama Use Case : Menghaous data jabatan struktural \\
+Aktor \kern 4.1 pc : Admin \\
+Tipe \kern 4.6pc : Primary \\
+Tujuan \kern 3.6pc : Admin dapat menghapus data jabatan struktural\\
+Deskripsi \kern 2.5pc : 
+
+\begin{itemize}
+	\item Admin menuju ke halaman data jabatan struktural
+	\item Sistem akan menampilkan halaman data jabatan struktural
+	\item Admin memilih delete pada suatu data jabatan struktural
+	\item Sistem menampilkan pop-up tanda berhasil di hapus 
+	
+\end{itemize}
+
+\begin{table}
+	\caption{Skenario Delete Jabatan Struktural}
+	\centering
+	\begin{tabular}{ | p{55mm} | p{70mm}|}
+		\hline 
+		\textbf{Aktor} & \textbf{Sistem} \\
+		\hline
+		
+		1.	Menuju ke halaman data jabatan struktural &  \\
+		
+		\hline
+		
+		&  2.	Menampilkan halaman data jabatan struktural\\
+		
+		\hline
+		
+		3. Memilih delete pada suatu data jabatan struktural& \\
+		
+		\hline
+		
+		& 4.	Menampilkan pop-up tanda berhasil delete data \\
+		\hline
+		
+	\end{tabular}
+\end{table}
+
+\end{enumerate}
+
+\subsection{Class Diagram}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\textwidth]
+	{pics/diagram/classdiagram.png}
+	\caption{Class Diagram}
+	\label{fig:32}
+\end{figure}
+
+\subsection{Enitity Relationship Diagram}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\textwidth]
+	{pics/diagram/erd.png}
+	\caption{ERD}
+	\label{fig:32}
+\end{figure}
 
 %-----------------------------------------------------------------------------%
 \section{Perancangan Aplikasi}

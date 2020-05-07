@@ -37,30 +37,23 @@
 \BOOKMARK [1][-]{section.3.3}{Perancangan Model Program}{chapter.3}% 37
 \BOOKMARK [2][-]{subsection.3.3.1}{Use Case Diagram}{section.3.3}% 38
 \BOOKMARK [2][-]{subsection.3.3.2}{Use Case Skenario}{section.3.3}% 39
-\BOOKMARK [1][-]{section.3.4}{Perancangan Aplikasi}{chapter.3}% 40
-\BOOKMARK [2][-]{subsection.3.4.1}{Perancangan Antar Muka}{section.3.4}% 41
-\BOOKMARK [3][-]{subsubsection.3.4.1.1}{Perancangan Antar Muka Admin}{subsection.3.4.1}% 42
-\BOOKMARK [3][-]{subsubsection.3.4.1.2}{Perancangan Antar Muka User}{subsection.3.4.1}% 43
-\BOOKMARK [2][-]{subsection.3.4.2}{Perancangan Level Tinggi}{section.3.4}% 44
-\BOOKMARK [0][-]{chapter.4}{Implementasi dan Pengujian}{}% 45
-\BOOKMARK [1][-]{section.4.1}{Implementasi Aplikasi}{chapter.4}% 46
-\BOOKMARK [1][-]{section.4.2}{Pengujian Aplikasi}{chapter.4}% 47
-\BOOKMARK [2][-]{subsection.4.2.1}{Pengujian Alpha}{section.4.2}% 48
-\BOOKMARK [2][-]{subsection.4.2.2}{Pengujian Fungsionalitas}{section.4.2}% 49
-\BOOKMARK [2][-]{subsection.4.2.3}{Pengujian Kesesuaian}{section.4.2}% 50
-\BOOKMARK [2][-]{subsection.4.2.4}{Pengujian Beta}{section.4.2}% 51
-\BOOKMARK [1][-]{section.4.3}{Diskusi Hasil Pengujian}{chapter.4}% 52
-\BOOKMARK [0][-]{chapter.5}{Kesimpulan dan Saran}{}% 53
-\BOOKMARK [1][-]{section.5.1}{Kesimpulan}{chapter.5}% 54
-\BOOKMARK [1][-]{section.5.2}{Saran}{chapter.5}% 55
-\BOOKMARK [0][-]{section.5.2}{DAFTAR PUSTAKA}{}% 56
-\BOOKMARK [0][-]{appendix.1.A}{LAMPIRAN Evolved Packet Core \(EPC\)}{}% 57
-\BOOKMARK [1][-]{section.1.A.1}{Architecture EPC by 3GPP}{appendix.1.A}% 58
-\BOOKMARK [1][-]{section.1.A.2}{Proposed a new architecture EPC}{appendix.1.A}% 59
-\BOOKMARK [0][-]{appendix.1.B}{LAMPIRAN Preservation Process for Cloud Forensics}{}% 60
-\BOOKMARK [1][-]{section.1.B.1}{SHA-2 Hash Value of Gdrive Activities}{appendix.1.B}% 61
-\BOOKMARK [1][-]{section.1.B.2}{SHA-2 Hash Value of Onedrive Activities}{appendix.1.B}% 62
-\BOOKMARK [1][-]{section.1.B.3}{SHA-2 Hash Value of Box Activities}{appendix.1.B}% 63
-\BOOKMARK [0][-]{appendix.1.C}{LAMPIRAN Presentation Results for Box}{}% 64
-\BOOKMARK [1][-]{section.1.C.1}{Box Analysis}{appendix.1.C}% 65
-\BOOKMARK [1][-]{section.1.C.2}{Box Testing}{appendix.1.C}% 66
+\BOOKMARK [2][-]{subsection.3.3.3}{Class Diagram}{section.3.3}% 40
+\BOOKMARK [2][-]{subsection.3.3.4}{Enitity Relationship Diagram}{section.3.3}% 41
+\BOOKMARK [1][-]{section.3.4}{Perancangan Aplikasi}{chapter.3}% 42
+\BOOKMARK [2][-]{subsection.3.4.1}{Perancangan Antar Muka}{section.3.4}% 43
+\BOOKMARK [3][-]{subsubsection.3.4.1.1}{Perancangan Antar Muka Admin}{subsection.3.4.1}% 44
+\BOOKMARK [3][-]{subsubsection.3.4.1.2}{Perancangan Antar Muka User}{subsection.3.4.1}% 45
+\BOOKMARK [2][-]{subsection.3.4.2}{Perancangan Level Tinggi}{section.3.4}% 46
+\BOOKMARK [0][-]{chapter.4}{Implementasi dan Pengujian}{}% 47
+\BOOKMARK [1][-]{section.4.1}{Implementasi Aplikasi}{chapter.4}% 48
+\BOOKMARK [2][-]{subsection.4.1.1}{Implementasi Admin}{section.4.1}% 49
+\BOOKMARK [1][-]{section.4.2}{Pengujian Aplikasi}{chapter.4}% 50
+\BOOKMARK [2][-]{subsection.4.2.1}{Pengujian Alpha}{section.4.2}% 51
+\BOOKMARK [2][-]{subsection.4.2.2}{Pengujian Fungsionalitas}{section.4.2}% 52
+\BOOKMARK [2][-]{subsection.4.2.3}{Pengujian Kesesuaian}{section.4.2}% 53
+\BOOKMARK [2][-]{subsection.4.2.4}{Pengujian Beta}{section.4.2}% 54
+\BOOKMARK [1][-]{section.4.3}{Diskusi Hasil Pengujian}{chapter.4}% 55
+\BOOKMARK [0][-]{chapter.5}{Kesimpulan dan Saran}{}% 56
+\BOOKMARK [1][-]{section.5.1}{Kesimpulan}{chapter.5}% 57
+\BOOKMARK [1][-]{section.5.2}{Saran}{chapter.5}% 58
+\BOOKMARK [0][-]{section.5.2}{DAFTAR PUSTAKA}{}% 59
