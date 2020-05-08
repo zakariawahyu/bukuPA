@@ -5,7 +5,7 @@
 \contentsline {chapter}{\uppercase {Lembar Persembahan}}{vi}{section*.6}%
 \contentsline {chapter}{\uppercase {Kata Pengantar}}{vii}{section*.7}%
 \contentsline {chapter}{DAFTAR GAMBAR}{x}{section*.7}%
-\contentsline {chapter}{DAFTAR TABEL}{xi}{section*.7}%
+\contentsline {chapter}{DAFTAR TABEL}{xii}{section*.7}%
 \contentsline {chapter}{\numberline {I}\uppercase {Pendahuluan}}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Latar Belakang}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Perumusan Masalah}{2}{section.1.2}%
@@ -37,23 +37,24 @@
 \contentsline {section}{\numberline {3.3}Perancangan Model Program}{19}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Use Case Diagram}{19}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Use Case Skenario}{19}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Class Diagram}{37}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Enitity Relationship Diagram}{38}{subsection.3.3.4}%
-\contentsline {section}{\numberline {3.4}Perancangan Aplikasi}{38}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Perancangan Antar Muka}{38}{subsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.1.1}Perancangan Antar Muka Admin}{39}{subsubsection.3.4.1.1}%
-\contentsline {subsubsection}{\numberline {3.4.1.2}Perancangan Antar Muka User}{51}{subsubsection.3.4.1.2}%
-\contentsline {subsection}{\numberline {3.4.2}Perancangan Level Tinggi}{54}{subsection.3.4.2}%
-\contentsline {chapter}{\numberline {IV}\uppercase {Implementasi dan Pengujian}}{55}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Implementasi Aplikasi}{55}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Implementasi Admin}{55}{subsection.4.1.1}%
-\contentsline {section}{\numberline {4.2}Pengujian Aplikasi}{56}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Pengujian Alpha}{56}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Pengujian Fungsionalitas}{57}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Pengujian Kesesuaian}{57}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Pengujian Beta}{57}{subsection.4.2.4}%
-\contentsline {section}{\numberline {4.3}Diskusi Hasil Pengujian}{58}{section.4.3}%
-\contentsline {chapter}{\numberline {V}\uppercase {Kesimpulan dan Saran}}{59}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Kesimpulan}{59}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Saran}{59}{section.5.2}%
-\contentsline {chapter}{DAFTAR PUSTAKA}{60}{section.5.2}%
+\contentsline {subsection}{\numberline {3.3.3}Class Diagram}{46}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Enitity Relationship Diagram}{47}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.4}Perancangan Aplikasi}{47}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Perancangan Antar Muka}{47}{subsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.1.1}Perancangan Antar Muka Admin}{48}{subsubsection.3.4.1.1}%
+\contentsline {subsubsection}{\numberline {3.4.1.2}Perancangan Antar Muka User}{59}{subsubsection.3.4.1.2}%
+\contentsline {subsection}{\numberline {3.4.2}Perancangan Level Tinggi}{63}{subsection.3.4.2}%
+\contentsline {chapter}{\numberline {IV}\uppercase {Implementasi dan Pengujian}}{64}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Implementasi Aplikasi}{64}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Implementasi Admin}{64}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Implementasi \textit {User}}{81}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Pengujian Aplikasi}{87}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Pengujian Alpha}{87}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Pengujian Fungsionalitas}{88}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Pengujian Kesesuaian}{88}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Pengujian Beta}{88}{subsection.4.2.4}%
+\contentsline {section}{\numberline {4.3}Diskusi Hasil Pengujian}{89}{section.4.3}%
+\contentsline {chapter}{\numberline {V}\uppercase {Kesimpulan dan Saran}}{90}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Kesimpulan}{90}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Saran}{90}{section.5.2}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{91}{section.5.2}%
