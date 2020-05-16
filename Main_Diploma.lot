@@ -1,16 +1,16 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Tabel Kebutuhan Hardware\relax }}{17}{table.caption.13}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces Tabel Kebutuhan Software\relax }}{18}{table.caption.14}%
-\contentsline {table}{\numberline {3.3}{\ignorespaces Tabel Kebutuhan Hosting\relax }}{18}{table.caption.15}%
-\contentsline {table}{\numberline {3.4}{\ignorespaces Skenario Login\relax }}{20}{table.caption.17}%
-\contentsline {table}{\numberline {3.5}{\ignorespaces Skenario Edit Profile\relax }}{21}{table.caption.18}%
-\contentsline {table}{\numberline {3.6}{\ignorespaces Skenario Reset Password\relax }}{21}{table.caption.19}%
-\contentsline {table}{\numberline {3.7}{\ignorespaces Skenario Tambah Users\relax }}{22}{table.caption.20}%
-\contentsline {table}{\numberline {3.8}{\ignorespaces Skenario Edit Users\relax }}{23}{table.caption.21}%
-\contentsline {table}{\numberline {3.9}{\ignorespaces Skenario Delete Users\relax }}{24}{table.caption.22}%
-\contentsline {table}{\numberline {3.10}{\ignorespaces Skenario View Data Pegawai\relax }}{25}{table.caption.23}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Tabel Kebutuhan \textit {Hardware}\relax }}{17}{table.caption.13}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Tabel Kebutuhan \textit {Software}\relax }}{18}{table.caption.14}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Tabel Kebutuhan \textit {Hosting}\relax }}{18}{table.caption.15}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces Skenario \textit {Login}\relax }}{20}{table.caption.17}%
+\contentsline {table}{\numberline {3.5}{\ignorespaces Skenario \textit {Edit Profile}\relax }}{21}{table.caption.18}%
+\contentsline {table}{\numberline {3.6}{\ignorespaces Skenario \textit {Reset Password}\relax }}{21}{table.caption.19}%
+\contentsline {table}{\numberline {3.7}{\ignorespaces Skenario Tambah \textit {Users}\relax }}{22}{table.caption.20}%
+\contentsline {table}{\numberline {3.8}{\ignorespaces Skenario \textit {Edit Users}\relax }}{23}{table.caption.21}%
+\contentsline {table}{\numberline {3.9}{\ignorespaces Skenario \textit {Delete Users}\relax }}{24}{table.caption.22}%
+\contentsline {table}{\numberline {3.10}{\ignorespaces Skenario \textit {View} Data Pegawai\relax }}{25}{table.caption.23}%
 \contentsline {table}{\numberline {3.11}{\ignorespaces Skenario View Data Tallent\relax }}{25}{table.caption.24}%
 \contentsline {table}{\numberline {3.12}{\ignorespaces Skenario Print Data Tallent\relax }}{26}{table.caption.25}%
 \contentsline {table}{\numberline {3.13}{\ignorespaces Skenario Tambah Unit Kerja\relax }}{27}{table.caption.26}%

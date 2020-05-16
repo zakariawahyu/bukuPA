@@ -6,59 +6,59 @@
 \section{Sistem Arsitektur}
 %-----------------------------------------------------------------------------%
 
-Perancangan sistem arsitektur aplikasi sistem pengawakan jabatan struktural dapat dilihat pada \textbf{Gambar 3.1.} berikut : 
+Perancangan sistem arsitektur aplikasi sistem pengawakan jabatan struktural dapat dilihat pada \textbf{Gambar 3.1.} berikut: 
 
 \begin{figure}
 	\centering
 	\includegraphics[width=1\textwidth]
 	{pics/LowLevelDiagram.png}
-	\caption{Low Level Design}
+	\caption{\textit{Low Level Design}}
 	\label{fig:31}
 \end{figure}
 
 
 \subsection{Gambaran Umum Sistem}
 
-Aplikasi \textbf{SiPJabS : Sistem Pengawakan Jabatan Struktural di Univertias Telkom} merupakan aplikasi berbasis web yang memudahkan bagi perusahaan dalam pencarian seorang kandidat atau posisi yang kosong. Dalam pembuatan aplikasi ini dibutuhkan fitur \textit{filtering} yang digunakan untuk pencarian kandidat baru, yang sesuai dengan ketentuan yang sudah ditetapkan oleh perusahaan. Sistem \textit{filtering} dapat dilakukan setiap saat, untuk menggantikan pekerjaan lama yang telah berhenti dikarenakan pensiun, meninggal, mengundurkan diri atau diberhentikan karena suatu kebijakan tertentu. \\
+Aplikasi "\textbf{SiPJabS : Sistem Pengawakan Jabatan Struktural di Univertias Telkom}" merupakan aplikasi berbasis web yang memudahkan bagi perusahaan dalam pencarian seorang kandidat atau posisi yang kosong. Dalam pembuatan aplikasi ini dibutuhkan fitur \textit{filtering} yang digunakan untuk pencarian kandidat baru, yang sesuai dengan ketentuan yang sudah ditetapkan oleh perusahaan. Sistem \textit{filtering} dapat dilakukan setiap saat, untuk menggantikan pekerjaan lama yang telah berhenti dikarenakan pensiun, meninggal, mengundurkan diri atau diberhentikan karena suatu kebijakan tertentu. \\
 
 Data-data pegawai yang berada di Universitas Telkom dapat dilihat dan data tersebut bersifat rahasia. Sehingga aplikasi ”\textbf{SiPJabS : Sistem Pengawakan Jabatan Struktural di Universitas Telkom}” hanya dapat diakses oleh orang tertentu. Aplikasi ini terdapat satu \textit{user} yang dapat mengelola proses \textit{filtering} dan satu \textit{admin} yang mengelola infrastruktur \textit{database} dan proyek \textit{server} serta jaringan.  
 
-Sistem \textit{filtering} pada apliaksi ini terbagi menjadi dua bagian, yang pertama merupakan \textit{fitering} secara umum dengan isi \textit{form} seperti jabatan minimal dan masa kerja. Yang kedua merupakan \textit{filtering} secara khusus, dimana \textit{user} dapat mencari kandidat dengan syarat yang lebih spesifik lagi untuk dijadikan pilihan, kemudian akan terdapat beberapa nama kandidat, apabila sudah menentukan pilihan dapat menekan tombol button pada nama yang akan dipilih dan akan masuk dalam \textit{cart} kandidat.
+Sistem \textit{filtering} pada apliaksi ini terbagi menjadi dua bagian, yang pertama merupakan \textit{fitering} secara umum dengan isi \textit{form} seperti jabatan minimal dan masa kerja. Yang kedua merupakan \textit{filtering} secara khusus, dimana \textit{user} dapat mencari kandidat dengan syarat yang lebih spesifik lagi untuk dijadikan pilihan, kemudian akan terdapat beberapa nama kandidat, apabila sudah menentukan pilihan dapat menekan tombol \textit{button} pada nama yang akan dipilih dan akan masuk dalam \textit{cart} kandidat.
 
 Apabila proses pencarian kandidat sudah ditemukan dengan salah satu proses \textit{filtering} yang sudah dijelaskan diatas maka, proses selanjutnya akan masuk dalam pembuatan berita acara dan dapat dicetak berupa file pdf.  
 
 \subsection{Target Pengguna Aplikasi}
 
-Aplikasi \textbf{SiPJabS} memiliki beberapa target pengguna diantaranya sebagai berikut :
+Aplikasi \textbf{SiPJabS} memiliki beberapa target pengguna diantaranya sebagai berikut:
 
 \begin{enumerate}
-\item User \\
-User merupakan pegawai Direktorat Sumber Daya Manusia Universitas Telkom yang membutuhkan kandidat dengan proses \textit{filtering} untuk mengisi posisi yang kosong atau digantikan.
+\item \textit{User} \\
+\textit{User} merupakan pegawai Direktorat Sumber Daya Manusia Universitas Telkom yang membutuhkan kandidat dengan proses \textit{filtering} untuk mengisi posisi yang kosong atau digantikan.
 
-\item Admin \\
-Admin merupakan pegawai Direktorat Pusat Teknologi Informasi Universitas Telkom yang mengelola dan menyediakan data untuk proses filtering.
+\item \textit{Admin} \\
+\textit{Admin} merupakan pegawai Direktorat Pusat Teknologi Informasi Universitas Telkom yang mengelola dan menyediakan data untuk proses filtering.
 \end{enumerate}
 
 \subsection{Spesifikasi Target Perangkat}
 
-Spesifikasi dari target perangkat untuk mengakses aplikasi SiPJabS adalah sebagai berikut : 
+Spesifikasi dari target perangkat untuk mengakses aplikasi \textbf{SiPJabS} adalah sebagai berikut: 
 
 \begin{enumerate}
 
-\item Komputer atau laptop yang terhubung dengan koneksi internet dan dapat membuka \textit{browser}.
+\item Komputer atau laptop yang terhubung dengan koneksi internet dan dapat membuka web \textit{browser}.
 
-\item	\textit{Smartphone} atau tablet yang terhubung dengan koneksi internet dan dapat membuka \textit{browser}.
+\item	\textit{Smartphone} atau tablet yang terhubung dengan koneksi internet dan dapat membuka web \textit{browser}.
 \end{enumerate}
 
 \subsection{Diagram Alir Aplikasi}
 
-Dalam membangun aplikasi SiPJabS, dibutuhkan diagram alir untuk membantu developer dan pengguna dalam memahami sistem yang akan dibuat. Berikut merupakan flowchart :
+Dalam membangun aplikasi \textbf{SiPJabS}, dibutuhkan diagram alir untuk membantu \textit{developer} dan pengguna dalam memahami sistem yang akan dibuat. Berikut merupakan \textit{flowchart}:
 
 \begin{figure}
 	\centering
 	\includegraphics[width=1\textwidth]
 	{pics/diagram/flowchart.png}
-	\caption{Flowchart}
+	\caption{\textit{Flowchart}}
 	\label{fig:31}
 \end{figure}  
 
@@ -67,9 +67,9 @@ Dalam membangun aplikasi SiPJabS, dibutuhkan diagram alir untuk membantu develop
 \section{Kebutuhan Pengembangan Sistem}
 %-----------------------------------------------------------------------------%
 
-Dalam membangun aplikasi \textbf{SiPJabS}, dibutuhkan beberapa perangkat untuk mengimplementasikannya. Perangkat tersebut dibagi menjadi tiga, yaitu perangkat keras (hardware), perangkat lunak (software) dan hosting. Adapun kebutuhan pengembangan sistem adalah sebagai berikut : 
+Dalam membangun aplikasi \textbf{SiPJabS}, dibutuhkan beberapa perangkat untuk mengimplementasikannya. Perangkat tersebut dibagi menjadi tiga, yaitu perangkat keras (\textit{hardware}), perangkat lunak (\textit{software}) dan Perangkat \textit{server}/\textit{hosting}. Adapun kebutuhan pengembangan sistem adalah sebagai berikut: 
 
-\subsection{Kubutuhan Perangkat Keras (Hardware) }
+\subsection{Kubutuhan Perangkat Keras (\textit{Hardware}) }
 
 \textit{Hardware} yang dibutuhkan dalam perancangan dan pembuatan aplikasi SiPJabs
 adalah sebagai berikut :
@@ -77,27 +77,27 @@ adalah sebagai berikut :
 
 \begin{table}[H]
 	\centering
-	\caption{Tabel Kebutuhan Hardware}
+	\caption{Tabel Kebutuhan \textit{Hardware}}
 	\begin{tabular}{ | c | l | p{75mm} | }
 		\hline
 		No. & Perangkat Keras & Spesifikasi \\
 		\hline
-		\multirow{6}{*}{1} & \multirow{6}{*}{Laptop MSI GL62M} & Processor : Intel Core i7-7700HQ \\
-		& & Operating sistem : Windows 10 Education \\
+		\multirow{6}{*}{1} & \multirow{6}{*}{Laptop MSI GL62M} & \textit{Processor} : Intel Core i7-7700HQ \\
+		& & \textit{Operating System} : Windows 10 Education \\
 		& & RAM : 8 GB \\
-		& & Storage : 128 GB SSD + 1 TB Hardisk \\
-		& & Graphics Card :  nVidia Geforce GTX 1050 \\
-		& & Display : 15.6" FHD, Anti-Glare (1920 x 1080) \\
+		& & \textit{Storage} : 128 GB SSD + 1 TB Hardisk \\
+		& & \textit{Graphics Card} :  nVidia Geforce GTX 1050 \\
+		& & \textit{Display} : 15.6" FHD, Anti-Glare (1920 x 1080) \\
 		
 		
 		\hline
 		
-		\multirow{6}{*}{2} & \multirow{6}{*}{Laptop HP Pavilion x360} & Processor : Intel Core i3-6100U \\
-		& & Operating sistem : Windows 10 Home \\
+		\multirow{6}{*}{2} & \multirow{6}{*}{Laptop HP Pavilion x360} & \textit{Processor} : Intel Core i3-6100U \\
+		& & \textit{Operating System} : Windows 10 Home \\
 		& & RAM : 12 GB \\
-		& & Storage : 500 GB Hardisk\\
-		& & Graphics Card : Intel HD 520 Graphics \\
-		& & Display : 13.3" HD, Touch Screen \\
+		& & \textit{Storage} : 500 GB Hardisk\\
+		& & \textit{Graphics Card} : Intel HD 520 Graphics \\
+		& & \textit{Display} : 13.3" HD, Touch Screen \\
 		
 		\hline
 	\end{tabular}
@@ -105,32 +105,32 @@ adalah sebagai berikut :
 
 
 \newpage
-\subsection{Kebutuhkan Perangkat Lunak (Software)}
+\subsection{Kebutuhkan Perangkat Lunak (\textit{Software})}
 
-\textit{Software} yang dibutuhkan dalam perancangan dan pembuatan aplikasi SiPJabs
-adalah sebagai berikut :
+\textit{Software} yang dibutuhkan dalam perancangan dan pembuatan aplikasi \textbf{SiPJabs}
+adalah sebagai berikut:
 
 \begin{table}[H]
 	\centering
-	\caption{Tabel Kebutuhan Software}
+	\caption{Tabel Kebutuhan \textit{Software}}
 	\begin{tabular}{ | c | l | p{65mm} | }
 		\hline
 		No. & Perangkat Lunak & Kegunaan \\
 		\hline
 		
-		1 & Visual Studio Code & Text editor untuk menuliskan \textit{coding} aplikasi \\
+		1 & Visual Studio Code & \textit{Text editor} untuk menuliskan \textit{coding} aplikasi \\
 				
 		\hline
 		
-		2 & XAMPP & Sebagai server yang berdiri sendiri, yang terdiri atas program Apache HTTP Server, MySQL database, dan penerjemah bahasa yang ditulis dengan bahasa pemrograman PHP dan Perl \\
+		2 & XAMPP & Sebagai \textit{server} yang berdiri sendiri, yang terdiri atas program \textit{Apache} HTTP \textit{Server}, MySQL \textit{database}, dan penerjemah bahasa yang ditulis dengan bahasa pemrograman PHP dan Perl \\
 		
 		\hline
 		
-		3 & IBM Rational System Architect  & Sebuah software untuk mendesain rancangan sistem aplikasi \\
+		3 & IBM Rational System Architect  & Sebuah \textit{software} untuk mendesain rancangan sistem aplikasi \\
 		
 		\hline
 		
-		4 & Figma & Untuk mendesai user interface secara online \\
+		4 & Figma & Untuk mendesai \textit{user interface} secara online \\
 		
 		
 		\hline
@@ -147,29 +147,29 @@ adalah sebagai berikut :
 		
 		\hline
 		
-		8 & Brave dan Mozila Firefox & Web browser \\
+		8 & Brave dan Mozila Firefox & Web \textit{browser} \\
 		
 		\hline
 	\end{tabular}
 \end{table}
 
-\subsection{Kebutuhan Hosting}
+\subsection{Kebutuhan \textit{Hosting}}
 
-\textit{Hosting} yang dibutuhkan dalam perancangan dan pembuatan aplikasi SiPJabs
+\textit{Hosting} yang dibutuhkan dalam perancangan dan pembuatan aplikasi\textbf{ SiPJabs}
 adalah sebagai berikut :
 
 \begin{table}[H]
 	\centering
-	\caption{Tabel Kebutuhan Hosting}
+	\caption{Tabel Kebutuhan \textit{Hosting}}
 	\begin{tabular}{ | c | l | l | }
 		\hline
 		No. & Server & Spesifikasi \\
 		\hline
-		\multirow{5}{*}{1} & \multirow{5}{*}{Server Indonesia} & Storage : 2 GB \\
+		\multirow{5}{*}{1} & \multirow{5}{*}{Server Indonesia} & \textit{Storage} : 2 GB \\
 		& & RAM : 1 GB \\
-		& & Bandwith : Unlimited \\
-		& & Processor : 1 Core \\
-		& & Domain : my.id  \\
+		& & \textit{Bandwith} : Unlimited \\
+		& & \textit{Processor} : 1 Core \\
+		& & \textit{Domain} : my.id  \\
 	
 		\hline
 	\end{tabular}
@@ -178,9 +178,9 @@ adalah sebagai berikut :
 %-----------------------------------------------------------------------------%
 \section{Perancangan Model Program}
 %-----------------------------------------------------------------------------%
-Perancangan model program dalam pembuatan aplikasi SiPJabS antara
-lain Use Case Diagram, Use Case Skenario, Class Diagram,
-Entity Relationship Diagram (ERD). Adapun perancangan model program adalah sebagai berikut :
+Perancangan model program dalam pembuatan aplikasi \textit{SiPJabS} antara
+lain \textit{Use Case Diagram}, \textit{Use Case Scenario}, \textit{Class Diagram},
+\textit{Entity Relationship Diagram} (ERD). Adapun perancangan model program adalah sebagai berikut :
 
 \subsection{Use Case Diagram}
 
@@ -188,39 +188,39 @@ Entity Relationship Diagram (ERD). Adapun perancangan model program adalah sebag
 	\centering
 	\includegraphics[width=1\textwidth]
 	{pics/diagram/usecase.png}
-	\caption{Use Case Diagram}
+	\caption{\textbf{Use Case Diagram}}
 	\label{fig:32}
 \end{figure}
 
 
 \subsection{Use Case Skenario}
-Berikut merupakan use case scenario dalam pembuatan aplikasi SiPJabS :
+Berikut merupakan \textit{use case scenario} dalam pembuatan aplikasi SiPJabS:
 
 \begin{enumerate}
-	\item Skenario Login
+	\item Skenario \textit{Login}
 	
 	Nomor \kern 3.6pc : SP-01 \\
-	Nama Use Case : Melakukan login \\
-	Aktor \kern 4.1 pc : Admin \\
-	Tipe \kern 4.6pc : Primary \\
+	Nama Use Case : Melakukan \textit{login} \\
+	Aktor \kern 4.1 pc : \textit{Admin} \\
+	Tipe \kern 4.6pc : \textit{Primary} \\
 	Tujuan \kern 3.6pc : Penggunaan aplikasi \\
 	Deskripsi \kern 2.5pc : 
 	
 	\begin{itemize}
-		\item Admin dapat menginputkan username dan password
+		\item \textit{Admin} dapat menginputkan \textit{username} dan \textit{password}
 		\item Sistem akan mencocokkan data
 		\item Sistem menampilkan halaman utama aplikasi
 	\end{itemize}
 
 	\begin{table}
-		\caption{Skenario Login}
+		\caption{Skenario \textit{Login}}
 		\centering
 		\begin{tabular}{ | p{55mm} | p{60mm} |}
 			\hline 
 			\textbf{Aktor} & \textbf{Sistem} \\
 			\hline
 			
-			1.	Menginputkan username dan password &  \\
+			1.	Menginputkan \textit{username} dan \textit{password} &  \\
 			
 			\hline
 			
@@ -235,46 +235,46 @@ Berikut merupakan use case scenario dalam pembuatan aplikasi SiPJabS :
 		\end{tabular}
 	\end{table}
 
-\item Skenario Edit Profile
+\item Skenario\textit{ Edit Profile}
 
 Nomor \kern 3.6pc : SP-02 \\
-Nama Use Case : Melakukan edit profile \\
-Aktor \kern 4.1 pc : Admin \\
-Tipe \kern 4.6pc : Primary \\
-Tujuan \kern 3.6pc : Admin dapat melakukan edit pada profile \\
+Nama Use Case : Melakukan \textit{edit profile} \\
+Aktor \kern 4.1 pc : \textit{Admin} \\
+Tipe \kern 4.6pc : \textit{Primary} \\
+Tujuan \kern 3.6pc : \textit{Admin} dapat melakukan \textit{edit} pada \textit{profile} \\
 Deskripsi \kern 2.5pc : 
 
 \begin{itemize}
-	\item Admin menuju ke halaman profile
-	\item Sistem akan menampilkan halaman profile
-	\item Admin memilih edit profile
-	\item Sistem menampilkan pop-up form edit profile
-	\item Admin menginputkan data
-	\item Admin menyimpan perubahan
+	\item \textit{Admin} menuju ke halaman \textit{profile}
+	\item Sistem akan menampilkan halaman \textit{profile}
+	\item \textit{Admin} memilih \textit{edit profile}
+	\item Sistem menampilkan \textit{pop-up form edit profile}
+	\item \textit{Admin} menginputkan data
+	\item \textit{Admin} menyimpan perubahan
 
 \end{itemize}
 
 \begin{table}
-	\caption{Skenario Edit Profile}
+	\caption{Skenario \textit{Edit Profile}}
 	\centering
 	\begin{tabular}{ | l | l |}
 		\hline 
 		\textbf{Aktor} & \textbf{Sistem} \\
 		\hline
 		
-		1.	Menuju ke halaman profile &  \\
+		1.	Menuju ke halaman \textit{profile} &  \\
 		
 		\hline
 		
-		&  2.	Menampilkan halaman profile \\
+		&  2.	Menampilkan halaman \textit{profile} \\
 		
 		\hline
 		
-		 3. Memilih edit profile & \\
+		 3. Memilih \textit{edit profile} & \\
 		
 		\hline
 		
-			& 4.	Menampilkan pop-up form edit profile \\
+			& 4.	Menampilkan\textit{ pop-up form edit profile} \\
 		
 		\hline
 		
@@ -290,51 +290,51 @@ Deskripsi \kern 2.5pc :
 	\end{tabular}
 \end{table}
 
-\item Skenario Reset Password
+\item Skenario \textit{Reset Password}
 
 Nomor \kern 3.6pc : SP-03 \\
-Nama Use Case : Melakukan reset password \\
-Aktor \kern 4.1 pc : Admin \\
-Tipe \kern 4.6pc : Primary \\
-Tujuan \kern 3.6pc : Admin dapat melakukan reset password pada profile \\
+Nama Use Case : Melakukan \textit{reset password} \\
+Aktor \kern 4.1 pc : \textit{Admin} \\
+Tipe \kern 4.6pc : \textit{Primary} \\
+Tujuan \kern 3.6pc : \textit{Admin} dapat melakukan \textit{reset password} pada \textit{profile} \\
 Deskripsi \kern 2.5pc : 
 
 \begin{itemize}
-	\item Admin menuju ke halaman profile
-	\item Sistem akan menampilkan halaman profile
-	\item Admin memilih reset password
-	\item Sistem menampilkan pop-up reset password
-	\item Admin menginputkan password
-	\item Admin menyimpan perubahan
+	\item \textit{Admin} menuju ke halaman \textit{profile}
+	\item Sistem akan menampilkan halaman \textit{profile}
+	\item \textit{Admin} memilih\textit{ reset password}
+	\item Sistem menampilkan \textit{pop-up reset password}
+	\item \textit{Admin} menginputkan \textit{password}
+	\item \textit{Admin} menyimpan perubahan
 	\item Sistem menyimpan perubahan
 	
 \end{itemize}
 
 \begin{table}
-	\caption{Skenario Reset Password}
+	\caption{Skenario \textit{Reset Password}}
 	\centering
 	\begin{tabular}{ | l | l |}
 		\hline 
 		\textbf{Aktor} & \textbf{Sistem} \\
 		\hline
 		
-		1.	Menuju ke halaman profile &  \\
+		1.	Menuju ke halaman \textit{profile} &  \\
 		
 		\hline
 		
-		&  2.	Menampilkan halaman profile \\
+		&  2.	Menampilkan halaman \textit{profile} \\
 		
 		\hline
 		
-		3. Memilih reset password & \\
+		3. Memilih \textit{reset password} & \\
 		
 		\hline
 		
-		& 4.	Menampilkan pop-up reset password \\
+		& 4.	Menampilkan\textit{ pop-up reset password} \\
 		
 		\hline
 		
-		5.	Menginputkan password  & \\
+		5.	Menginputkan \textit{password}  & \\
 		\hline
 		
 		6.	Menyimpan perubahan & \\
@@ -346,48 +346,48 @@ Deskripsi \kern 2.5pc :
 	\end{tabular}
 \end{table}
 
-\item Skenario Tambah Users
+\item Skenario Tambah \textit{Users}
 
 Nomor \kern 3.6pc : SP-04 \\
-Nama Use Case : Menambahkan users \\
-Aktor \kern 4.1 pc : Admin \\
-Tipe \kern 4.6pc : Primary \\
-Tujuan \kern 3.6pc : Admin dapat menambahkan users \\
+Nama Use Case : Menambahkan \textit{users} \\
+Aktor \kern 4.1 pc : \textit{Admin} \\
+Tipe \kern 4.6pc : \textit{Primary} \\
+Tujuan \kern 3.6pc : \textit{Admin} dapat menambahkan \textit{users} \\
 Deskripsi \kern 2.5pc : 
 
 \begin{itemize}
-	\item Admin menuju ke halaman data users
-	\item Sistem akan menampilkan halaman data users
-	\item Admin memilih tambah users
-	\item Sistem menampilkan halaman form tambah userd
-	\item Admin menginputkan data
-	\item Admin menyimpan data
+	\item \textit{Admin} menuju ke halaman data \textit{users}
+	\item Sistem akan menampilkan halaman data \textit{users}
+	\item \textit{Admin} memilih tambah \textit{users}
+	\item Sistem menampilkan halaman \textit{form} tambah \textit{users}
+	\item \textit{Admin} menginputkan data
+	\item \textit{Admin} menyimpan data
 	\item Sistem menyimpan data
-	\item Sistem menampilkan pop-up tanda berhasil ditambahkan user
+	\item Sistem menampilkan \textit{pop-up} tanda berhasil ditambahkan \textit{users}
 	
 \end{itemize}
 
 \begin{table}
-	\caption{Skenario Tambah Users}
+	\caption{Skenario Tambah \textit{Users}}
 	\centering
 	\begin{tabular}{ | l | p{65mm} |}
 		\hline 
 		\textbf{Aktor} & \textbf{Sistem} \\
 		\hline
 		
-		1.	Menuju ke halaman data users &  \\
+		1.	Menuju ke halaman data \textit{users} &  \\
 		
 		\hline
 		
-		&  2.	Menampilkan halaman data users \\
+		&  2.	Menampilkan halaman data \textit{users} \\
 		
 		\hline
 		
-		3. Memilih tambah users & \\
+		3. Memilih tambah \textit{users} & \\
 		
 		\hline
 		
-		& 4.	Menampilkan halaman form tambah users \\
+		& 4.	Menampilkan halaman form tambah \textit{users} \\
 		
 		\hline
 		
@@ -400,55 +400,55 @@ Deskripsi \kern 2.5pc :
 		& 7.	Menyimpan perubahan \\
 		\hline
 		
-		& 8.	Menampilkan pop-up tanda berhasil menambahkan user \\
+		& 8.	Menampilkan \textit{pop-up} tanda berhasil menambahkan \textit{users} \\
 		\hline
 		
 	\end{tabular}
 \end{table}
 
 \newpage
-\item Skenario Edit Users
+\item Skenario \textit{Edit Users}
 
 Nomor \kern 3.6pc : SP-05 \\
-Nama Use Case : Melakukan edit data users \\
-Aktor \kern 4.1 pc : Admin \\
-Tipe \kern 4.6pc : Primary \\
-Tujuan \kern 3.6pc : Admin dapat edit data users \\
+Nama Use Case : Melakukan \textit{edit} data \textit{users} \\
+Aktor \kern 4.1 pc : \textit{Admin} \\
+Tipe \kern 4.6pc : \textit{Primary} \\
+Tujuan \kern 3.6pc : \textit{Admin} dapat \textit{edit} data \textit{users} \\
 Deskripsi \kern 2.5pc : 
 
 \begin{itemize}
-	\item Admin menuju ke halaman data users
-	\item Sistem akan menampilkan halaman data users
-	\item Admin memilih edit pada salah satu users
-	\item Sistem menampilkan pop-up edit profile
-	\item Admin menginputkan data
-	\item Admin menyimpan data
+	\item \textit{Admin} menuju ke halaman data \textit{users}
+	\item Sistem akan menampilkan halaman data \textit{users}
+	\item \textit{Admin} memilih \textit{edit} pada salah satu \textit{users}
+	\item Sistem menampilkan \textit{pop-up edit users}
+	\item \textit{Admin} menginputkan data
+	\item \textit{Admin} menyimpan data
 	\item Sistem menyimpan data
-	\item Sistem menampilkan pop-up tanda berhasil pengubahan data
+	\item Sistem menampilkan \textit{pop-up} tanda berhasil pengubahan data
 	
 \end{itemize}
 
 \begin{table}
-	\caption{Skenario Edit Users}
+	\caption{Skenario \textit{Edit Users}}
 	\centering
 	\begin{tabular}{ | l | p{65mm} |}
 		\hline 
 		\textbf{Aktor} & \textbf{Sistem} \\
 		\hline
 		
-		1.	Menuju ke halaman data users &  \\
+		1.	Menuju ke halaman data \textit{users} &  \\
 		
 		\hline
 		
-		&  2.	Menampilkan halaman data users \\
+		&  2.	Menampilkan halaman data \textit{users} \\
 		
 		\hline
 		
-		3. Memilih edit pada salah satu users & \\
+		3. Memilih \textit{edit} pada salah satu \textit{users} & \\
 		
 		\hline
 		
-		& 4.	Menampilkan pop-up form edit users \\
+		& 4.	Menampilkan \textit{pop-up form edit users} \\
 		
 		\hline
 		
@@ -461,76 +461,76 @@ Deskripsi \kern 2.5pc :
 		& 7.	Menyimpan perubahan \\
 		\hline
 		
-		& 8.	Menampilkan pop-up tanda berhasil mengubah user \\
+		& 8.	Menampilkan \textit{pop-up} tanda berhasil mengubah \textit{users} \\
 		\hline
 		
 	\end{tabular}
 \end{table}
 
-\item Skenario Delete Users
+\item Skenario \textit{Delete Users}
 
 Nomor \kern 3.6pc : SP-06 \\
-Nama Use Case : Melakukan delete data users \\
-Aktor \kern 4.1 pc : Admin \\
-Tipe \kern 4.6pc : Primary \\
-Tujuan \kern 3.6pc : Admin dapat delete data users \\
+Nama Use Case : Melakukan \textit{delete} data \textit{users} \\
+Aktor \kern 4.1 pc : \textit{Admin} \\
+Tipe \kern 4.6pc : \textit{Primary} \\
+Tujuan \kern 3.6pc : \textit{Admin} dapat \textit{delete} data \textit{users} \\
 Deskripsi \kern 2.5pc : 
 
 \begin{itemize}
-	\item Admin menuju ke halaman data users
-	\item Sistem akan menampilkan halaman data users
-	\item Admin memilih delete pada salah satu users
-	\item Sistem menampilkan pop-up tanda berhasil hapus data
+	\item \textit{Admin} menuju ke halaman data \textit{users}
+	\item Sistem akan menampilkan halaman data \textit{users}
+	\item \textit{Admin} memilih \textit{delete} pada salah satu \textit{users}
+	\item Sistem menampilkan \textit{pop-up} tanda berhasil hapus data
 	
 \end{itemize}
 
 \begin{table}
-	\caption{Skenario Delete Users}
+	\caption{Skenario \textit{Delete Users}}
 	\centering
 	\begin{tabular}{ | l | p{65mm} |}
 		\hline 
 		\textbf{Aktor} & \textbf{Sistem} \\
 		\hline
 		
-		1.	Menuju ke halaman data users &  \\
+		1.	Menuju ke halaman data \textit{users} &  \\
 		
 		\hline
 		
-		&  2.	Menampilkan halaman data users \\
+		&  2.	Menampilkan halaman data \textit{users} \\
 		
 		\hline
 		
-		3. Memilih delete pada salah satu users & \\
+		3. Memilih \textit{delete} pada salah satu \textit{users} & \\
 		
 		\hline
 		
-		& 4.	Menampilkan pop-up tanda berhasil delete data \\
+		& 4.	Menampilkan \textit{pop-up} tanda berhasil \textit{delete} data \\
 		
 		\hline
 		
 	\end{tabular}
 \end{table}
 
-\item Skenario View Data Pegawai
+\item Skenario \textit{View} Data Pegawai
 
 Nomor \kern 3.6pc : SP-07 \\
-Nama Use Case : Melakukan view data pegawai \\
-Aktor \kern 4.1 pc : Admin \\
-Tipe \kern 4.6pc : Primary \\
-Tujuan \kern 3.6pc : Admin dapat melihat data pegawai \\
+Nama Use Case : Melakukan \textit{view} data pegawai \\
+Aktor \kern 4.1 pc : \textit{Admin} \\
+Tipe \kern 4.6pc : \textit{Primary} \\
+Tujuan \kern 3.6pc : \textit{Admin} dapat melihat data pegawai \\
 Deskripsi \kern 2.5pc : 
 
 \begin{itemize}
 	\item Admin menuju ke halaman data pegawai
 	\item Sistem akan menampilkan halaman data pegawai
-	\item Admin memilih view pada salah satu pegawai
+	\item Admin memilih \textit{view} pada salah satu pegawai
 	\item Sistem menampilkan detail pegawai
 	\item Admin dapat melihat data detail pegawai
 	
 \end{itemize}
 
 \begin{table}
-	\caption{Skenario View Data Pegawai}
+	\caption{Skenario \textit{View} Data Pegawai}
 	\centering
 	\begin{tabular}{ | l | p{55mm} |}
 		\hline 
@@ -545,11 +545,11 @@ Deskripsi \kern 2.5pc :
 		
 		\hline
 		
-		3. Memilih view pada salah satu pegawai & \\
+		3. Memilih \textit{view} pada salah satu pegawai & \\
 		
 		\hline
 		
-		& 4.	Menampilkan pop-up data detail pegawai \\
+		& 4.	Menampilkan \textit{pop-up} data detail pegawai \\
 		
 		\hline
 		
@@ -560,7 +560,7 @@ Deskripsi \kern 2.5pc :
 	\end{tabular}
 \end{table}
 
-\item Skenario View Data Tallent
+\item Skenario View Data Talent
 
 Nomor \kern 3.6pc : SP-08 \\
 Nama Use Case : Melakukan view data tallent \\
