@@ -14,13 +14,7 @@ A level-1 auxiliary file: bab3.aux
 A level-1 auxiliary file: bab4.aux
 A level-1 auxiliary file: bab5.aux
 The style file: ieeetr.bst
-A level-1 auxiliary file: lampiran.aux
 Database file #1: reference.bib
-Warning--I didn't find a database entry for "cloud"
-Warning--I didn't find a database entry for "Brakerski2014"
-Warning--I didn't find a database entry for "Goldreich1996"
-Warning--I didn't find a database entry for "Abood2017"
-Warning--I didn't find a database entry for "Bloisi2007"
 Warning--empty journal in 2
 Warning--empty journal in 3
 Warning--empty journal in 4
@@ -28,7 +22,7 @@ Warning--empty journal in 5
 Warning--empty journal in 7
 You've used 7 entries,
             1876 wiz_defined-function locations,
-            529 strings with 4708 characters,
+            519 strings with 4601 characters,
 and the built_in function-call counts, 1181 in all, are:
 = -- 108
 > -- 28
@@ -67,4 +61,4 @@ warning$ -- 5
 while$ -- 11
 width$ -- 8
 write$ -- 64
-(There were 10 warnings)
+(There were 5 warnings)

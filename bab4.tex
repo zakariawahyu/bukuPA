@@ -8,7 +8,10 @@
 
 Implementasi aplikasi merupakan tahapan realisasi dari perancangan yang telah dibuat. Pada tahap ini akan dilakukan penjelasan mengenai antarmuka aplikasi “\textbf{SiPJabS: Sistem Pengawakan Jabatan Struktural di Universitas Telkom}”. 
 
-\subsection{Implementasi Admin}
+\subsection{Implementasi Antarmuka Aplikasi}
+Antarmuka merupakan tampilan yang telah diimplmentasikan dari rancangan yang telah dibuat. Berikut merupakan hasil implementasi antarmuka aplikasi yang telah dibuat:
+
+\subsubsection{Implementasi Admin}
 
 \begin{enumerate}
 	
@@ -32,7 +35,7 @@ Implementasi aplikasi merupakan tahapan realisasi dari perancangan yang telah di
 		\caption{Halaman \textit{Dashboard} Admin}
 		\label{fig:CC10}
 	\end{figure}
-	Gambar diatas menjelaskan isi dari \textit{dashboard} admin, dibagi menjadi beberapa bagian diantaranya: terdapat jumlah \textit{user} yang dapat mengakses aplikasi SiPJabS sebagai admin maupun \textit{user}. Apabia admin menambahkan atau menghapus \textit{user} maka jumlah tersebut dapat berubah. Terdapat jumlah pegawai di Universitas Telkom. Kemudian jumlah \textit{tallent} yang sudah dipilih oleh user untuk menggantikan atau mengisi posisi yang kosong. Dibawahnya terdapat unit kerja yang didalamnya terdapat beberapa jabatan, dan didalam unit kerja juga dibagi menjadi unit bagian, agar pekerjaan lebih mudah untuk dikerjakan. Kemudian terdapat pendidikan yang dimiliki oleh pegawai Universitas Telkom, dan terakhir terdapat \textit{skill} yang dimiliki pegawai Universitas Telkom guna menunjang kerja.
+	Gambar diatas menjelaskan isi dari \textit{dashboard} admin, dibagi menjadi beberapa bagian diantaranya: terdapat jumlah \textit{user} yang dapat mengakses aplikasi SiPJabS sebagai admin maupun \textit{user}. Apabia admin menambahkan atau menghapus \textit{user} maka jumlah tersebut dapat berubah. Terdapat jumlah pegawai di Universitas Telkom. Kemudian jumlah kandidat yang sudah dipilih oleh user untuk menggantikan atau mengisi posisi yang kosong. Dibawahnya terdapat unit kerja yang didalamnya terdapat beberapa jabatan, dan didalam unit kerja juga dibagi menjadi unit bagian, agar pekerjaan lebih mudah untuk dikerjakan. Kemudian terdapat pendidikan yang dimiliki oleh pegawai Universitas Telkom, dan terakhir terdapat \textit{skill} yang dimiliki pegawai Universitas Telkom guna menunjang kerja.
 	
 	\newpage
 	\item Halaman \textit{Profile}
@@ -97,16 +100,6 @@ Implementasi aplikasi merupakan tahapan realisasi dari perancangan yang telah di
 	Gambar diatas menjelaskan bahwasannya data \textit{users} dapat diedit seperti \textit{username}, email, dan \textit{role} yang digunakan sebagai admin atau \textit{user}. Apabila data sudah diubah admin dapat mengklik \textit{button “Submit”} untuk menyelesaikan proses.
 	
 	\newpage
-	\item Halaman Hapus \textit{Users}
-	\begin{figure}
-		\centering
-		\includegraphics[width=0.8\textwidth]
-		{pics/admin/implementasi/hapususers.png}
-		\caption{Halaman Hapus \textit{Users} - Admin}
-		\label{fig:CC10}
-	\end{figure}
-	Gambar diatas menjelaskan bahwasannya \textit{user} yang tidak bekerja lagi pada pengelolaan data tallent dapat dihapus dengan mengklik \textit{button delete}, kemudian akan terdapat \textit{pop-up} yang memiliki pesan “user berhasil dihapus”. 
-	
 	\item Halaman Tambah \textit{Users}
 	\begin{figure}
 		\centering
@@ -137,22 +130,33 @@ Implementasi aplikasi merupakan tahapan realisasi dari perancangan yang telah di
 	\end{figure}
 	Untuk implementasi \textit{view detail} pegawai admin dapat mengklik \textit{button view}, maka akan tampil seperti gambar diatas. Terdapat data pribadi dari pegawai yang dapat dilihat diantaranya: nama lengkap, NIP, jabatan, status pegawai, masa kerja, tempat lahir, tanggal lahir, status perkawinan, golongan darah, jenis kelamin, agama, tinggi badan, berat badan, dan alamat.
 	
-	\item Halaman Data \textit{Tallent}
+	\item Halaman \textit{Edit} Pegawai
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.8\textwidth]
+		{pics/admin/implementasi/editpegawai.png}
+		\caption{Halaman \textit{Edit} Pegawai - Admin}
+		\label{fig:CC10}
+	\end{figure}
+	Untuk implementasi \textit{edit} pegawai admin dapat mengklik \textit{button} edit, maka akan tampil seperti gambar diatas dan dapat mengedit data yang ada.
+	
+	\newpage
+		\item Halaman Data Kandidat
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.8\textwidth]
 		{pics/admin/implementasi/datatallent.png}
-		\caption{Halaman Data \textit{Tallent} - Admin}
+		\caption{Halaman Data Kandidat - Admin}
 		\label{fig:CC10}
 	\end{figure}
-	Gambar diatas menampilkan halaman data \textit{tallent} yang dapat dilihat apabila admin mengklik menu “Data \textit{Tallent}”. Terdapat data tallent yang sudah dipilih oleh \textit{user}, sesuai dengan requitment yang telah ditetapkan perusahaan guna mengganti atau mengisi posisi yang kosong.  
+	Gambar diatas menampilkan halaman data kandidat yang dapat dilihat apabila admin mengklik menu “Data Kandidat”. Terdapat data kandidat yang sudah dipilih oleh \textit{user}, sesuai dengan \textit{requirement} yang telah ditetapkan perusahaan guna mengganti atau mengisi posisi yang kosong.  
 	
-	\item Halaman \textit{View Detail Tallent}
+	\item Halaman \textit{View Detail} Kandidat
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.8\textwidth]
 		{pics/admin/implementasi/viewdetailtallent.png}
-		\caption{Halaman \textit{View Detail Tallent} - Admin}
+		\caption{Halaman \textit{View Detail} Kandidat - Admin}
 		\label{fig:CC10}
 	\end{figure}
 	Tampilan diatas akan muncul apabila admin mengklik \textit{button “view”}. Kemudian tampil \textit{detail} data pegawai yang suda dipilih oleh \textit{user}, seperti data pribadi, jenjang pendidikan, dan \textit{skill}. 
@@ -339,9 +343,41 @@ Implementasi aplikasi merupakan tahapan realisasi dari perancangan yang telah di
 	\end{figure}
 	Untuk tampilan diatas adalah tambah data \textit{skill}, admin dapat menambahkan data \textit{skill} dengan mengkil button “tambah \textit{skill}” apabila \textit{skill} pada pegawai belum terdaftar pada data \textit{skill}, lalu inputkan nama \textit{skill} dan menyimpannya dengan klik \textit{button “save”}.
 	
+	\newpage
+	\item Halaman Data \textit{Personal Quality}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.8\textwidth]
+		{pics/admin/implementasi/datapersonalquality.png}
+		\caption{Halaman Data \textit{Personal Quality} - Admin}
+		\label{fig:CC10}
+	\end{figure}
+	Gambar diatas merupakan implementasi data \textit{personal quality} yang ada di Universitas Telkom, data tersebut ada karena setiap pegawai memiliki \textit{personal quality} kemudian data \textit{skill} dari semua pegawai disatukan didalam data \textit{personal quality},  untuk menunjang pekerjaan. 
+	
+	\item Halaman \textit{Edit Personal Quality}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.8\textwidth]
+		{pics/admin/implementasi/editpersonalquality.png}
+		\caption{Halaman \textit{Edit Personal Wuality} - Admin}
+		\label{fig:CC10}
+	\end{figure}
+	Implementasi diatas menampikan \textit{pop-up form edit personal quality}, dimana admin dapat mengedit nama \textit{personal quality} menjadi lebih sesuai, dan menyimpannya kembali dengan mengklik \textit{button “save”}.
+	
+	\newpage
+	\item Halaman Tambah Personal Quality
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.8\textwidth]
+		{pics/admin/implementasi/tambahpersonalquality.png}
+		\caption{Halaman Tambah Personal Quality - Admin}
+		\label{fig:CC10}
+	\end{figure}
+	Untuk tampilan diatas adalah tambah data \textit{personal quality}, admin dapat menambahkan data \textit{personal quality} dengan mengkil button “tambah \textit{personal quality}”.
+	
 \end{enumerate}
 
-\subsection{Implementasi \textit{User}}
+\subsubsection{Implementasi \textit{User}}
 
 \begin{enumerate}
 	
@@ -365,7 +401,7 @@ Implementasi aplikasi merupakan tahapan realisasi dari perancangan yang telah di
 		\label{fig:CC10}
 	\end{figure}
 	
-	Gambar diatas mengimplementasikan isi dari \textit{dashboard user}, berbeda dengan \textit{dashboard} yang dimiliki admin, \textit{dashboard user} hanya menampilkan jumlah \textit{user} yang dapat mengakses aplikasi \textbf{SiPJabS}, jumlah pegawai yang terdaftar di Universitas Telkom, serta jumlah \textit{tallent} yang sudah dipilih. 
+	Gambar diatas mengimplementasikan isi dari \textit{dashboard user}, berbeda dengan \textit{dashboard} yang dimiliki admin, \textit{dashboard user} hanya menampilkan jumlah \textit{user} yang dapat mengakses aplikasi \textbf{SiPJabS}, jumlah pegawai yang terdaftar di Universitas Telkom, serta jumlah kandidat yang sudah dipilih. 
 	
 	\item Halaman \textit{Profile}
 	\begin{figure}
@@ -409,18 +445,18 @@ Implementasi aplikasi merupakan tahapan realisasi dari perancangan yang telah di
 		\label{fig:CC10}
 	\end{figure}
 
-	\newpage
-	\item Halaman Cari \textit{Tallent}
+	\item Halaman Cari Kandidat
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.8\textwidth]
 		{pics/user/implementasi/caritallent.png}
-		\caption{Halaman Cari \textit{Tallent - User}}
+		\caption{Halaman Cari Kandidat - User}
 		\label{fig:CC10}
 	\end{figure}
 	
-	Gambar diatas mengimplementasikan apabila \textit{user} ingin mencari \textit{tallent} yang dibutuhkan sesuai \textit{requirement} perusahaan untuk menggantikan atau mengisi posisi yang kosong, dengan cara klik “cari tallent” pada menu, lalu akan muncul halaman seperti diatas, user harus memilih jabatan minimal yang dibutuhkan dan menginputkan masa kerja. Dan klik \textit{button} “cari” untuk mencari \textit{tallent}.
+	Gambar diatas mengimplementasikan apabila \textit{user} ingin mencari kandidat yang dibutuhkan sesuai \textit{requirement} perusahaan untuk menggantikan atau mengisi posisi yang kosong, dengan cara klik “cari kandidat” pada menu, lalu akan muncul halaman seperti diatas, user harus memilih jabatan yang dituju, jabatan  minimal yang dibutuhkan dan menginputkan masa kerja. Dan klik \textit{button} “cari”.
 	
+	\newpage
 	\item Halaman \textit{Filtering}
 	\begin{figure}
 		\centering
@@ -430,7 +466,7 @@ Implementasi aplikasi merupakan tahapan realisasi dari perancangan yang telah di
 		\label{fig:CC10}
 	\end{figure}
 	
-	Implementasi diatas menampilkan data \textit{tallent} yang tersedia, kemudian \textit{user} dapat menyeleksi kembali dengan memilih \textit{filter} pegawai, jenjang pendidikan, jurusan dan \textit{skill} yang dimiliki oleh pegawai.
+	Implementasi diatas menampilkan data kandidat yang tersedia, kemudian \textit{user} dapat menyeleksi kembali dengan memilih \textit{filter} pegawai, jenjang pendidikan, jurusan dan \textit{skill} yang dimiliki oleh pegawai.
 	
 	\item Halaman\textit{ View Detail} Pegawai
 	\begin{figure}
@@ -441,9 +477,10 @@ Implementasi aplikasi merupakan tahapan realisasi dari perancangan yang telah di
 		\label{fig:CC10}
 	\end{figure}
 	
-	Gambar diatas mengimpementasikan bahwasannya \textit{user} dapat melihat data pribadi yang dimiliki \textit{tallent}, dengan cara klik\textit{ button “view”} maka akan tampil halaman seperti diatas
+	Gambar diatas mengimpementasikan bahwasannya \textit{user} dapat melihat data pribadi yang dimiliki kandidat, dengan cara klik\textit{ button “view”} maka akan tampil halaman seperti diatas dan menampilkan data pribadi pegawai beserta data riwayat pendidikan, skill dan personal quality.
 	
-	\item Halaman \textit{Cart}
+	\newpage
+	\item Halaman Kandidat Sementara
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.8\textwidth]
@@ -452,93 +489,649 @@ Implementasi aplikasi merupakan tahapan realisasi dari perancangan yang telah di
 		\label{fig:CC10}
 	\end{figure}
 	
-	Gambar diatas menjelaskan bahwasannya \textit{user} sudah memilih \textit{tallent} yang sesuai dengan yang dibutuhkan untuk mengganti atau mengisi posisi yang kosong.  
+	Gambar diatas menjelaskan bahwasannya \textit{user} sudah memilih kandidat yang sesuai dengan yang dibutuhkan untuk mengganti atau mengisi posisi yang kosong.  
 	
-	\newpage
-	\item Halaman \textit{View Cart}
+	\item Halaman \textit{View} Kandidat Sementara
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.8\textwidth]
 		{pics/user/implementasi/viewcart.png}
-		\caption{Halaman \textit{View Cart - User}}
+		\caption{Halaman \textit{View} Kandidat Sementara}
 		\label{fig:CC10}
 	\end{figure}
 	
-	Gambar diatas mengimplementasikan halaman \textit{view }pada \textit{cart}, apabila \textit{user} telah memilih \textit{tallent} maka data tersebut akan masuk kedalam \textit{cart}, sebelum diproses ke data tallent. 
+	Gambar diatas mengimplementasikan halaman \textit{view }pada kandidat sementara, apabila \textit{user} telah memilih kandidat maka data tersebut akan masuk kedalam kandidat sementara, sebelum diproses ke data kandidat. 
 	
-		\item Halaman Data \textit{Tallent}
+	\newpage
+		\item Halaman Data Kandidat
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.8\textwidth]
 		{pics/user/implementasi/datatallent.png}
-		\caption{Halaman Data \textit{Tallent - User}}
+		\caption{Halaman Data Kandidat}
 		\label{fig:CC10}
 	\end{figure}
 	
-	Gambar diatas mengimplementasikan isi dari  data \textit{tallent} yang dimiliki \textit{user}, data tersebut sudah dipilih sesuai dengan \textit{requirement} perusahaan dan sesuai dengan \textit{job descripton} yang dimiliki pegawai.
+	Gambar diatas mengimplementasikan isi dari  data kandidat yang dimiliki \textit{user}, data tersebut sudah dipilih sesuai dengan \textit{requirement} perusahaan dan sesuai dengan \textit{job descripton} yang dimiliki pegawai dan selanjutka anak diajukan untuk penilaian.
 	
 \end{enumerate}
 
+\subsection{Struktur Kode}
+Struktur kode merupakan kumpulan kode atau script yang berfungsi untuk menjalankan setiap perintah dalam setiap proses pembuatan aplikasi. Berikut struktur kode yang ada pada aplikasi SiPJabS:
 
+\begin{table}
+	\caption{Tabel Struktur Kode}
+	\centering
+	\begin{tabular}{ | l | l | p{20mm} | p{22mm} | p{47mm} |}
+		\hline
+		
+		\textbf{No} & \textbf{Struktur Kode} & \textbf{Controller} & \textbf{Method} & \textbf{Deskripsi}  \\
+		\hline
+		
+		
+		\multirow{4}{*}{1} &  \multirow{4}{*}{User} & \multirow{4}{20mm}{} & index() &  \multirow{4}{47mm}{Berfungsi untuk melakukan proses menampilkan, menambah dan menghapus data kandidat sementara } \\
+		& & Cart & show() & \\
+		& & Controller & destroy() & \\
+		& & & addCart() & \\
+		\hline
+		
+		\multirow{5}{*}{2} &  \multirow{5}{*}{User} & \multirow{5}{20mm}{} & index() &  \multirow{5}{47mm}{Berfungsi untuk melakukan proses filtering pegawai untuk mencari kandidat berdasarkan requirement} \\
+		& & Filter & show() & \\
+		& & Controller & filterTallent() & \\
+		& & & getJabatan() & \\
+		& & & fetch() & \\
+		\hline
+		
+		
+	\end{tabular}
+\end{table}
+
+\newpage
+
+\begin{table}
+	\centering
+		\caption{Tabel Struktur Kode (1)}
+	\begin{tabular}{ | l | l | p{20mm} | p{22mm} | p{47mm} |}
+		\hline
+		
+		\textbf{No} & \textbf{Struktur Kode} & \textbf{Controller} & \textbf{Method} & \textbf{Deskripsi}  \\
+		\hline
+		
+		
+		\multirow{5}{*}{3} &  \multirow{5}{*}{User} & \multirow{5}{20mm}{} & index() &  \multirow{5}{47mm}{Berfungsi untuk melakukan proses melihat profile akun, reset password dan edit profile pada user } \\
+		& & Profile & show() & \\
+		& & Controller & edit() & \\
+		& & & update() & \\
+		& & & resetPass() & \\
+		\hline
+		
+		\multirow{5}{*}{4} &  \multirow{5}{*}{User} & \multirow{5}{20mm}{} & index() &  \multirow{5}{47mm}{Berfungsi untuk melakukan pengelolaan seperti menambahkan data kandidat terpilih, menghapus dan print pdf} \\
+		& & Tallent & show() & \\
+		& & Controller & destroy() & \\
+		& & & cetak pdf() & \\
+		& & & addTallent() & \\
+		\hline
+		
+		5 & User & User Controller & index() & Berfungsi menampilkan halaman dashboard user \\
+		\hline
+		
+		6 & Admin & Admin Controller & index() & Berfungsi menampilkan halaman dashboard admin \\
+		\hline
+		
+		\multirow{6}{*}{7} &  \multirow{6}{*}{Admin} & \multirow{6}{20mm}{} & index() &  \multirow{6}{47mm}{Berfungsi untuk melakukan proses CRUD pada jabatan} \\
+		& &  & create() & \\
+		& & Jabatan & store() & \\
+		& & Controller& show() & \\
+		& & & edit() & \\
+		& & & update() & \\
+		\hline
+		
+		\multirow{6}{*}{8} &  \multirow{6}{*}{Admin} & \multirow{6}{20mm}{} & index() &  \multirow{6}{47mm}{Berfungsi untuk melakukan proses CRUD pada jabatan struktural} \\
+		& & Jabatan  & create() & \\
+		& & Struktural & store() & \\
+		& & Controller& show() & \\
+		& & & edit() & \\
+		& & & update() & \\
+		\hline
+		
+		\multirow{6}{*}{9} &  \multirow{6}{*}{Admin} & \multirow{6}{20mm}{} & index() &  \multirow{6}{47mm}{Berfungsi untuk melakukan proses CRUD pada pegawai} \\
+		& &  & create() & \\
+		& & Pegawai & store() & \\
+		& & Controller& show() & \\
+		& & & edit() & \\
+		& & & update() & \\
+		\hline
+		
+	\end{tabular}
+\end{table}
+
+\begin{table}
+	\centering
+	\caption{Tabel Struktur Kode (2)}
+	\begin{tabular}{ | l | l | p{20mm} | p{22mm} | p{47mm} |}
+		\hline
+		
+		\textbf{No} & \textbf{Struktur Kode} & \textbf{Controller} & \textbf{Method} & \textbf{Deskripsi}  \\
+		\hline
+		
+		\multirow{6}{*}{10} &  \multirow{6}{*}{Admin} & \multirow{6}{20mm}{} & index() &  \multirow{6}{47mm}{Berfungsi untuk melakukan proses CRUD pada pendidikan} \\
+		& &  & create() & \\
+		& & Pendidikan & store() & \\
+		& & Controller& show() & \\
+		& & & edit() & \\
+		& & & update() & \\
+		\hline
+		
+		\multirow{6}{*}{11} &  \multirow{6}{*}{Admin} & \multirow{6}{20mm}{} & index() &  \multirow{6}{47mm}{Berfungsi untuk melakukan proses CRUD pada personal quality} \\
+		& & Personal  & create() & \\
+		& & Quality & store() & \\
+		& & Controller& show() & \\
+		& & & edit() & \\
+		& & & update() & \\
+		\hline
+		
+		\multirow{5}{*}{12} &  \multirow{5}{*}{Admin} & \multirow{5}{20mm}{} & index() &  \multirow{5}{47mm}{Berfungsi untuk melakukan proses melihat profile akun, reset password dan edit profile pada admin} \\
+		& & Profile & show() & \\
+		& & Controller& edit() & \\
+		& & & update() & \\
+		& & & resetPass() & \\
+		\hline
+		
+		\multirow{4}{*}{13} &  \multirow{4}{*}{Admin} & \multirow{4}{20mm}{} & index() &  \multirow{4}{47mm}{Berfungsi untuk melakukan proses menampilkan, delete dan cetak pdf kandidat } \\
+		& & Tallent& show() & \\
+		& & Controller& destroy() & \\
+		& & & cetak pdf() & \\
+		\hline
+		
+	\end{tabular}
+\end{table}
+
+ 
  
 
 
 %-----------------------------------------------------------------------------%
 \section{Pengujian Aplikasi}
 %-----------------------------------------------------------------------------%
-\blindtext \\
+Pengujian aplikasi merupakan proses yang bertujuan untuk dapat menilai kesesuaian serta dapat menentukan kualitas dari aplikasi/sistem yang telah dibuat dengan cara menemukan bug dari aplikasi/sistem. Metode testing yang akan dilakukan adalah Pengujian Alpha dan Pengujian Beta.
 
-\begin{figure}
-	\centering
-	\begin{tabular}[c]{cc}
-		
-		\begin{subfigure}[t]{0.45\textwidth}
-			\includegraphics[width=\linewidth]{pics/lena.png}
-			\caption{Testing With Lena} \label{fig:4a}
-		\end{subfigure}
-		\hspace*{\fill} % separation between the subfigures
-		
-		\begin{subfigure}[t]{0.45\textwidth}
-			\includegraphics[width=\linewidth]{pics/baboon.png}
-			\caption{Testing With Baboon} \label{fig:4b}
-		\end{subfigure}
-		
-	\end{tabular}
-	\caption{Pengujian Gambar Pada Aplikasi Z}
-	\label{fig:41}
-\end{figure}
 
 %-----------------------------------------------------------------------------%
 \subsection{Pengujian Alpha}
 %-----------------------------------------------------------------------------%
 
-\blindtext \\
+Pengujian Aplha dilakukan sebelum aplikasi di distribusikan, salah satunya dilakukan pengujian dengan cara BlackBox. Pada pengujian blackbox untuk mengetahui fungsionalitas dan kesesuaian sistem berdasarkan rancangan yang telah dibuat.
 
+\subsubsection{Pengujian Fungsionalitas}
 
+\begin{table}
+	\caption{Tabel Pengujian Login Admin}
+	\centering
+	\begin{tabular}{ | l | p{92mm} |}
+		\hline
+		
+		Nomor Test & PF-O1  \\
+		\hline
+		
+		Pengguna & Admin  \\
+		\hline
+		
+		Judul & Login Admin  \\
+		\hline
+		
+		\multirow{3}{*}{Teknik} & 
+		1. Membuka website dengan mengunjungi link www.sipjabs.my.id dan akan muncul halaman login
+		\raisebox{-\totalheight}{\includegraphics[width=0.65\textwidth, height=60mm]{pics/pengujian/pf1-1.png}}   \\
+	
+		
+		& 2. Inputkan username : zakariawahyu dan password : admin pada form login berikut.
+		\raisebox{-\totalheight}{\includegraphics[width=0.4\textwidth, height=60mm]{pics/pengujian/pf1-2.png}}  \\
+	
+		
+		& 3. Klik button ‘Login’ untuk menyelesaikan proses login \\
+		\hline
+	
+		Kriteria Keberhasilan & Sistem akan menampilkan halaman dashboard admin \\
+		\hline
+		
+		Kondisi khusus & Username dan password sudah diberikan oleh admin \\
+		\hline
+		
+		\multirow{2}{*}{Hasil} & Valid : Yes \\
+		
+		& Invalid : No \\
+		\hline
+		
+		
+	\end{tabular}
+\end{table}
 
-\subsection{Pengujian Fungsionalitas}
-\blindtext \\
+\begin{table}
+	\caption{Tabel Pengujian Login User}
+	\centering
+	\begin{tabular}{ | l | p{92mm} |}
+		\hline
+		
+		Nomor Test & PF-O2  \\
+		\hline
+		
+		Pengguna & User  \\
+		\hline
+		
+		Judul & Login User  \\
+		\hline
+		
+		\multirow{3}{*}{Teknik} & 
+		1. Membuka website dengan mengunjungi link www.sipjabs.my.id dan akan muncul halaman login
+		\raisebox{-\totalheight}{\includegraphics[width=0.65\textwidth, height=60mm]{pics/pengujian/pf1-1.png}}   \\
 
-\subsection{Pengujian Kesesuaian}
-\blindtext \\
+		
+		& 2. Inputkan username : elsajelista dan password : user pada form login berikut.
+		\raisebox{-\totalheight}{\includegraphics[width=0.4\textwidth, height=60mm]{pics/pengujian/pf1-2.png}}  \\
+
+		
+		& 3. Klik button ‘Login’ untuk menyelesaikan proses login \\
+		\hline
+		
+		Kriteria Keberhasilan & Sistem akan menampilkan halaman dashboard user \\
+		\hline
+		
+		Kondisi khusus & Username dan password sudah diberikan oleh admin \\
+		\hline
+		
+		\multirow{2}{*}{Hasil} & Valid : Yes \\
+
+		
+		& Invalid : No \\
+		\hline
+		
+		
+	\end{tabular}
+\end{table}
+
+\begin{table}
+	\caption{Tabel Pengujian Cari Kandidat}
+	\centering
+	\begin{tabular}{ | l | p{92mm} |}
+		\hline
+		
+		Nomor Test & PF-03  \\
+		\hline
+		
+		Pengguna & User  \\
+		\hline
+		
+		Judul & Cari Kandidat  \\
+		\hline
+		
+		\multirow{3}{*}{Teknik} & 
+		1.	Klik “Cari Kandidat” pada menu yang ada di sebelah kiri
+		\raisebox{-\totalheight}{\includegraphics[width=0.3\textwidth, height=10mm]{pics/pengujian/pf3-1.png}}   \\
+		
+		
+		& 2. Inputkan persyaratan umum seperti jabatan yang akan di tuju atau posisi target, kemudian dengan minimal jabatan dan kerja minimal.
+		\raisebox{-\totalheight}{\includegraphics[width=0.6\textwidth, height=50mm]{pics/pengujian/pf3-2.png}}  \\
+		
+		
+		& 3. Klik button ‘Cari’ untuk melakukan proses pencarian \\
+		\hline
+		
+		Kriteria Keberhasilan & Sistem akan menampilkan nama-nama kandidat \\
+		\hline
+		
+		Kondisi khusus & - \\
+		\hline
+		
+		\multirow{2}{*}{Hasil} & Valid : Yes \\
+		
+		
+		& Invalid : No \\
+		\hline
+		
+		
+	\end{tabular}
+\end{table}
+
+\begin{table}
+	\caption{Tabel Pengujian Filtering}
+	\centering
+	\begin{tabular}{ | l | p{92mm} |}
+		\hline
+		
+		Nomor Test & PF-04  \\
+		\hline
+		
+		Pengguna & User  \\
+		\hline
+		
+		Judul & Melakukan Filtering  \\
+		\hline
+		
+		\multirow{4}{*}{Teknik} & 
+		1.	Klik button “Cari”  untuk memulai mencari kandidat \\
+		
+		
+		& 2. Maka sistem akan menampilkan halaman filter kandidat seperi dibawah ini sesuai persyaratan yang telah di inputkan sebelumnya.
+		\raisebox{-\totalheight}{\includegraphics[width=0.5\textwidth, height=40mm]{pics/pengujian/pf4-1.png}}  \\
+		
+		
+		& 3.User dapat memilih persyaratan lebih spesifik untuk menfilter kandidat seperti gambar dibawah ini.
+		\raisebox{-\totalheight}{\includegraphics[width=0.4\textwidth, height=40mm]{pics/pengujian/pf4-2.png}} \\
+
+		
+		& 4. Lalu sistem akan menampilkan nama-nama kandidat dari hasil filter secara spesifik.
+		\raisebox{-\totalheight}{\includegraphics[width=0.5\textwidth, height=40mm]{pics/pengujian/pf4-3.png}}  \\
+		\hline
+		
+		Kriteria Keberhasilan & Sistem akan menampilkan nama-nama kandidat \\
+		\hline
+		
+		Kondisi khusus & - \\
+		\hline
+		
+		\multirow{2}{*}{Hasil} & Valid : Yes \\
+		
+		
+		& Invalid : No \\
+		\hline
+		
+		
+	\end{tabular}
+\end{table}
+
+\begin{table}
+	\caption{Tabel Pengujian Pilih Kandidat}
+	\centering
+	\begin{tabular}{ | l | p{92mm} |}
+		\hline
+		
+		Nomor Test & PF-05  \\
+		\hline
+		
+		Pengguna & User  \\
+		\hline
+		
+		Judul & Melakukan Pemilihan Kandidat  \\
+		\hline
+		
+		\multirow{3}{*}{Teknik} & 
+		1.	Setelah menfilter kandidat, user dapat memilih kandidat untuk dijadikan kandidat sementara. \\
+		
+		
+		& 2.	Sistem akan menampilkan beberapa nama kandidat yang telah terfilter, kemudian user dapat klik button pilih pada salah satu nama kandidat yang akan dipilih.
+		
+		\raisebox{-\totalheight}{\includegraphics[width=0.5\textwidth, height=40mm]{pics/pengujian/pf5-1.png}}  \\
+		
+		
+		& 3. Data tersebut akan masuk kedalam kandidat sementara 
+		\raisebox{-\totalheight}{\includegraphics[width=0.4\textwidth, height=55mm]{pics/pengujian/pf5-2.png}} \\
+		\hline
+		
+		Kriteria Keberhasilan & Sistem akan menampilkan pop-up berhasil ditambahkan kedalam kandidat sementara\\
+		\hline
+		
+		Kondisi khusus & - \\
+		\hline
+		
+		\multirow{2}{*}{Hasil} & Valid : Yes \\
+		
+		
+		& Invalid : No \\
+		\hline
+		
+		
+	\end{tabular}
+\end{table}
+
+\begin{table}
+	\caption{Tabel Pengujian Proses Kandidat}
+	\centering
+	\begin{tabular}{ | l | p{92mm} |}
+		\hline
+		
+		Nomor Test & PF-06  \\
+		\hline
+		
+		Pengguna & User  \\
+		\hline
+		
+		Judul & Melakukan Pemrosesan Kandidat  \\
+		\hline
+		
+		\multirow{5}{*}{Teknik} & 
+		1.	Untuk melanjutkan proses kandidat yang sudah dipilih tadi maka user dapat memprosesnya dengan mengklik icon “Kandidat Sementara” berada pada pojok kanan atas.
+		\raisebox{-\totalheight}{\includegraphics[width=0.1\textwidth, height=10mm]{pics/pengujian/pf6-1.png}} \\
+		
+		
+		& 2. Kemudian untuk melihat nama-nama kandidat sementara klik button “View Kandidat  Sementara” 
+		
+		\raisebox{-\totalheight}{\includegraphics[width=0.5\textwidth, height=10mm]{pics/pengujian/pf6-2.png}}  \\
+		
+		
+		& 3.	Maka sistem akan menampilkan halaman kandidat sementara dengan detail data yang telah ditentukan sebelumnya
+		\raisebox{-\totalheight}{\includegraphics[width=0.6\textwidth, height=45mm]{pics/pengujian/pf6-3.png}} \\
+		
+		& 4.	Kemudian user dapat memilih nama yang akan di proses untuk dijadikan kandidat dengan mengklik button  "Proses kandidat" \\
+		
+		& 5.	Maka data akan masuk ke dalam data kandidat \\
+		\hline
+		
+		Kriteria Keberhasilan & Sistem akan menampilkan pop-up berhasil memproses kandidat\\
+		\hline
+		
+		Kondisi khusus & - \\
+		\hline
+		
+		\multirow{2}{*}{Hasil} & Valid : Yes \\
+		
+		
+		& Invalid : No \\
+		\hline
+		
+		
+	\end{tabular}
+\end{table}
+
+\begin{table}
+	\caption{Tabel Pengujian Cetak PDF}
+	\centering
+	\begin{tabular}{ | l | p{92mm} |}
+		\hline
+		
+		Nomor Test & PF-07  \\
+		\hline
+		
+		Pengguna & User  \\
+		\hline
+		
+		Judul & Melakukan Cetak PDF  \\
+		\hline
+		
+		\multirow{4}{*}{Teknik} & 
+		1.	Untuk mencetak hasil kandidat maka user harus masuk ke halaman data kandidat dengan cara klik "Data Kandidat" pada menu.
+		
+		\raisebox{-\totalheight}{\includegraphics[width=0.3\textwidth, height=10mm]{pics/pengujian/pf7-1.png}} \\
+		
+		
+		& 2.	Kemudian sistem akan menampilkan halaman data kandidat dengan nama-nama kandidat yang sudah diproses   
+		
+		\raisebox{-\totalheight}{\includegraphics[width=0.5\textwidth, height=50mm]{pics/pengujian/pf7-2.png}}  \\
+		
+		
+		& 3.	Lalu user dapat mencetak hasil kandidat dengan klik button "Print PDF"  pada salah satu nama kandidat yang hasilnya akan dicetak. \\
+		
+		&4.	Sistem akan melakukan proses download laporan kandidat dalam bentuk PDF yang dapat diunduh oleh user   \\
+		
+		\hline
+		
+		Kriteria Keberhasilan & Terdapat file pdf yang bisa di unduh\\
+		\hline
+		
+		Kondisi khusus & - \\
+		\hline
+		
+		\multirow{2}{*}{Hasil} & Valid : Yes \\
+		
+		
+		& Invalid : No \\
+		\hline
+		
+		
+	\end{tabular}
+\end{table}
+
+\newpage
+\subsubsection{Pengujian Kesesuaian}
+
+\begin{table}
+	\caption{Tabel Pengujian Kesesuaian}
+	\centering
+	\begin{tabular}{ | l | p{92mm} |}
+		\hline
+		
+		Nomor Test & PK-01  \\
+		\hline
+		
+		Judul & Melakukan pengujian kesesuaian pada aplikasi  \\
+		\hline
+		
+		\multirow{2}{*}{Teknik} & 
+		1. Membuka aplikasi pada google chrome \\
+		& 2. Membuka aplikasi pada mozila firefox  \\
+		\hline
+		
+		Kriteria Keberhasilan & Menampilkan output yang sama di semua platform browser yang digunakan untuk menguji\\
+		\hline
+		
+		\multirow{3}{*}{Alat Pengujian} & 
+		1. Laptop MSI GL62M\\
+		& 2. Google Chrome  \\
+		& 3. Mozila Firefox \\
+		\hline
+		
+		Kondisi khusus & - \\
+		\hline
+		
+		\multirow{2}{*}{Hasil} & 1. Google Chrome
+		
+		\raisebox{-\totalheight}{\includegraphics[width=0.65\textwidth, height=20mm]{pics/pengujian/chrome/pk-1.png}}
+		
+		\raisebox{-\totalheight}{\includegraphics[width=0.65\textwidth, height=20mm]{pics/pengujian/chrome/pk-2.png}}
+		
+		\raisebox{-\totalheight}{\includegraphics[width=0.65\textwidth, height=20mm]{pics/pengujian/chrome/pk-3.png}}
+		\\
+		
+		
+		& 2. Mozila Firefox 
+		
+		\raisebox{-\totalheight}{\includegraphics[width=0.65\textwidth, height=20mm]{pics/pengujian/firefox/pk-1.png}}
+		
+		\raisebox{-\totalheight}{\includegraphics[width=0.65\textwidth, height=20mm]{pics/pengujian/firefox/pk-2.png}}
+		
+		\raisebox{-\totalheight}{\includegraphics[width=0.65\textwidth, height=20mm]{pics/pengujian/firefox/pk-3.png}}\\
+		\hline
+		
+		
+	\end{tabular}
+\end{table}
 
 %-----------------------------------------------------------------------------%
 \subsection{Pengujian Beta}
 %-----------------------------------------------------------------------------%
+Pengujian beta dilakukan dengan pengujian secara langsung kepada pengguna, salah satu pengujian beta yaitu dengan menggunakan Usability Testing. Berikut hasil pengujiannya:
 
-\blindtext \\
+\begin{table}
+	\caption{Tabel Usability Testing}
+	\centering
+	\begin{tabular}{ | p{5mm} | p{62mm} | c | c | c | c | c | c |}
+		\hline	
+		
+		\multirow{2}{*}{No} & \multirow{2}{*}{Pertanyaan} & \multicolumn{4}{|c|}{Aspek Usability} &  \multirow{2}{*}{Total} & \multirow{2}{*}{Likert} \\
+		
+		 \cline{3-6} & & STS & TS & S & SS & Skor & \\
+		 \hline
+		 
+		 \multicolumn{8}{|c|}{Aspek Fungsionalitas} \\
+		 \hline
+		 
+		 1 & Apakah semua fitur aplikasi SiPJabS dapat berjalan sesuai dengan fungsinya? &  &  &5 & 3 & 27 & 84,3\% \\
+		 \hline
+		 
+		  2 & Apakah aplikasi SiPJabS mudah untuk digunakan dan dioperasikan? &  &  &4 & 4 & 28 & 87,5\% \\
+		 \hline
+		 
+		 3 & Apakah respon aplikasi SiPJabS baik dan cepat? &  & 1  & 5 & 2 & 23 & 78,1\% \\
+		 \hline
+		 
+		 \multicolumn{7}{|c|}{Rata-rata} & 83,2\% \\ 
+		 \hline
+		 
+		 \multicolumn{8}{|c|}{Aspek Keguaan} \\
+		 \hline
+		 
+		 4 & Apakah aplikasi SiPJabS mudah untuk mencari kandidat secara tepat dan efektif? &  & 1 &6 & 1 & 24 & 75,5\% \\
+		 \hline
+		 
+		 5 & Apakah persyaratan yang diberikan (Filter Pegawai) sudah sesuai dengan job description yang akan dicari? &  & 2 &4 & 2 & 24 & 75,5\% \\
+		 \hline
+		 
+		 6 & Apakah aplikasi SiPJabS sudah layak untuk digunakan pada perusahaan? &  & 2 &4 & 2 & 24 & 75,5\% \\
+		 \hline
+		 
+		  \multicolumn{7}{|c|}{Rata-rata} & 75,5\% \\ 
+		 \hline
+		 
+		 \multicolumn{8}{|c|}{Aspek UI/UX} \\
+		 \hline
+		 
+		 7 & Apakah bentuk button (tombol) pada aplikasi SiPJabS sudah sesuai? &  & 1 &5 & 2 & 25 & 78,1\% \\
+		 \hline
+		 
+		 8 & Apakah warna yang diterapkan pada aplikasi SiPJabS sudah sesuai? &  & 2 &4 & 2 & 24 & 75,5\% \\
+		 \hline
+		 
+		 9 & Apakah icon pada aplikasi SiPJabS sudah sesuai? &  &  &7 & 1 & 8 & 78,1\% \\
+		 \hline
+		 
+		 \multicolumn{7}{|c|}{Rata-rata} & 77,3\% \\ 
+		 \hline
+		 
+	\end{tabular}
+\end{table}
+
+Keterangan skor nilai:
+\begin{enumerate}
+	\item Sangat Tidak Setuju = 1
+	\item Tidak Setuju = 2
+	\item Setuju = 3
+	\item Sangat Setuju = 4
+\end{enumerate}
+
+Rumus :	
+	$ Hasil akhir = \frac{Total Skor}{Y} x 100 \% $
+	
+\begin{itemize}
+	
+	\item Jumlah responden = 8
+	\item Y = Jumlah Responden x 4
+	
+\end{itemize}
 
 
 %-----------------------------------------------------------------------------%
 \section{Diskusi Hasil Pengujian}
 %-----------------------------------------------------------------------------%
+Pada pengujian aplikasi SiPJabS menggunakan 2 motode yaitu dengan pengujian alpha dan pengujian beta. Untuk pengujuan alpa terdiri dari pengujian fungsionalitas dan pengujian kesesuaian. Hasil dari pengujian fungsionalitas adalah baik dan memandakan fungsionalitas dari SiPJabS dapat berfungsi dengan baik sedangkan untuk hasil pengujian keseuaian adalah baik dengan sesuainya aplikasi ketika dibuka dalam Google Chrome dan Mozila Firefox. 
 
-\begin{figure}
-	\centering
-	\includegraphics[width=0.8\textwidth]
-	{pics/graph1.jpg}
-	\caption{My Survey Results 2020}
-	\label{fig:42}
-\end{figure}
+Untuk pengujian beta menggunakan metode usability testing. Usability testing adalah mencari permasalahan dalam penggunaan aplikasi dan dilakukan dengan membuat sebuah kuesioner untuk menguji seberapa jauh pemahaman pengguna terhadap aplikasi serta menentukan kepuasan pengguna dengan aplikasi sipjabs. Berikut hasil usability testing: 
 
-\blindtext \\
+
+\begin{enumerate}
+	\item Fungsionalitas berjalan dengan baik dengan rata-rata skor likert 83,7\% dengan data tersebut dapat diketahui bahwa pengguna setuju aplikasi SiPJabS memiliki fungsionalitas baik dan dapat digunakan.
+	
+	\item Apliaksi membantu dalam pencarian kandidat dengan rata-rata skor likert  75,5\% dengan data tersebut dapat disimpulkan aplikasi SiPJabS dapat membantu pengguna dalam pencarian kandidat secara cepat dan efisien. 
+	
+	\item Aspek desain UI/UX memiliki rata-rata skor likert 77,3 \% dengan data tersebut aspek UI/UX dapat disimpulkan bahwa pengguna setuju desain UI/UX aplikasi SiPJabS baik dan dapat digunakan.
+	
+	
+\end{enumerate} 
