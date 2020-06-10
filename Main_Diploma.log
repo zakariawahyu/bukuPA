@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.4)  9 JUN 2020 20:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.4)  10 JUN 2020 17:56
 entering extended mode
 **./Main_Diploma.tex
 (Main_Diploma.tex
@@ -1245,7 +1245,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<pics/Untel.jpg, id=252, 148.8105pt x 148.8105pt>
+<pics/Untel.jpg, id=248, 148.8105pt x 148.8105pt>
 File: pics/Untel.jpg Graphic file (type jpg)
 <use pics/Untel.jpg>
 Package pdftex.def Info: pics/Untel.jpg  used on input line 33.
@@ -1414,38 +1414,38 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 ] [6] [7] [8]
-<pics/mysql.png, id=891, 994.71625pt x 513.92pt>
+<pics/mysql.png, id=885, 994.71625pt x 513.92pt>
 File: pics/mysql.png Graphic file (type png)
 <use pics/mysql.png>
-Package pdftex.def Info: pics/mysql.png  used on input line 121.
+Package pdftex.def Info: pics/mysql.png  used on input line 117.
 (pdftex.def)             Requested size: 159.333pt x 82.31512pt.
 
-Underfull \hbox (badness 1062) in paragraph at lines 126--128
+Underfull \hbox (badness 1062) in paragraph at lines 122--124
 \OT1/ptm/m/n/12 berma-cam { macam ap-likasi kom-puter yang di-t-ulis den-gan be
 rba-gai ba-hasa
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--128
+Underfull \hbox (badness 10000) in paragraph at lines 122--124
 
  []
 
 
-Underfull \hbox (badness 2035) in paragraph at lines 145--146
+Underfull \hbox (badness 2035) in paragraph at lines 141--142
 []\OT1/ptm/m/n/12 Kemampuan banyak \OT1/ptm/m/it/12 client \OT1/ptm/m/n/12 da-p
 at berhubun-gan \OT1/ptm/m/it/12 server \OT1/ptm/m/n/12 pada saat yang
  []
 
-<pics/laravel.png, id=893, 370.38374pt x 136.51pt>
+<pics/laravel.png, id=887, 370.38374pt x 136.51pt>
 File: pics/laravel.png Graphic file (type png)
 <use pics/laravel.png>
-Package pdftex.def Info: pics/laravel.png  used on input line 156.
+Package pdftex.def Info: pics/laravel.png  used on input line 152.
 (pdftex.def)             Requested size: 239.00558pt x 88.08888pt.
 [9 <./pics/mysql.png>]
-<pics/ilustrasimvc.jpg, id=904, 384.6872pt x 231.11343pt>
+<pics/ilustrasimvc.jpg, id=898, 384.6872pt x 231.11343pt>
 File: pics/ilustrasimvc.jpg Graphic file (type jpg)
 <use pics/ilustrasimvc.jpg>
-Package pdftex.def Info: pics/ilustrasimvc.jpg  used on input line 173.
+Package pdftex.def Info: pics/ilustrasimvc.jpg  used on input line 169.
 (pdftex.def)             Requested size: 278.83578pt x 167.53001pt.
  [10 <./pics/laravel.png>] [11 <./pics/ilustrasimvc.jpg>] [12]) [13]
 \openout2 = `bab3.aux'.
@@ -1456,11 +1456,16 @@ BAB III.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 2.
 
-<pics/LowLevelDiagram.png, id=952, 741.77126pt x 467.7475pt>
+<pics/LowLevelDiagram.png, id=946, 741.77126pt x 438.63875pt>
 File: pics/LowLevelDiagram.png Graphic file (type png)
 <use pics/LowLevelDiagram.png>
 Package pdftex.def Info: pics/LowLevelDiagram.png  used on input line 14.
-(pdftex.def)             Requested size: 398.3386pt x 251.18811pt.
+(pdftex.def)             Requested size: 438.17488pt x 259.11588pt.
+
+Overfull \hbox (39.83629pt too wide) in paragraph at lines 13--15
+ [][] 
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
@@ -1471,7 +1476,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
 
  <./pics/LowLevelDiagram.png>] [15]
-<pics/diagram/flowchart.png, id=967, 1526.70375pt x 1285.80376pt>
+<pics/diagram/flowchart.png, id=961, 1526.70375pt x 1285.80376pt>
 File: pics/diagram/flowchart.png Graphic file (type png)
 <use pics/diagram/flowchart.png>
 Package pdftex.def Info: pics/diagram/flowchart.png  used on input line 60.
@@ -1488,7 +1493,7 @@ Underfull \hbox (badness 1019) in paragraph at lines 127--128
  []
 
 [18]
-<pics/diagram/usecase.png, id=982, 1197.47375pt x 988.69376pt>
+<pics/diagram/usecase.png, id=976, 1197.47375pt x 988.69376pt>
 File: pics/diagram/usecase.png Graphic file (type png)
 <use pics/diagram/usecase.png>
 Package pdftex.def Info: pics/diagram/usecase.png  used on input line 192.
@@ -1508,7 +1513,8 @@ Underfull \hbox (badness 3068) in paragraph at lines 500--501
 
 [24]
 Underfull \hbox (badness 4416) in paragraph at lines 607--608
-[]|\OT1/ptm/m/n/12 7. Menampilkan pop-up berhasil
+[]|\OT1/ptm/m/n/12 7. Menampilkan \OT1/ptm/m/it/12 pop-up \OT1/ptm/m/n/12 berha
+sil
  []
 
 [25] [26] [27] [28] [29] [30] [31] [32] [33]
@@ -1523,12 +1529,14 @@ Underfull \hbox (badness 2158) in paragraph at lines 1387--1388
 
 [37]
 Underfull \hbox (badness 4096) in paragraph at lines 1443--1444
-[]|\OT1/ptm/m/n/12 7. Menampilkan pop-up tanda
+[]|\OT1/ptm/m/n/12 7. Menampilkan \OT1/ptm/m/it/12 pop-up \OT1/ptm/m/n/12 tanda
+
  []
 
 [38]
 Underfull \hbox (badness 3068) in paragraph at lines 1499--1500
-[]|\OT1/ptm/m/n/12 7. Menampilkan pop-up tanda
+[]|\OT1/ptm/m/n/12 7. Menampilkan \OT1/ptm/m/it/12 pop-up \OT1/ptm/m/n/12 tanda
+
  []
 
 [39] [40]
@@ -1538,30 +1546,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 1662--1669
 
 [41] [42] [43] [44] [45] [46]
 Underfull \hbox (badness 2073) in paragraph at lines 2063--2064
-[]|\OT1/ptm/m/n/12 6. Menampilkan pop-up berhasil
+[]|\OT1/ptm/m/n/12 6. Menampilkan \OT1/ptm/m/it/12 pop-up \OT1/ptm/m/n/12 berha
+sil
  []
 
-<pics/diagram/classdiagram.png, id=1135, 1401.235pt x 1340.00626pt>
+<pics/diagram/classdiagram.png, id=1129, 1442.38875pt x 1406.25375pt>
 File: pics/diagram/classdiagram.png Graphic file (type png)
 <use pics/diagram/classdiagram.png>
 Package pdftex.def Info: pics/diagram/classdiagram.png  used on input line 2076
 .
-(pdftex.def)             Requested size: 398.3386pt x 380.9243pt.
+(pdftex.def)             Requested size: 398.3386pt x 388.34103pt.
 [47]
-<pics/diagram/erd.png, id=1142, 1285.80376pt x 1251.67625pt>
+<pics/diagram/erd.png, id=1136, 1285.80376pt x 1251.67625pt>
 File: pics/diagram/erd.png Graphic file (type png)
 <use pics/diagram/erd.png>
 Package pdftex.def Info: pics/diagram/erd.png  used on input line 2088.
 (pdftex.def)             Requested size: 358.50229pt x 348.97723pt.
  [48 <./pics/diagram/classdiagram.png>]
-<pics/admin/login.png, id=1148, 1445.4pt x 903.375pt>
+<pics/admin/login.png, id=1142, 1445.4pt x 903.375pt>
 File: pics/admin/login.png Graphic file (type png)
 <use pics/admin/login.png>
 Package pdftex.def Info: pics/admin/login.png  used on input line 2112.
 (pdftex.def)             Requested size: 238.98798pt x 170.70569pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2113--2114
-[]|\OT1/ptm/m/n/12 Halaman lo-gin
+[]|\OT1/ptm/m/n/12 Halaman \OT1/ptm/m/it/12 lo-gin
  []
 
 
@@ -1580,28 +1589,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 2113--2114
  []
 
 
-Underfull \hbox (badness 5756) in paragraph at lines 2113--2114
-\OT1/ptm/m/n/12 ap-likasi SiP-JabS ,
+Underfull \hbox (badness 2662) in paragraph at lines 2113--2114
+\OT1/ptm/m/n/12 ap-likasi \OT1/ptm/b/n/12 SiP-JabS \OT1/ptm/m/n/12 ,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2113--2114
-\OT1/ptm/m/n/12 in-putkan user-name
+\OT1/ptm/m/n/12 in-putkan \OT1/ptm/m/it/12 user-name
  []
 
-<pics/admin/dashboard.png, id=1149, 1445.4pt x 903.375pt>
+<pics/admin/dashboard.png, id=1143, 1445.4pt x 903.375pt>
 File: pics/admin/dashboard.png Graphic file (type png)
 <use pics/admin/dashboard.png>
 Package pdftex.def Info: pics/admin/dashboard.png  used on input line 2117.
 (pdftex.def)             Requested size: 238.98798pt x 170.70569pt.
 
-Underfull \hbox (badness 3579) in paragraph at lines 2118--2119
-[]|\OT1/ptm/m/n/12 Didalam dash-board
+Underfull \hbox (badness 1424) in paragraph at lines 2118--2119
+[]|\OT1/ptm/m/n/12 Didalam \OT1/ptm/m/it/12 dash-board
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2118--2119
-\OT1/ptm/m/n/12 lah users, jum-lah
+Underfull \hbox (badness 7888) in paragraph at lines 2118--2119
+\OT1/ptm/m/n/12 lah \OT1/ptm/m/it/12 users\OT1/ptm/m/n/12 , jum-lah
  []
 
 
@@ -1625,13 +1634,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 2118--2119
  []
 
 
-Underfull \hbox (badness 6842) in paragraph at lines 2118--2119
-\OT1/ptm/m/n/12 didikan, skill dan
+Underfull \hbox (badness 7704) in paragraph at lines 2118--2119
+\OT1/ptm/m/n/12 didikan, \OT1/ptm/m/it/12 skill \OT1/ptm/m/n/12 dan
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2118--2119
-\OT1/ptm/m/n/12 per-sonal qual-ity
+\OT1/ptm/m/it/12 per-sonal qual-ity
  []
 
 
@@ -1640,19 +1649,19 @@ Underfull \hbox (badness 3333) in paragraph at lines 2118--2119
  []
 
 [49 <./pics/diagram/erd.png>]
-<pics/admin/profile.png, id=1155, 1445.4pt x 903.375pt>
+<pics/admin/profile.png, id=1149, 1445.4pt x 903.375pt>
 File: pics/admin/profile.png Graphic file (type png)
 <use pics/admin/profile.png>
 Package pdftex.def Info: pics/admin/profile.png  used on input line 2133.
 (pdftex.def)             Requested size: 238.98798pt x 170.70569pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2134--2135
-[]|\OT1/ptm/m/n/12 Halaman pro-
+[]|\OT1/ptm/m/n/12 Halaman \OT1/ptm/m/it/12 pro-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2134--2135
-\OT1/ptm/m/n/12 file ad-min akan
+\OT1/ptm/m/it/12 file \OT1/ptm/m/n/12 ad-min akan
  []
 
 
@@ -1661,8 +1670,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 2134--2135
  []
 
 
-Underfull \hbox (badness 5374) in paragraph at lines 2134--2135
-\OT1/ptm/m/n/12 pro-file dari ad-min
+Underfull \hbox (badness 6047) in paragraph at lines 2134--2135
+\OT1/ptm/m/it/12 pro-file \OT1/ptm/m/n/12 dari ad-min
  []
 
 
@@ -1670,7 +1679,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2134--2135
 \OT1/ptm/m/n/12 ad-min juga da-pat
  []
 
-<pics/admin/editprofile.png, id=1156, 1445.4pt x 903.375pt>
+<pics/admin/editprofile.png, id=1150, 1445.4pt x 903.375pt>
 File: pics/admin/editprofile.png Graphic file (type png)
 <use pics/admin/editprofile.png>
 Package pdftex.def Info: pics/admin/editprofile.png  used on input line 2138.
@@ -1682,7 +1691,7 @@ Underfull \hbox (badness 1888) in paragraph at lines 2139--2140
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2139--2140
-\OT1/ptm/m/n/12 gubah user-name,
+\OT1/ptm/m/n/12 gubah \OT1/ptm/m/it/12 user-name\OT1/ptm/m/n/12 ,
  []
 
 
@@ -1690,7 +1699,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2139--2140
 \OT1/ptm/m/n/12 meng-in-putkan
  []
 
-<pics/admin/resetpassword.png, id=1157, 1445.4pt x 903.375pt>
+<pics/admin/resetpassword.png, id=1151, 1445.4pt x 903.375pt>
 File: pics/admin/resetpassword.png Graphic file (type png)
 <use pics/admin/resetpassword.png>
 Package pdftex.def Info: pics/admin/resetpassword.png  used on input line 2143.
@@ -1698,7 +1707,7 @@ Package pdftex.def Info: pics/admin/resetpassword.png  used on input line 2143.
 (pdftex.def)             Requested size: 238.98798pt x 170.70569pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2144--2145
-\OT1/ptm/m/n/12 in-putkan pass-word
+\OT1/ptm/m/n/12 in-putkan \OT1/ptm/m/it/12 pass-word
  []
 
 
@@ -1716,20 +1725,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 2144--2145
 \OT1/ptm/m/n/12 itu ad-min da-pat
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 2144--2145
+\OT1/ptm/m/n/12 men-gubah \OT1/ptm/m/it/12 pass-
+ []
+
 [50 <./pics/admin/login.png> <./pics/admin/dashboard.png>]
-<pics/admin/help.png, id=1164, 1445.4pt x 903.375pt>
+<pics/admin/help.png, id=1158, 1445.4pt x 903.375pt>
 File: pics/admin/help.png Graphic file (type png)
 <use pics/admin/help.png>
 Package pdftex.def Info: pics/admin/help.png  used on input line 2161.
 (pdftex.def)             Requested size: 238.98798pt x 170.70569pt.
-<pics/admin/datausers.png, id=1165, 1445.4pt x 903.375pt>
+<pics/admin/datausers.png, id=1159, 1445.4pt x 903.375pt>
 File: pics/admin/datausers.png Graphic file (type png)
 <use pics/admin/datausers.png>
 Package pdftex.def Info: pics/admin/datausers.png  used on input line 2166.
 (pdftex.def)             Requested size: 238.98798pt x 170.70569pt.
 
-Underfull \hbox (badness 2326) in paragraph at lines 2167--2168
-[]|\OT1/ptm/m/n/12 Halaman data user
+Underfull \hbox (badness 1895) in paragraph at lines 2167--2168
+[]|\OT1/ptm/m/n/12 Halaman data \OT1/ptm/m/it/12 user
  []
 
 
@@ -1749,7 +1763,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2167--2168
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2167--2168
-\OT1/ptm/m/n/12 ap-likasi SiP-JabS
+\OT1/ptm/m/n/12 ap-likasi \OT1/ptm/b/n/12 SiP-JabS
  []
 
 
@@ -1757,7 +1771,7 @@ Underfull \hbox (badness 2359) in paragraph at lines 2167--2168
 \OT1/ptm/m/n/12 se-ba-gai ad-min dan
  []
 
-<pics/admin/editdatausers.png, id=1166, 1445.4pt x 903.375pt>
+<pics/admin/editdatausers.png, id=1160, 1445.4pt x 903.375pt>
 File: pics/admin/editdatausers.png Graphic file (type png)
 <use pics/admin/editdatausers.png>
 Package pdftex.def Info: pics/admin/editdatausers.png  used on input line 2171.
@@ -1765,17 +1779,18 @@ Package pdftex.def Info: pics/admin/editdatausers.png  used on input line 2171.
 (pdftex.def)             Requested size: 238.98798pt x 170.70569pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2172--2173
-\OT1/ptm/m/n/12 user-name, email,
+\OT1/ptm/m/it/12 user-name\OT1/ptm/m/n/12 , \OT1/ptm/m/it/12 email\OT1/ptm/m/n/
+12 ,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2172--2173
-\OT1/ptm/m/n/12 dan role se-ba-gai
+\OT1/ptm/m/n/12 dan \OT1/ptm/m/it/12 role \OT1/ptm/m/n/12 se-ba-gai
  []
 
 [51 <./pics/admin/profile.png> <./pics/admin/editprofile.png> <./pics/admin/res
 etpassword.png>]
-<pics/admin/tambahusers.png, id=1174, 1445.4pt x 903.375pt>
+<pics/admin/tambahusers.png, id=1168, 1445.4pt x 903.375pt>
 File: pics/admin/tambahusers.png Graphic file (type png)
 <use pics/admin/tambahusers.png>
 Package pdftex.def Info: pics/admin/tambahusers.png  used on input line 2187.
@@ -1786,8 +1801,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 2188--2189
  []
 
 
-Underfull \hbox (badness 4940) in paragraph at lines 2188--2189
-\OT1/ptm/m/n/12 menam-bahkan user
+Underfull \hbox (badness 3579) in paragraph at lines 2188--2189
+\OT1/ptm/m/n/12 menam-bahkan \OT1/ptm/m/it/12 user
  []
 
 
@@ -1796,11 +1811,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 2188--2189
  []
 
 
-Underfull \hbox (badness 7133) in paragraph at lines 2188--2189
-\OT1/ptm/m/n/12 form tam-bah user
+Underfull \hbox (badness 7116) in paragraph at lines 2188--2189
+\OT1/ptm/m/it/12 form \OT1/ptm/m/n/12 tam-bah \OT1/ptm/m/it/12 user
  []
 
-<pics/admin/datapegawai.png, id=1175, 1445.4pt x 903.375pt>
+<pics/admin/datapegawai.png, id=1169, 1445.4pt x 903.375pt>
 File: pics/admin/datapegawai.png Graphic file (type png)
 <use pics/admin/datapegawai.png>
 Package pdftex.def Info: pics/admin/datapegawai.png  used on input line 2192.
@@ -1825,7 +1840,7 @@ Underfull \hbox (badness 3758) in paragraph at lines 2193--2194
 \OT1/ptm/m/n/12 Uni-ver-si-tas Telkom
  []
 
-<pics/admin/editpegawai.png, id=1176, 1445.4pt x 903.375pt>
+<pics/admin/editpegawai.png, id=1170, 1445.4pt x 903.375pt>
 File: pics/admin/editpegawai.png Graphic file (type png)
 <use pics/admin/editpegawai.png>
 Package pdftex.def Info: pics/admin/editpegawai.png  used on input line 2197.
@@ -1847,7 +1862,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2198--2199
 
 [52 <./pics/admin/help.png> <./pics/admin/datausers.png> <./pics/admin/editdata
 users.png>]
-<pics/admin/viewpegawai.png, id=1184, 1445.4pt x 903.375pt>
+<pics/admin/viewpegawai.png, id=1178, 1445.4pt x 903.375pt>
 File: pics/admin/viewpegawai.png Graphic file (type png)
 <use pics/admin/viewpegawai.png>
 Package pdftex.def Info: pics/admin/viewpegawai.png  used on input line 2215.
@@ -1877,7 +1892,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2216--2217
 \OT1/ptm/m/n/12 de-tail in-for-masi
  []
 
-<pics/admin/datatallent.png, id=1185, 1445.4pt x 903.375pt>
+<pics/admin/datatallent.png, id=1179, 1445.4pt x 903.375pt>
 File: pics/admin/datatallent.png Graphic file (type png)
 <use pics/admin/datatallent.png>
 Package pdftex.def Info: pics/admin/datatallent.png  used on input line 2220.
@@ -1893,18 +1908,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 2221--2222
  []
 
 
-Underfull \hbox (badness 4072) in paragraph at lines 2221--2222
-\OT1/ptm/m/n/12 di pilih oleh user
+Underfull \hbox (badness 3646) in paragraph at lines 2221--2222
+\OT1/ptm/m/n/12 di pilih oleh \OT1/ptm/m/it/12 user
  []
 
 
 Underfull \hbox (badness 6284) in paragraph at lines 2221--2222
-\OT1/ptm/m/n/12 sesuai den-gan job
+\OT1/ptm/m/n/12 sesuai den-gan \OT1/ptm/m/it/12 job
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2221--2222
-\OT1/ptm/m/n/12 de-scrip-tion un-tuk
+\OT1/ptm/m/it/12 de-scrip-tion \OT1/ptm/m/n/12 un-tuk
  []
 
 
@@ -1912,7 +1927,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2221--2222
 \OT1/ptm/m/n/12 meng-gan-tikan atau
  []
 
-<pics/admin/viewdetailtallent.png, id=1186, 1445.4pt x 903.375pt>
+<pics/admin/viewdetailtallent.png, id=1180, 1445.4pt x 903.375pt>
 File: pics/admin/viewdetailtallent.png Graphic file (type png)
 <use pics/admin/viewdetailtallent.png>
 Package pdftex.def Info: pics/admin/viewdetailtallent.png  used on input line 2
@@ -1925,7 +1940,7 @@ Underfull \hbox (badness 1521) in paragraph at lines 2226--2227
 
 [53 <./pics/admin/tambahusers.png> <./pics/admin/datapegawai.png> <./pics/admin
 /editpegawai.png>]
-<pics/admin/dataunitkerja.png, id=1195, 1445.4pt x 903.375pt>
+<pics/admin/dataunitkerja.png, id=1189, 1445.4pt x 903.375pt>
 File: pics/admin/dataunitkerja.png Graphic file (type png)
 <use pics/admin/dataunitkerja.png>
 Package pdftex.def Info: pics/admin/dataunitkerja.png  used on input line 2243.
@@ -1941,7 +1956,7 @@ Underfull \hbox (badness 6348) in paragraph at lines 2244--2245
 \OT1/ptm/m/n/12 unit kerja dim-u-lai
  []
 
-<pics/admin/editunitkerja.png, id=1196, 1445.4pt x 903.375pt>
+<pics/admin/editunitkerja.png, id=1190, 1445.4pt x 903.375pt>
 File: pics/admin/editunitkerja.png Graphic file (type png)
 <use pics/admin/editunitkerja.png>
 Package pdftex.def Info: pics/admin/editunitkerja.png  used on input line 2248.
@@ -1954,7 +1969,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2249--2250
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2249--2250
-\OT1/ptm/m/n/12 mengedit form
+\OT1/ptm/m/n/12 mengedit \OT1/ptm/m/it/12 form
  []
 
 
@@ -1967,7 +1982,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2249--2250
 \OT1/ptm/m/n/12 ter-da-pat ke-bi-jakan
  []
 
-<pics/admin/tambahunitkerja.png, id=1197, 1445.4pt x 903.375pt>
+<pics/admin/tambahunitkerja.png, id=1191, 1445.4pt x 903.375pt>
 File: pics/admin/tambahunitkerja.png Graphic file (type png)
 <use pics/admin/tambahunitkerja.png>
 Package pdftex.def Info: pics/admin/tambahunitkerja.png  used on input line 225
@@ -2005,7 +2020,7 @@ Underfull \hbox (badness 3343) in paragraph at lines 2254--2255
 
 [54 <./pics/admin/viewpegawai.png> <./pics/admin/datatallent.png> <./pics/admin
 /viewdetailtallent.png>]
-<pics/admin/datajabatan.png, id=1205, 1445.4pt x 903.375pt>
+<pics/admin/datajabatan.png, id=1199, 1445.4pt x 903.375pt>
 File: pics/admin/datajabatan.png Graphic file (type png)
 <use pics/admin/datajabatan.png>
 Package pdftex.def Info: pics/admin/datajabatan.png  used on input line 2271.
@@ -2030,7 +2045,7 @@ Underfull \hbox (badness 1783) in paragraph at lines 2272--2273
 \OT1/ptm/m/n/12 rada di Uni-ver-si-tas
  []
 
-<pics/admin/editjabatan.png, id=1206, 1445.4pt x 903.375pt>
+<pics/admin/editjabatan.png, id=1200, 1445.4pt x 903.375pt>
 File: pics/admin/editjabatan.png Graphic file (type png)
 <use pics/admin/editjabatan.png>
 Package pdftex.def Info: pics/admin/editjabatan.png  used on input line 2276.
@@ -2050,7 +2065,7 @@ Underfull \hbox (badness 1895) in paragraph at lines 2277--2278
 \OT1/ptm/m/n/12 nama ja-batan yang
  []
 
-<pics/admin/tambahjabatan.png, id=1207, 1445.4pt x 903.375pt>
+<pics/admin/tambahjabatan.png, id=1201, 1445.4pt x 903.375pt>
 File: pics/admin/tambahjabatan.png Graphic file (type png)
 <use pics/admin/tambahjabatan.png>
 Package pdftex.def Info: pics/admin/tambahjabatan.png  used on input line 2281.
@@ -2063,7 +2078,7 @@ Underfull \hbox (badness 8113) in paragraph at lines 2282--2283
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2282--2283
-\OT1/ptm/m/n/12 lengkapi form
+\OT1/ptm/m/n/12 lengkapi \OT1/ptm/m/it/12 form
  []
 
 
@@ -2073,7 +2088,7 @@ Underfull \hbox (badness 4940) in paragraph at lines 2282--2283
 
 [55 <./pics/admin/dataunitkerja.png> <./pics/admin/editunitkerja.png> <./pics/a
 dmin/tambahunitkerja.png>]
-<pics/admin/dataunitbagian.png, id=1215, 1445.4pt x 903.375pt>
+<pics/admin/dataunitbagian.png, id=1209, 1445.4pt x 903.375pt>
 File: pics/admin/dataunitbagian.png Graphic file (type png)
 <use pics/admin/dataunitbagian.png>
 Package pdftex.def Info: pics/admin/dataunitbagian.png  used on input line 2299
@@ -2094,7 +2109,7 @@ Underfull \hbox (badness 7814) in paragraph at lines 2300--2301
 \OT1/ptm/m/n/12 pat di Uni-ver-si-tas
  []
 
-<pics/admin/editunitbagian.png, id=1216, 1445.4pt x 903.375pt>
+<pics/admin/editunitbagian.png, id=1210, 1445.4pt x 903.375pt>
 File: pics/admin/editunitbagian.png Graphic file (type png)
 <use pics/admin/editunitbagian.png>
 Package pdftex.def Info: pics/admin/editunitbagian.png  used on input line 2304
@@ -2120,7 +2135,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2305--2306
 \OT1/ptm/m/n/12 pe-ruba-han yang
  []
 
-<pics/admin/tambahunitbagian.png, id=1217, 1445.4pt x 903.375pt>
+<pics/admin/tambahunitbagian.png, id=1211, 1445.4pt x 903.375pt>
 File: pics/admin/tambahunitbagian.png Graphic file (type png)
 <use pics/admin/tambahunitbagian.png>
 Package pdftex.def Info: pics/admin/tambahunitbagian.png  used on input line 23
@@ -2143,7 +2158,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2310--2311
 
 [56 <./pics/admin/datajabatan.png> <./pics/admin/editjabatan.png> <./pics/admin
 /tambahjabatan.png>]
-<pics/admin/datajabstruk.png, id=1225, 1445.4pt x 903.375pt>
+<pics/admin/datajabstruk.png, id=1219, 1445.4pt x 903.375pt>
 File: pics/admin/datajabstruk.png Graphic file (type png)
 <use pics/admin/datajabstruk.png>
 Package pdftex.def Info: pics/admin/datajabstruk.png  used on input line 2327.
@@ -2168,7 +2183,7 @@ Underfull \hbox (badness 5217) in paragraph at lines 2328--2329
 \OT1/ptm/m/n/12 cara tegas ada di
  []
 
-<pics/admin/editjabstruk.png, id=1226, 1445.4pt x 903.375pt>
+<pics/admin/editjabstruk.png, id=1220, 1445.4pt x 903.375pt>
 File: pics/admin/editjabstruk.png Graphic file (type png)
 <use pics/admin/editjabstruk.png>
 Package pdftex.def Info: pics/admin/editjabstruk.png  used on input line 2332.
@@ -2188,7 +2203,7 @@ Underfull \hbox (badness 3942) in paragraph at lines 2333--2334
 \OT1/ptm/m/n/12 dan harus mengisi
  []
 
-<pics/admin/tambahjabstruk.png, id=1227, 1445.4pt x 903.375pt>
+<pics/admin/tambahjabstruk.png, id=1221, 1445.4pt x 903.375pt>
 File: pics/admin/tambahjabstruk.png Graphic file (type png)
 <use pics/admin/tambahjabstruk.png>
 Package pdftex.def Info: pics/admin/tambahjabstruk.png  used on input line 2337
@@ -2201,7 +2216,7 @@ Underfull \hbox (badness 8113) in paragraph at lines 2338--2339
 
 [57 <./pics/admin/dataunitbagian.png> <./pics/admin/editunitbagian.png> <./pics
 /admin/tambahunitbagian.png>]
-<pics/admin/datapendidikan.png, id=1235, 1445.4pt x 903.375pt>
+<pics/admin/datapendidikan.png, id=1229, 1445.4pt x 903.375pt>
 File: pics/admin/datapendidikan.png Graphic file (type png)
 <use pics/admin/datapendidikan.png>
 Package pdftex.def Info: pics/admin/datapendidikan.png  used on input line 2355
@@ -2227,7 +2242,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2356--2357
 \OT1/ptm/m/n/12 dim-i-liki pe-gawai
  []
 
-<pics/admin/editpendidikan.png, id=1236, 1445.4pt x 903.375pt>
+<pics/admin/editpendidikan.png, id=1230, 1445.4pt x 903.375pt>
 File: pics/admin/editpendidikan.png Graphic file (type png)
 <use pics/admin/editpendidikan.png>
 Package pdftex.def Info: pics/admin/editpendidikan.png  used on input line 2360
@@ -2253,7 +2268,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2361--2362
 \OT1/ptm/m/n/12 pen-didikan serta
  []
 
-<pics/admin/tambahpendidikan.png, id=1237, 1445.4pt x 903.375pt>
+<pics/admin/tambahpendidikan.png, id=1231, 1445.4pt x 903.375pt>
 File: pics/admin/tambahpendidikan.png Graphic file (type png)
 <use pics/admin/tambahpendidikan.png>
 Package pdftex.def Info: pics/admin/tambahpendidikan.png  used on input line 23
@@ -2291,7 +2306,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2366--2367
 
 [58 <./pics/admin/datajabstruk.png> <./pics/admin/editjabstruk.png> <./pics/adm
 in/tambahjabstruk.png>]
-<pics/admin/dataskill.png, id=1245, 1445.4pt x 903.375pt>
+<pics/admin/dataskill.png, id=1239, 1445.4pt x 903.375pt>
 File: pics/admin/dataskill.png Graphic file (type png)
 <use pics/admin/dataskill.png>
 Package pdftex.def Info: pics/admin/dataskill.png  used on input line 2383.
@@ -2303,7 +2318,7 @@ Underfull \hbox (badness 7133) in paragraph at lines 2384--2385
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2384--2385
-\OT1/ptm/m/n/12 menampilkan skill
+\OT1/ptm/m/n/12 menampilkan \OT1/ptm/m/it/12 skill
  []
 
 
@@ -2321,7 +2336,7 @@ Underfull \hbox (badness 3019) in paragraph at lines 2384--2385
 \OT1/ptm/m/n/12 Telkom un-tuk me-
  []
 
-<pics/admin/editskill.png, id=1246, 1445.4pt x 903.375pt>
+<pics/admin/editskill.png, id=1240, 1445.4pt x 903.375pt>
 File: pics/admin/editskill.png Graphic file (type png)
 <use pics/admin/editskill.png>
 Package pdftex.def Info: pics/admin/editskill.png  used on input line 2388.
@@ -2331,7 +2346,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2389--2390
 []|\OT1/ptm/m/n/12 Admin da-pat
  []
 
-<pics/admin/tambahskill.png, id=1247, 1445.4pt x 903.375pt>
+<pics/admin/tambahskill.png, id=1241, 1445.4pt x 903.375pt>
 File: pics/admin/tambahskill.png Graphic file (type png)
 <use pics/admin/tambahskill.png>
 Package pdftex.def Info: pics/admin/tambahskill.png  used on input line 2393.
@@ -2348,7 +2363,7 @@ Underfull \hbox (badness 4940) in paragraph at lines 2394--2395
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2394--2395
-\OT1/ptm/m/n/12 skill baru apa-
+\OT1/ptm/m/it/12 skill \OT1/ptm/m/n/12 baru apa-
  []
 
 
@@ -2358,12 +2373,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 2394--2395
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2394--2395
-\OT1/ptm/m/n/12 skill yang belum
+\OT1/ptm/m/it/12 skill \OT1/ptm/m/n/12 yang belum
  []
 
 [59 <./pics/admin/datapendidikan.png> <./pics/admin/editpendidikan.png> <./pics
 /admin/tambahpendidikan.png>]
-<pics/admin/datapersonalquality.png, id=1256, 1445.4pt x 903.375pt>
+<pics/admin/datapersonalquality.png, id=1250, 1445.4pt x 903.375pt>
 File: pics/admin/datapersonalquality.png Graphic file (type png)
 <use pics/admin/datapersonalquality.png>
 Package pdftex.def Info: pics/admin/datapersonalquality.png  used on input line
@@ -2376,25 +2391,30 @@ Underfull \hbox (badness 7133) in paragraph at lines 2412--2413
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2412--2413
-\OT1/ptm/m/n/12 menampilkan skill
+\OT1/ptm/m/n/12 menampilkan \OT1/ptm/m/it/12 per-
+ []
+
+
+Underfull \hbox (badness 2781) in paragraph at lines 2412--2413
+\OT1/ptm/m/it/12 sonal qual-ity \OT1/ptm/m/n/12 yang
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2412--2413
-\OT1/ptm/m/n/12 yang dim-i-liki pe-
+\OT1/ptm/m/n/12 dim-i-liki pe-gawai
+ []
+
+
+Underfull \hbox (badness 3758) in paragraph at lines 2412--2413
+\OT1/ptm/m/n/12 Uni-ver-si-tas Telkom
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2412--2413
-\OT1/ptm/m/n/12 gawai Uni-ver-si-tas
+\OT1/ptm/m/n/12 un-tuk me-nun-jang
  []
 
-
-Underfull \hbox (badness 3019) in paragraph at lines 2412--2413
-\OT1/ptm/m/n/12 Telkom un-tuk me-
- []
-
-<pics/admin/editpersonalquality.png, id=1257, 1445.4pt x 903.375pt>
+<pics/admin/editpersonalquality.png, id=1251, 1445.4pt x 903.375pt>
 File: pics/admin/editpersonalquality.png Graphic file (type png)
 <use pics/admin/editpersonalquality.png>
 Package pdftex.def Info: pics/admin/editpersonalquality.png  used on input line
@@ -2405,7 +2425,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 2417--2418
 []|\OT1/ptm/m/n/12 Admin da-pat
  []
 
-<pics/admin/tambahpersonalquality.png, id=1258, 1445.4pt x 903.375pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 2417--2418
+\OT1/ptm/m/n/12 mengedit data
+ []
+
+<pics/admin/tambahpersonalquality.png, id=1252, 1445.4pt x 903.375pt>
 File: pics/admin/tambahpersonalquality.png Graphic file (type png)
 <use pics/admin/tambahpersonalquality.png>
 Package pdftex.def Info: pics/admin/tambahpersonalquality.png  used on input li
@@ -2423,34 +2448,34 @@ Underfull \hbox (badness 4940) in paragraph at lines 2422--2423
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2422--2423
-\OT1/ptm/m/n/12 skill baru apa-
+\OT1/ptm/m/it/12 per-sonal qual-ity
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 2422--2423
+\OT1/ptm/m/n/12 baru apa-bila ter-da-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2422--2423
-\OT1/ptm/m/n/12 bila ter-da-pat data
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2422--2423
-\OT1/ptm/m/n/12 skill yang belum
+\OT1/ptm/m/n/12 pat data \OT1/ptm/m/it/12 per-sonal
  []
 
 [60 <./pics/admin/dataskill.png> <./pics/admin/editskill.png> <./pics/admin/tam
 bahskill.png>]
-<pics/user/login.png, id=1266, 1445.4pt x 903.375pt>
+<pics/user/login.png, id=1260, 1445.4pt x 903.375pt>
 File: pics/user/login.png Graphic file (type png)
 <use pics/user/login.png>
 Package pdftex.def Info: pics/user/login.png  used on input line 2439.
 (pdftex.def)             Requested size: 238.98798pt x 170.70569pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2440--2441
-[]|\OT1/ptm/m/n/12 Halaman lo-gin
+[]|\OT1/ptm/m/n/12 Halaman \OT1/ptm/m/it/12 lo-gin
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2440--2441
-\OT1/ptm/m/n/12 awal apa-bila user
+\OT1/ptm/m/n/12 awal apa-bila \OT1/ptm/m/it/12 user
  []
 
 
@@ -2459,56 +2484,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 2440--2441
  []
 
 
-Underfull \hbox (badness 1242) in paragraph at lines 2440--2441
-\OT1/ptm/m/n/12 meng-in-putkan user-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 2440--2441
 \OT1/ptm/m/n/12 un-tuk melakukan
  []
 
-<pics/user/dashboard.png, id=1267, 1445.4pt x 903.375pt>
+<pics/user/dashboard.png, id=1261, 1445.4pt x 903.375pt>
 File: pics/user/dashboard.png Graphic file (type png)
 <use pics/user/dashboard.png>
 Package pdftex.def Info: pics/user/dashboard.png  used on input line 2444.
 (pdftex.def)             Requested size: 238.98798pt x 170.70569pt.
 
-Underfull \hbox (badness 7133) in paragraph at lines 2445--2446
-[]|\OT1/ptm/m/n/12 Halaman ini akan
+Underfull \hbox (badness 10000) in paragraph at lines 2445--2446
+\OT1/ptm/m/n/12 akan menampilkan
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2445--2446
-\OT1/ptm/m/n/12 menampilkan jum-
- []
-
-
-Underfull \hbox (badness 5050) in paragraph at lines 2445--2446
-\OT1/ptm/m/n/12 men-gak-ses ap-likasi
+\OT1/ptm/m/n/12 jum-lah \OT1/ptm/m/it/12 user \OT1/ptm/m/n/12 yang
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2445--2446
-\OT1/ptm/m/n/12 SiP-JabS, jum-lah
- []
-
-
-Underfull \hbox (badness 3758) in paragraph at lines 2445--2446
-\OT1/ptm/m/n/12 Uni-ver-si-tas Telkom
+\OT1/ptm/m/n/12 da-pat men-gak-ses
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2445--2446
-\OT1/ptm/m/n/12 serta jum-lah kan-
+\OT1/ptm/m/n/12 ap-likasi \OT1/ptm/b/n/12 SiP-JabS\OT1/ptm/m/n/12 ,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2445--2446
-\OT1/ptm/m/n/12 di-dat yang su-dah
+\OT1/ptm/m/n/12 jum-lah pe-gawai
  []
 
-<pics/user/profile.png, id=1268, 1445.4pt x 903.375pt>
+
+Underfull \hbox (badness 4940) in paragraph at lines 2445--2446
+\OT1/ptm/m/n/12 si-tas Telkom serta
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2445--2446
+\OT1/ptm/m/n/12 jum-lah kan-di-dat
+ []
+
+<pics/user/profile.png, id=1262, 1445.4pt x 903.375pt>
 File: pics/user/profile.png Graphic file (type png)
 <use pics/user/profile.png>
 Package pdftex.def Info: pics/user/profile.png  used on input line 2449.
@@ -2520,24 +2540,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 2450--2451
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2450--2451
-\OT1/ptm/m/n/12 user-name, email,
+\OT1/ptm/m/it/12 user-name\OT1/ptm/m/n/12 , \OT1/ptm/m/it/12 email\OT1/ptm/m/n/
+12 ,
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 2450--2451
+\OT1/ptm/m/it/12 pro-file \OT1/ptm/m/n/12 dan me\OT1/ptm/m/it/12 reset
  []
 
 [61 <./pics/admin/datapersonalquality.png> <./pics/admin/editpersonalquality.pn
 g> <./pics/admin/tambahpersonalquality.png>]
-<pics/user/editprofile.png, id=1276, 1445.4pt x 903.375pt>
+<pics/user/editprofile.png, id=1270, 1445.4pt x 903.375pt>
 File: pics/user/editprofile.png Graphic file (type png)
 <use pics/user/editprofile.png>
 Package pdftex.def Info: pics/user/editprofile.png  used on input line 2466.
 (pdftex.def)             Requested size: 238.98798pt x 170.70569pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2467--2468
-[]|\OT1/ptm/m/n/12 User da-pat men-
+[]|\OT1/ptm/m/it/12 User \OT1/ptm/m/n/12 da-pat men-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2467--2468
-\OT1/ptm/m/n/12 gubah user-name,
+\OT1/ptm/m/n/12 gubah \OT1/ptm/m/it/12 user-name\OT1/ptm/m/n/12 ,
  []
 
 
@@ -2545,7 +2571,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2467--2468
 \OT1/ptm/m/n/12 meng-in-putkan
  []
 
-<pics/user/resetpassword.png, id=1277, 1445.4pt x 903.375pt>
+<pics/user/resetpassword.png, id=1271, 1445.4pt x 903.375pt>
 File: pics/user/resetpassword.png Graphic file (type png)
 <use pics/user/resetpassword.png>
 Package pdftex.def Info: pics/user/resetpassword.png  used on input line 2471.
@@ -2557,7 +2583,7 @@ Underfull \hbox (badness 6220) in paragraph at lines 2472--2473
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2472--2473
-\OT1/ptm/m/n/12 in-putkan pass-word
+\OT1/ptm/m/n/12 in-putkan \OT1/ptm/m/it/12 pass-word
  []
 
 
@@ -2575,14 +2601,14 @@ Underfull \hbox (badness 3260) in paragraph at lines 2472--2473
 \OT1/ptm/m/n/12 lah itu user da-pat
  []
 
-<pics/user/help.png, id=1278, 1445.4pt x 903.375pt>
+<pics/user/help.png, id=1272, 1445.4pt x 903.375pt>
 File: pics/user/help.png Graphic file (type png)
 <use pics/user/help.png>
 Package pdftex.def Info: pics/user/help.png  used on input line 2476.
 (pdftex.def)             Requested size: 238.98798pt x 170.70569pt.
 
 Underfull \hbox (badness 1622) in paragraph at lines 2477--2478
-[]|\OT1/ptm/m/n/12 Pada ha-la-man help
+[]|\OT1/ptm/m/n/12 Pada ha-la-man \OT1/ptm/m/it/12 help
  []
 
 
@@ -2592,7 +2618,7 @@ Underfull \hbox (badness 2799) in paragraph at lines 2477--2478
 
 [62 <./pics/user/login.png> <./pics/user/dashboard.png> <./pics/user/profile.pn
 g>]
-<pics/user/caritallent.png, id=1286, 1445.4pt x 903.375pt>
+<pics/user/caritallent.png, id=1280, 1445.4pt x 903.375pt>
 File: pics/user/caritallent.png Graphic file (type png)
 <use pics/user/caritallent.png>
 Package pdftex.def Info: pics/user/caritallent.png  used on input line 2492.
@@ -2617,7 +2643,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2493--2494
 \OT1/ptm/m/n/12 men-gan-tikan atau
  []
 
-<pics/user/hasiltallent.png, id=1287, 1445.4pt x 903.375pt>
+<pics/user/hasiltallent.png, id=1281, 1445.4pt x 903.375pt>
 File: pics/user/hasiltallent.png Graphic file (type png)
 <use pics/user/hasiltallent.png>
 Package pdftex.def Info: pics/user/hasiltallent.png  used on input line 2497.
@@ -2628,16 +2654,11 @@ Underfull \hbox (badness 7133) in paragraph at lines 2498--2499
  []
 
 
-Underfull \hbox (badness 2253) in paragraph at lines 2498--2499
-\OT1/ptm/m/n/12 dat yang su-dah di
+Underfull \hbox (badness 6284) in paragraph at lines 2498--2499
+\OT1/ptm/m/n/12 ilih den-gan syarat
  []
 
-
-Underfull \hbox (badness 1231) in paragraph at lines 2498--2499
-\OT1/ptm/m/n/12 pilih den-gan syarat
- []
-
-<pics/user/viewdetailtallent.png, id=1288, 1445.4pt x 903.375pt>
+<pics/user/viewdetailtallent.png, id=1282, 1445.4pt x 903.375pt>
 File: pics/user/viewdetailtallent.png Graphic file (type png)
 <use pics/user/viewdetailtallent.png>
 Package pdftex.def Info: pics/user/viewdetailtallent.png  used on input line 25
@@ -2655,7 +2676,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2503--2504
 
 [63 <./pics/user/editprofile.png> <./pics/user/resetpassword.png> <./pics/user/
 help.png>]
-<pics/user/datatallent.png, id=1296, 1445.4pt x 903.375pt>
+<pics/user/datatallent.png, id=1290, 1445.4pt x 903.375pt>
 File: pics/user/datatallent.png Graphic file (type png)
 <use pics/user/datatallent.png>
 Package pdftex.def Info: pics/user/datatallent.png  used on input line 2518.
@@ -2676,8 +2697,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 2519--2520
  []
 
 
-Underfull \hbox (badness 1975) in paragraph at lines 2519--2520
-\OT1/ptm/m/n/12 dah di proses dari
+Underfull \hbox (badness 10000) in paragraph at lines 2519--2520
+\OT1/ptm/m/n/12 dah diproses dari
  []
 
 
@@ -2685,7 +2706,7 @@ Underfull \hbox (badness 4940) in paragraph at lines 2519--2520
 \OT1/ptm/m/n/12 kan-di-dat se-men-tara
  []
 
-<pics/user/cartuser.png, id=1297, 1445.4pt x 903.375pt>
+<pics/user/cartuser.png, id=1291, 1445.4pt x 903.375pt>
 File: pics/user/cartuser.png Graphic file (type png)
 <use pics/user/cartuser.png>
 Package pdftex.def Info: pics/user/cartuser.png  used on input line 2524.
@@ -2722,7 +2743,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2525--2526
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2525--2526
-\OT1/ptm/m/n/12 di ubah se-belum
+\OT1/ptm/m/n/12 di-ubah se-belum
  []
 
 
@@ -2730,7 +2751,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2525--2526
 \OT1/ptm/m/n/12 dite-tap-kan men-jadi
  []
 
-<pics/user/datakandidatsementara.png, id=1298, 1445.4pt x 903.375pt>
+<pics/user/datakandidatsementara.png, id=1292, 1445.4pt x 903.375pt>
 File: pics/user/datakandidatsementara.png Graphic file (type png)
 <use pics/user/datakandidatsementara.png>
 Package pdftex.def Info: pics/user/datakandidatsementara.png  used on input lin
@@ -2752,17 +2773,27 @@ Underfull \hbox (badness 4940) in paragraph at lines 2530--2531
  []
 
 
+Underfull \hbox (badness 2781) in paragraph at lines 2530--2531
+\OT1/ptm/m/n/12 yang su-dah dip-ilih
+ []
+
+
+Underfull \hbox (badness 5388) in paragraph at lines 2530--2531
+\OT1/ptm/m/n/12 dan akan diproses
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 2530--2531
 \OT1/ptm/m/n/12 dite-tap-kan un-tuk
  []
 
 [64 <./pics/user/caritallent.png> <./pics/user/hasiltallent.png> <./pics/user/v
 iewdetailtallent.png>]
-<pics/highleveldesign.png, id=1306, 469.755pt x 296.7888pt>
+<pics/highleveldesign.png, id=1300, 725.71124pt x 427.5975pt>
 File: pics/highleveldesign.png Graphic file (type png)
 <use pics/highleveldesign.png>
 Package pdftex.def Info: pics/highleveldesign.png  used on input line 2543.
-(pdftex.def)             Requested size: 358.50229pt x 226.49925pt.
+(pdftex.def)             Requested size: 398.3386pt x 234.70958pt.
  [65 <./pics/user/datatallent.png> <./pics/user/cartuser.png> <./pics/user/data
 kandidatsementara.png>]) [66 <./pics/highleveldesign.png>]
 \openout2 = `bab4.aux'.
@@ -2773,7 +2804,7 @@ BAB IV.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 2.
 
-<pics/admin/implementasi/login.png, id=1320, 1371.1225pt x 770.88pt>
+<pics/admin/implementasi/login.png, id=1314, 1371.1225pt x 770.88pt>
 File: pics/admin/implementasi/login.png Graphic file (type png)
 <use pics/admin/implementasi/login.png>
 Package pdftex.def Info: pics/admin/implementasi/login.png  used on input line 
@@ -2784,20 +2815,20 @@ Package pdftex.def Info: pics/admin/implementasi/login.png  used on input line
 
 
  <./pics/admin/implementasi/login.png>]
-<pics/admin/implementasi/dashboard.png, id=1327, 1371.1225pt x 770.88pt>
+<pics/admin/implementasi/dashboard.png, id=1321, 1371.1225pt x 770.88pt>
 File: pics/admin/implementasi/dashboard.png Graphic file (type png)
 <use pics/admin/implementasi/dashboard.png>
 Package pdftex.def Info: pics/admin/implementasi/dashboard.png  used on input l
 ine 34.
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
  [68 <./pics/admin/implementasi/dashboard.png>]
-<pics/admin/implementasi/profile.png, id=1334, 1371.1225pt x 770.88pt>
+<pics/admin/implementasi/profile.png, id=1328, 1371.1225pt x 770.88pt>
 File: pics/admin/implementasi/profile.png Graphic file (type png)
 <use pics/admin/implementasi/profile.png>
 Package pdftex.def Info: pics/admin/implementasi/profile.png  used on input lin
 e 45.
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
-<pics/admin/implementasi/editprofile.png, id=1335, 1371.1225pt x 770.88pt>
+<pics/admin/implementasi/editprofile.png, id=1329, 1371.1225pt x 770.88pt>
 File: pics/admin/implementasi/editprofile.png Graphic file (type png)
 <use pics/admin/implementasi/editprofile.png>
 Package pdftex.def Info: pics/admin/implementasi/editprofile.png  used on input
@@ -2805,13 +2836,13 @@ Package pdftex.def Info: pics/admin/implementasi/editprofile.png  used on input
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
  [69 <./pics/admin/implementasi/profile.png> <./pics/admin/implementasi/editpro
 file.png>]
-<pics/admin/implementasi/resetpassword.png, id=1344, 1371.1225pt x 770.88pt>
+<pics/admin/implementasi/resetpassword.png, id=1338, 1371.1225pt x 770.88pt>
 File: pics/admin/implementasi/resetpassword.png Graphic file (type png)
 <use pics/admin/implementasi/resetpassword.png>
 Package pdftex.def Info: pics/admin/implementasi/resetpassword.png  used on inp
 ut line 66.
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
-<pics/admin/implementasi/help.png, id=1345, 1371.1225pt x 770.88pt>
+<pics/admin/implementasi/help.png, id=1339, 1371.1225pt x 770.88pt>
 File: pics/admin/implementasi/help.png Graphic file (type png)
 <use pics/admin/implementasi/help.png>
 Package pdftex.def Info: pics/admin/implementasi/help.png  used on input line 7
@@ -2819,13 +2850,13 @@ Package pdftex.def Info: pics/admin/implementasi/help.png  used on input line 7
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
  [70 <./pics/admin/implementasi/resetpassword.png> <./pics/admin/implementasi/h
 elp.png>]
-<pics/admin/implementasi/datausers.png, id=1354, 1371.1225pt x 770.88pt>
+<pics/admin/implementasi/datausers.png, id=1348, 1371.1225pt x 770.88pt>
 File: pics/admin/implementasi/datausers.png Graphic file (type png)
 <use pics/admin/implementasi/datausers.png>
 Package pdftex.def Info: pics/admin/implementasi/datausers.png  used on input l
 ine 86.
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
-<pics/admin/implementasi/editusers.png, id=1355, 1371.1225pt x 770.88pt>
+<pics/admin/implementasi/editusers.png, id=1349, 1371.1225pt x 770.88pt>
 File: pics/admin/implementasi/editusers.png Graphic file (type png)
 <use pics/admin/implementasi/editusers.png>
 Package pdftex.def Info: pics/admin/implementasi/editusers.png  used on input l
@@ -2833,19 +2864,19 @@ ine 96.
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
  [71 <./pics/admin/implementasi/datausers.png> <./pics/admin/implementasi/editu
 sers.png>]
-<pics/admin/implementasi/tambahusers.png, id=1365, 1371.1225pt x 770.88pt>
+<pics/admin/implementasi/tambahusers.png, id=1359, 1371.1225pt x 770.88pt>
 File: pics/admin/implementasi/tambahusers.png Graphic file (type png)
 <use pics/admin/implementasi/tambahusers.png>
 Package pdftex.def Info: pics/admin/implementasi/tambahusers.png  used on input
  line 107.
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
-<pics/admin/implementasi/datapegawai.png, id=1366, 1371.1225pt x 770.88pt>
+<pics/admin/implementasi/datapegawai.png, id=1360, 1371.1225pt x 770.88pt>
 File: pics/admin/implementasi/datapegawai.png Graphic file (type png)
 <use pics/admin/implementasi/datapegawai.png>
 Package pdftex.def Info: pics/admin/implementasi/datapegawai.png  used on input
  line 117.
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
-<pics/admin/implementasi/viewdetailpegawai.png, id=1367, 1371.1225pt x 770.88pt
+<pics/admin/implementasi/viewdetailpegawai.png, id=1361, 1371.1225pt x 770.88pt
 >
 File: pics/admin/implementasi/viewdetailpegawai.png Graphic file (type png)
 <use pics/admin/implementasi/viewdetailpegawai.png>
@@ -2854,7 +2885,7 @@ Package pdftex.def Info: pics/admin/implementasi/viewdetailpegawai.png  used on
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
  [72 <./pics/admin/implementasi/tambahusers.png> <./pics/admin/implementasi/dat
 apegawai.png>]
-<pics/admin/implementasi/editpegawai.png, id=1376, 1371.1225pt x 770.88pt>
+<pics/admin/implementasi/editpegawai.png, id=1370, 1371.1225pt x 770.88pt>
 File: pics/admin/implementasi/editpegawai.png Graphic file (type png)
 <use pics/admin/implementasi/editpegawai.png>
 Package pdftex.def Info: pics/admin/implementasi/editpegawai.png  used on input
@@ -2862,13 +2893,13 @@ Package pdftex.def Info: pics/admin/implementasi/editpegawai.png  used on input
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
  [73 <./pics/admin/implementasi/viewdetailpegawai.png> <./pics/admin/implementa
 si/editpegawai.png>]
-<pics/admin/implementasi/datatallent.png, id=1385, 1371.1225pt x 770.88pt>
+<pics/admin/implementasi/datatallent.png, id=1379, 1371.1225pt x 770.88pt>
 File: pics/admin/implementasi/datatallent.png Graphic file (type png)
 <use pics/admin/implementasi/datatallent.png>
 Package pdftex.def Info: pics/admin/implementasi/datatallent.png  used on input
  line 148.
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
-<pics/admin/implementasi/viewdetailtallent.png, id=1386, 1371.1225pt x 770.88pt
+<pics/admin/implementasi/viewdetailtallent.png, id=1380, 1371.1225pt x 770.88pt
 >
 File: pics/admin/implementasi/viewdetailtallent.png Graphic file (type png)
 <use pics/admin/implementasi/viewdetailtallent.png>
@@ -2878,13 +2909,13 @@ Package pdftex.def Info: pics/admin/implementasi/viewdetailtallent.png  used on
 
 [74 <./pics/admin/implementasi/datatallent.png> <./pics/admin/implementasi/view
 detailtallent.png>]
-<pics/admin/implementasi/dataunitkerja.png, id=1395, 1371.1225pt x 770.88pt>
+<pics/admin/implementasi/dataunitkerja.png, id=1389, 1371.1225pt x 770.88pt>
 File: pics/admin/implementasi/dataunitkerja.png Graphic file (type png)
 <use pics/admin/implementasi/dataunitkerja.png>
 Package pdftex.def Info: pics/admin/implementasi/dataunitkerja.png  used on inp
 ut line 169.
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
-<pics/admin/implementasi/editunitkerja.png, id=1396, 1371.1225pt x 770.88pt>
+<pics/admin/implementasi/editunitkerja.png, id=1390, 1371.1225pt x 770.88pt>
 File: pics/admin/implementasi/editunitkerja.png Graphic file (type png)
 <use pics/admin/implementasi/editunitkerja.png>
 Package pdftex.def Info: pics/admin/implementasi/editunitkerja.png  used on inp
@@ -2892,19 +2923,19 @@ ut line 179.
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
  [75 <./pics/admin/implementasi/dataunitkerja.png> <./pics/admin/implementasi/e
 ditunitkerja.png>]
-<pics/admin/implementasi/tambahunitkerja.png, id=1405, 1371.1225pt x 770.88pt>
+<pics/admin/implementasi/tambahunitkerja.png, id=1399, 1371.1225pt x 770.88pt>
 File: pics/admin/implementasi/tambahunitkerja.png Graphic file (type png)
 <use pics/admin/implementasi/tambahunitkerja.png>
 Package pdftex.def Info: pics/admin/implementasi/tambahunitkerja.png  used on i
 nput line 190.
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
-<pics/admin/implementasi/datajabatan.png, id=1406, 1371.1225pt x 770.88pt>
+<pics/admin/implementasi/datajabatan.png, id=1400, 1371.1225pt x 770.88pt>
 File: pics/admin/implementasi/datajabatan.png Graphic file (type png)
 <use pics/admin/implementasi/datajabatan.png>
 Package pdftex.def Info: pics/admin/implementasi/datajabatan.png  used on input
  line 200.
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
-<pics/admin/implementasi/editjabatan.png, id=1407, 1371.1225pt x 770.88pt>
+<pics/admin/implementasi/editjabatan.png, id=1401, 1371.1225pt x 770.88pt>
 File: pics/admin/implementasi/editjabatan.png Graphic file (type png)
 <use pics/admin/implementasi/editjabatan.png>
 Package pdftex.def Info: pics/admin/implementasi/editjabatan.png  used on input
@@ -2912,13 +2943,13 @@ Package pdftex.def Info: pics/admin/implementasi/editjabatan.png  used on input
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
  [76 <./pics/admin/implementasi/tambahunitkerja.png> <./pics/admin/implementasi
 /datajabatan.png>]
-<pics/admin/implementasi/tambahjabatan.png, id=1416, 1371.1225pt x 770.88pt>
+<pics/admin/implementasi/tambahjabatan.png, id=1410, 1371.1225pt x 770.88pt>
 File: pics/admin/implementasi/tambahjabatan.png Graphic file (type png)
 <use pics/admin/implementasi/tambahjabatan.png>
 Package pdftex.def Info: pics/admin/implementasi/tambahjabatan.png  used on inp
 ut line 220.
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
-<pics/admin/implementasi/dataunitbagian.png, id=1417, 1371.1225pt x 770.88pt>
+<pics/admin/implementasi/dataunitbagian.png, id=1411, 1371.1225pt x 770.88pt>
 File: pics/admin/implementasi/dataunitbagian.png Graphic file (type png)
 <use pics/admin/implementasi/dataunitbagian.png>
 Package pdftex.def Info: pics/admin/implementasi/dataunitbagian.png  used on in
@@ -2926,13 +2957,13 @@ put line 230.
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
  [77 <./pics/admin/implementasi/editjabatan.png> <./pics/admin/implementasi/tam
 bahjabatan.png>]
-<pics/admin/implementasi/editunitbagian.png, id=1427, 1371.1225pt x 770.88pt>
+<pics/admin/implementasi/editunitbagian.png, id=1421, 1371.1225pt x 770.88pt>
 File: pics/admin/implementasi/editunitbagian.png Graphic file (type png)
 <use pics/admin/implementasi/editunitbagian.png>
 Package pdftex.def Info: pics/admin/implementasi/editunitbagian.png  used on in
 put line 240.
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
-<pics/admin/implementasi/tambahunitbagian.png, id=1428, 1371.1225pt x 770.88pt>
+<pics/admin/implementasi/tambahunitbagian.png, id=1422, 1371.1225pt x 770.88pt>
 
 File: pics/admin/implementasi/tambahunitbagian.png Graphic file (type png)
 <use pics/admin/implementasi/tambahunitbagian.png>
@@ -2942,13 +2973,13 @@ input line 250.
 
 [78 <./pics/admin/implementasi/dataunitbagian.png> <./pics/admin/implementasi/e
 ditunitbagian.png>]
-<pics/admin/implementasi/datajabstruk.png, id=1437, 1371.1225pt x 770.88pt>
+<pics/admin/implementasi/datajabstruk.png, id=1431, 1371.1225pt x 770.88pt>
 File: pics/admin/implementasi/datajabstruk.png Graphic file (type png)
 <use pics/admin/implementasi/datajabstruk.png>
 Package pdftex.def Info: pics/admin/implementasi/datajabstruk.png  used on inpu
 t line 260.
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
-<pics/admin/implementasi/editjabstruk.png, id=1438, 1371.1225pt x 770.88pt>
+<pics/admin/implementasi/editjabstruk.png, id=1432, 1371.1225pt x 770.88pt>
 File: pics/admin/implementasi/editjabstruk.png Graphic file (type png)
 <use pics/admin/implementasi/editjabstruk.png>
 Package pdftex.def Info: pics/admin/implementasi/editjabstruk.png  used on inpu
@@ -2956,13 +2987,13 @@ t line 270.
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
  [79 <./pics/admin/implementasi/tambahunitbagian.png> <./pics/admin/implementas
 i/datajabstruk.png>]
-<pics/admin/implementasi/tambahjabstruk.png, id=1447, 1371.1225pt x 770.88pt>
+<pics/admin/implementasi/tambahjabstruk.png, id=1441, 1371.1225pt x 770.88pt>
 File: pics/admin/implementasi/tambahjabstruk.png Graphic file (type png)
 <use pics/admin/implementasi/tambahjabstruk.png>
 Package pdftex.def Info: pics/admin/implementasi/tambahjabstruk.png  used on in
 put line 280.
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
-<pics/admin/implementasi/datapendidikan.png, id=1448, 1371.1225pt x 770.88pt>
+<pics/admin/implementasi/datapendidikan.png, id=1442, 1371.1225pt x 770.88pt>
 File: pics/admin/implementasi/datapendidikan.png Graphic file (type png)
 <use pics/admin/implementasi/datapendidikan.png>
 Package pdftex.def Info: pics/admin/implementasi/datapendidikan.png  used on in
@@ -2970,13 +3001,13 @@ put line 290.
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
  [80 <./pics/admin/implementasi/editjabstruk.png> <./pics/admin/implementasi/ta
 mbahjabstruk.png>]
-<pics/admin/implementasi/editpendidikan.png, id=1457, 1371.1225pt x 770.88pt>
+<pics/admin/implementasi/editpendidikan.png, id=1451, 1371.1225pt x 770.88pt>
 File: pics/admin/implementasi/editpendidikan.png Graphic file (type png)
 <use pics/admin/implementasi/editpendidikan.png>
 Package pdftex.def Info: pics/admin/implementasi/editpendidikan.png  used on in
 put line 300.
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
-<pics/admin/implementasi/tambahpendidikan.png, id=1458, 1371.1225pt x 770.88pt>
+<pics/admin/implementasi/tambahpendidikan.png, id=1452, 1371.1225pt x 770.88pt>
 
 File: pics/admin/implementasi/tambahpendidikan.png Graphic file (type png)
 <use pics/admin/implementasi/tambahpendidikan.png>
@@ -2985,13 +3016,13 @@ input line 310.
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
  [81 <./pics/admin/implementasi/datapendidikan.png> <./pics/admin/implementasi/
 editpendidikan.png>]
-<pics/admin/implementasi/dataskill.png, id=1467, 1371.1225pt x 770.88pt>
+<pics/admin/implementasi/dataskill.png, id=1461, 1371.1225pt x 770.88pt>
 File: pics/admin/implementasi/dataskill.png Graphic file (type png)
 <use pics/admin/implementasi/dataskill.png>
 Package pdftex.def Info: pics/admin/implementasi/dataskill.png  used on input l
 ine 320.
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
-<pics/admin/implementasi/editskill.png, id=1468, 1371.1225pt x 770.88pt>
+<pics/admin/implementasi/editskill.png, id=1462, 1371.1225pt x 770.88pt>
 File: pics/admin/implementasi/editskill.png Graphic file (type png)
 <use pics/admin/implementasi/editskill.png>
 Package pdftex.def Info: pics/admin/implementasi/editskill.png  used on input l
@@ -3000,7 +3031,7 @@ ine 330.
 
 [82 <./pics/admin/implementasi/tambahpendidikan.png> <./pics/admin/implementasi
 /dataskill.png>]
-<pics/admin/implementasi/tambahskill.png, id=1477, 1371.1225pt x 770.88pt>
+<pics/admin/implementasi/tambahskill.png, id=1471, 1371.1225pt x 770.88pt>
 File: pics/admin/implementasi/tambahskill.png Graphic file (type png)
 <use pics/admin/implementasi/tambahskill.png>
 Package pdftex.def Info: pics/admin/implementasi/tambahskill.png  used on input
@@ -3008,14 +3039,14 @@ Package pdftex.def Info: pics/admin/implementasi/tambahskill.png  used on input
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
  [83 <./pics/admin/implementasi/editskill.png> <./pics/admin/implementasi/tamba
 hskill.png>]
-<pics/admin/implementasi/datapersonalquality.png, id=1487, 1371.1225pt x 770.88
+<pics/admin/implementasi/datapersonalquality.png, id=1481, 1371.1225pt x 770.88
 pt>
 File: pics/admin/implementasi/datapersonalquality.png Graphic file (type png)
 <use pics/admin/implementasi/datapersonalquality.png>
 Package pdftex.def Info: pics/admin/implementasi/datapersonalquality.png  used 
 on input line 351.
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
-<pics/admin/implementasi/editpersonalquality.png, id=1488, 1371.1225pt x 770.88
+<pics/admin/implementasi/editpersonalquality.png, id=1482, 1371.1225pt x 770.88
 pt>
 File: pics/admin/implementasi/editpersonalquality.png Graphic file (type png)
 <use pics/admin/implementasi/editpersonalquality.png>
@@ -3024,7 +3055,7 @@ on input line 361.
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
  [84 <./pics/admin/implementasi/datapersonalquality.png> <./pics/admin/implemen
 tasi/editpersonalquality.png>]
-<pics/admin/implementasi/tambahpersonalquality.png, id=1497, 1371.1225pt x 770.
+<pics/admin/implementasi/tambahpersonalquality.png, id=1491, 1371.1225pt x 770.
 88pt>
 File: pics/admin/implementasi/tambahpersonalquality.png Graphic file (type png)
 
@@ -3032,13 +3063,13 @@ File: pics/admin/implementasi/tambahpersonalquality.png Graphic file (type png)
 Package pdftex.def Info: pics/admin/implementasi/tambahpersonalquality.png  use
 d on input line 372.
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
-<pics/user/implementasi/login.png, id=1498, 1371.1225pt x 770.88pt>
+<pics/user/implementasi/login.png, id=1492, 1371.1225pt x 770.88pt>
 File: pics/user/implementasi/login.png Graphic file (type png)
 <use pics/user/implementasi/login.png>
 Package pdftex.def Info: pics/user/implementasi/login.png  used on input line 3
 88.
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
-<pics/user/implementasi/dashboard.png, id=1499, 1371.1225pt x 770.88pt>
+<pics/user/implementasi/dashboard.png, id=1493, 1371.1225pt x 770.88pt>
 File: pics/user/implementasi/dashboard.png Graphic file (type png)
 <use pics/user/implementasi/dashboard.png>
 Package pdftex.def Info: pics/user/implementasi/dashboard.png  used on input li
@@ -3046,7 +3077,7 @@ ne 399.
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
  [85 <./pics/admin/implementasi/tambahpersonalquality.png> <./pics/user/impleme
 ntasi/login.png>]
-<pics/user/implementasi/profile.png, id=1508, 1371.1225pt x 770.88pt>
+<pics/user/implementasi/profile.png, id=1502, 1371.1225pt x 770.88pt>
 File: pics/user/implementasi/profile.png Graphic file (type png)
 <use pics/user/implementasi/profile.png>
 Package pdftex.def Info: pics/user/implementasi/profile.png  used on input line
@@ -3059,7 +3090,7 @@ ile \OT1/ptm/m/n/12 dari \OT1/ptm/m/it/12 user\OT1/ptm/m/n/12 , ter-da-pat nama
 
  []
 
-<pics/user/implementasi/editprofile.png, id=1509, 1371.1225pt x 770.88pt>
+<pics/user/implementasi/editprofile.png, id=1503, 1371.1225pt x 770.88pt>
 File: pics/user/implementasi/editprofile.png Graphic file (type png)
 <use pics/user/implementasi/editprofile.png>
 Package pdftex.def Info: pics/user/implementasi/editprofile.png  used on input 
@@ -3067,13 +3098,13 @@ line 421.
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
 [86 <./pics/user/implementasi/dashboard.png> <./pics/user/implementasi/profile.
 png>]
-<pics/user/implementasi/resetpassword.png, id=1518, 1371.1225pt x 770.88pt>
+<pics/user/implementasi/resetpassword.png, id=1512, 1371.1225pt x 770.88pt>
 File: pics/user/implementasi/resetpassword.png Graphic file (type png)
 <use pics/user/implementasi/resetpassword.png>
 Package pdftex.def Info: pics/user/implementasi/resetpassword.png  used on inpu
 t line 432.
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
-<pics/user/implementasi/help.png, id=1519, 1371.1225pt x 770.88pt>
+<pics/user/implementasi/help.png, id=1513, 1371.1225pt x 770.88pt>
 File: pics/user/implementasi/help.png Graphic file (type png)
 <use pics/user/implementasi/help.png>
 Package pdftex.def Info: pics/user/implementasi/help.png  used on input line 44
@@ -3081,7 +3112,7 @@ Package pdftex.def Info: pics/user/implementasi/help.png  used on input line 44
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
  [87 <./pics/user/implementasi/editprofile.png> <./pics/user/implementasi/reset
 password.png>]
-<pics/user/implementasi/caritallent.png, id=1528, 1371.1225pt x 770.88pt>
+<pics/user/implementasi/caritallent.png, id=1522, 1371.1225pt x 770.88pt>
 File: pics/user/implementasi/caritallent.png Graphic file (type png)
 <use pics/user/implementasi/caritallent.png>
 Package pdftex.def Info: pics/user/implementasi/caritallent.png  used on input 
@@ -3089,13 +3120,13 @@ line 452.
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
  [88 <./pics/user/implementasi/help.png> <./pics/user/implementasi/caritallent.
 png>]
-<pics/user/implementasi/hasiltallent.png, id=1537, 1371.1225pt x 770.88pt>
+<pics/user/implementasi/hasiltallent.png, id=1531, 1371.1225pt x 770.88pt>
 File: pics/user/implementasi/hasiltallent.png Graphic file (type png)
 <use pics/user/implementasi/hasiltallent.png>
 Package pdftex.def Info: pics/user/implementasi/hasiltallent.png  used on input
  line 464.
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
-<pics/user/implementasi/viewdetailpegawai.png, id=1538, 1371.1225pt x 770.88pt>
+<pics/user/implementasi/viewdetailpegawai.png, id=1532, 1371.1225pt x 770.88pt>
 
 File: pics/user/implementasi/viewdetailpegawai.png Graphic file (type png)
 <use pics/user/implementasi/viewdetailpegawai.png>
@@ -3104,13 +3135,13 @@ input line 475.
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
  [89 <./pics/user/implementasi/hasiltallent.png> <./pics/user/implementasi/view
 detailpegawai.png>]
-<pics/user/implementasi/cartuser.png, id=1548, 1371.1225pt x 770.88pt>
+<pics/user/implementasi/cartuser.png, id=1542, 1371.1225pt x 770.88pt>
 File: pics/user/implementasi/cartuser.png Graphic file (type png)
 <use pics/user/implementasi/cartuser.png>
 Package pdftex.def Info: pics/user/implementasi/cartuser.png  used on input lin
 e 487.
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
-<pics/user/implementasi/viewcart.png, id=1549, 1371.1225pt x 770.88pt>
+<pics/user/implementasi/viewcart.png, id=1543, 1371.1225pt x 770.88pt>
 File: pics/user/implementasi/viewcart.png Graphic file (type png)
 <use pics/user/implementasi/viewcart.png>
 Package pdftex.def Info: pics/user/implementasi/viewcart.png  used on input lin
@@ -3118,7 +3149,7 @@ e 498.
 (pdftex.def)             Requested size: 318.67209pt x 179.15717pt.
  [90 <./pics/user/implementasi/cartuser.png> <./pics/user/implementasi/viewcart
 .png>]
-<pics/user/implementasi/datatallent.png, id=1558, 1371.1225pt x 770.88pt>
+<pics/user/implementasi/datatallent.png, id=1552, 1371.1225pt x 770.88pt>
 File: pics/user/implementasi/datatallent.png Graphic file (type png)
 <use pics/user/implementasi/datatallent.png>
 Package pdftex.def Info: pics/user/implementasi/datatallent.png  used on input 
@@ -3155,7 +3186,7 @@ Overfull \hbox (7.326pt too wide) in paragraph at lines 611--647
  []
 
 [92]
-<pics/pengujian/pf1-1.png, id=1569, 1444.64719pt x 761.09344pt>
+<pics/pengujian/pf1-1.png, id=1563, 1444.64719pt x 761.09344pt>
 File: pics/pengujian/pf1-1.png Graphic file (type png)
 <use pics/pengujian/pf1-1.png>
 Package pdftex.def Info: pics/pengujian/pf1-1.png  used on input line 684.
@@ -3165,7 +3196,7 @@ Underfull \hbox (badness 2205) in paragraph at lines 683--685
 []|\OT1/ptm/m/n/12 1. Mem-buka web-site den-gan men-gun-jungi link
  []
 
-<pics/pengujian/pf1-2.png, id=1570, 304.13625pt x 316.18124pt>
+<pics/pengujian/pf1-2.png, id=1564, 304.13625pt x 316.18124pt>
 File: pics/pengujian/pf1-2.png Graphic file (type png)
 <use pics/pengujian/pf1-2.png>
 Package pdftex.def Info: pics/pengujian/pf1-2.png  used on input line 688.
@@ -3205,12 +3236,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 729--731
  []
 
 [94 <./pics/pengujian/pf1-1.png> <./pics/pengujian/pf1-2.png>]
-<pics/pengujian/pf3-1.png, id=1581, 174.6525pt x 35.38219pt>
+<pics/pengujian/pf3-1.png, id=1575, 174.6525pt x 35.38219pt>
 File: pics/pengujian/pf3-1.png Graphic file (type png)
 <use pics/pengujian/pf3-1.png>
 Package pdftex.def Info: pics/pengujian/pf3-1.png  used on input line 769.
 (pdftex.def)             Requested size: 119.50299pt x 28.4537pt.
-<pics/pengujian/pf3-2.png, id=1582, 813.0375pt x 337.26pt>
+<pics/pengujian/pf3-2.png, id=1576, 813.0375pt x 337.26pt>
 File: pics/pengujian/pf3-2.png Graphic file (type png)
 <use pics/pengujian/pf3-2.png>
 Package pdftex.def Info: pics/pengujian/pf3-2.png  used on input line 773.
@@ -3231,7 +3262,7 @@ Underfull \hbox (badness 2065) in paragraph at lines 772--774
  []
 
 [95]
-<pics/pengujian/pf4-1.png, id=1588, 1444.64719pt x 733.23938pt>
+<pics/pengujian/pf4-1.png, id=1582, 1444.64719pt x 733.23938pt>
 File: pics/pengujian/pf4-1.png Graphic file (type png)
 <use pics/pengujian/pf4-1.png>
 Package pdftex.def Info: pics/pengujian/pf4-1.png  used on input line 815.
@@ -3251,12 +3282,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 814--816
 \OT1/ptm/m/n/12 syaratan yang telah di in-putkan se-belum-nya.
  []
 
-<pics/pengujian/pf4-2.png, id=1589, 483.30562pt x 206.27063pt>
+<pics/pengujian/pf4-2.png, id=1583, 483.30562pt x 206.27063pt>
 File: pics/pengujian/pf4-2.png Graphic file (type png)
 <use pics/pengujian/pf4-2.png>
 Package pdftex.def Info: pics/pengujian/pf4-2.png  used on input line 819.
 (pdftex.def)             Requested size: 159.3291pt x 113.81114pt.
-<pics/pengujian/pf4-3.png, id=1590, 1444.64719pt x 730.22812pt>
+<pics/pengujian/pf4-3.png, id=1584, 1444.64719pt x 730.22812pt>
 File: pics/pengujian/pf4-3.png Graphic file (type png)
 <use pics/pengujian/pf4-3.png>
 Package pdftex.def Info: pics/pengujian/pf4-3.png  used on input line 823.
@@ -3273,12 +3304,12 @@ Underfull \hbox (badness 6220) in paragraph at lines 822--824
 
 [96 <./pics/pengujian/pf3-1.png> <./pics/pengujian/pf3-2.png>] [97 <./pics/peng
 ujian/pf4-1.png> <./pics/pengujian/pf4-2.png> <./pics/pengujian/pf4-3.png>]
-<pics/pengujian/pf5-1.png, id=1604, 280.79906pt x 158.09062pt>
+<pics/pengujian/pf5-1.png, id=1598, 280.79906pt x 158.09062pt>
 File: pics/pengujian/pf5-1.png Graphic file (type png)
 <use pics/pengujian/pf5-1.png>
 Package pdftex.def Info: pics/pengujian/pf5-1.png  used on input line 863.
 (pdftex.def)             Requested size: 199.16734pt x 113.81308pt.
-<pics/pengujian/pf5-2.png, id=1605, 242.40562pt x 184.43906pt>
+<pics/pengujian/pf5-2.png, id=1599, 242.40562pt x 184.43906pt>
 File: pics/pengujian/pf5-2.png Graphic file (type png)
 <use pics/pengujian/pf5-2.png>
 Package pdftex.def Info: pics/pengujian/pf5-2.png  used on input line 867.
@@ -3288,17 +3319,17 @@ Underfull \hbox (badness 1622) in paragraph at lines 870--871
 []|\OT1/ptm/m/n/12 Sistem akan menampilkan pop-up berhasil di-ta-m-
  []
 
-<pics/pengujian/pf6-1.png, id=1606, 36.135pt x 34.62938pt>
+<pics/pengujian/pf6-1.png, id=1600, 36.135pt x 34.62938pt>
 File: pics/pengujian/pf6-1.png Graphic file (type png)
 <use pics/pengujian/pf6-1.png>
 Package pdftex.def Info: pics/pengujian/pf6-1.png  used on input line 903.
 (pdftex.def)             Requested size: 39.83847pt x 28.45279pt.
-<pics/pengujian/pf6-2.png, id=1607, 222.07968pt x 35.38219pt>
+<pics/pengujian/pf6-2.png, id=1601, 222.07968pt x 35.38219pt>
 File: pics/pengujian/pf6-2.png Graphic file (type png)
 <use pics/pengujian/pf6-2.png>
 Package pdftex.def Info: pics/pengujian/pf6-2.png  used on input line 908.
 (pdftex.def)             Requested size: 199.1684pt x 28.4537pt.
-<pics/pengujian/pf6-3.png, id=1608, 1444.64719pt x 730.22812pt>
+<pics/pengujian/pf6-3.png, id=1602, 1444.64719pt x 730.22812pt>
 File: pics/pengujian/pf6-3.png Graphic file (type png)
 <use pics/pengujian/pf6-3.png>
 Package pdftex.def Info: pics/pengujian/pf6-3.png  used on input line 912.
@@ -3319,7 +3350,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 911--913
  []
 
 [98 <./pics/pengujian/pf5-1.png> <./pics/pengujian/pf5-2.png>]
-<pics/pengujian/pf7-1.png, id=1615, 174.6525pt x 36.135pt>
+<pics/pengujian/pf7-1.png, id=1609, 174.6525pt x 36.135pt>
 File: pics/pengujian/pf7-1.png Graphic file (type png)
 <use pics/pengujian/pf7-1.png>
 Package pdftex.def Info: pics/pengujian/pf7-1.png  used on input line 953.
@@ -3329,44 +3360,44 @@ Underfull \hbox (badness 1102) in paragraph at lines 956--957
 []|\OT1/ptm/m/n/12 2. Ke-mu-dian sis-tem akan menampilkan ha-la-man
  []
 
-<pics/pengujian/pf7-2.png, id=1616, 1444.64719pt x 727.21687pt>
+<pics/pengujian/pf7-2.png, id=1610, 1444.64719pt x 727.21687pt>
 File: pics/pengujian/pf7-2.png Graphic file (type png)
 <use pics/pengujian/pf7-2.png>
 Package pdftex.def Info: pics/pengujian/pf7-2.png  used on input line 958.
 (pdftex.def)             Requested size: 199.16313pt x 142.25612pt.
 [99 <./pics/pengujian/pf6-1.png> <./pics/pengujian/pf6-2.png> <./pics/pengujian
 /pf6-3.png>] [100 <./pics/pengujian/pf7-1.png> <./pics/pengujian/pf7-2.png>]
-<pics/pengujian/chrome/pk-1.png, id=1630, 3852.3925pt x 943.525pt>
+<pics/pengujian/chrome/pk-1.png, id=1624, 3852.3925pt x 943.525pt>
 File: pics/pengujian/chrome/pk-1.png Graphic file (type png)
 <use pics/pengujian/chrome/pk-1.png>
 Package pdftex.def Info: pics/pengujian/chrome/pk-1.png  used on input line 101
 7.
 (pdftex.def)             Requested size: 258.87901pt x 56.89699pt.
-<pics/pengujian/chrome/pk-2.png, id=1631, 3852.3925pt x 943.525pt>
+<pics/pengujian/chrome/pk-2.png, id=1625, 3852.3925pt x 943.525pt>
 File: pics/pengujian/chrome/pk-2.png Graphic file (type png)
 <use pics/pengujian/chrome/pk-2.png>
 Package pdftex.def Info: pics/pengujian/chrome/pk-2.png  used on input line 101
 9.
 (pdftex.def)             Requested size: 258.87901pt x 56.89699pt.
-<pics/pengujian/chrome/pk-3.png, id=1632, 3852.3925pt x 943.525pt>
+<pics/pengujian/chrome/pk-3.png, id=1626, 3852.3925pt x 943.525pt>
 File: pics/pengujian/chrome/pk-3.png Graphic file (type png)
 <use pics/pengujian/chrome/pk-3.png>
 Package pdftex.def Info: pics/pengujian/chrome/pk-3.png  used on input line 102
 1.
 (pdftex.def)             Requested size: 258.87901pt x 56.89699pt.
-<pics/pengujian/firefox/pk-1.png, id=1633, 3852.3925pt x 943.525pt>
+<pics/pengujian/firefox/pk-1.png, id=1627, 3852.3925pt x 943.525pt>
 File: pics/pengujian/firefox/pk-1.png Graphic file (type png)
 <use pics/pengujian/firefox/pk-1.png>
 Package pdftex.def Info: pics/pengujian/firefox/pk-1.png  used on input line 10
 27.
 (pdftex.def)             Requested size: 258.87901pt x 56.89699pt.
-<pics/pengujian/firefox/pk-2.png, id=1634, 3852.3925pt x 943.525pt>
+<pics/pengujian/firefox/pk-2.png, id=1628, 3852.3925pt x 943.525pt>
 File: pics/pengujian/firefox/pk-2.png Graphic file (type png)
 <use pics/pengujian/firefox/pk-2.png>
 Package pdftex.def Info: pics/pengujian/firefox/pk-2.png  used on input line 10
 29.
 (pdftex.def)             Requested size: 258.87901pt x 56.89699pt.
-<pics/pengujian/firefox/pk-3.png, id=1635, 3852.3925pt x 943.525pt>
+<pics/pengujian/firefox/pk-3.png, id=1629, 3852.3925pt x 943.525pt>
 File: pics/pengujian/firefox/pk-3.png Graphic file (type png)
 <use pics/pengujian/firefox/pk-3.png>
 Package pdftex.def Info: pics/pengujian/firefox/pk-3.png  used on input line 10
@@ -3426,7 +3457,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 94.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 94.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 94.
 Package rerunfilecheck Info: File `Main_Diploma.out' has not changed.
-(rerunfilecheck)             Checksum: A626A9665199B760E612D47889C3E4FB;4190.
+(rerunfilecheck)             Checksum: 2457CC85AB20BC3413667E845401518C;4120.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -3434,10 +3465,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 94.
  ) 
 Here is how much of TeX's memory you used:
- 23511 strings out of 480930
- 428051 string characters out of 2909522
- 682075 words of memory out of 3000000
- 38255 multiletter control sequences out of 15000+200000
+ 23509 strings out of 480930
+ 428017 string characters out of 2909522
+ 682072 words of memory out of 3000000
+ 38254 multiletter control sequences out of 15000+200000
  559241 words of font info for 74 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,16n,64p,1083b,492s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3446,9 +3477,9 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/t
 imes/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Main_Diploma.pdf (119 pages, 12150862 bytes).
+Output written on Main_Diploma.pdf (119 pages, 12151586 bytes).
 PDF statistics:
- 1798 PDF objects out of 2073 (max. 8388607)
- 475 named destinations out of 1000 (max. 500000)
- 1129 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1791 PDF objects out of 2073 (max. 8388607)
+ 474 named destinations out of 1000 (max. 500000)
+ 1121 words of extra memory for PDF output out of 10000 (max. 10000000)
 

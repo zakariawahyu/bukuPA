@@ -18,8 +18,7 @@
 \contentsline {section}{\numberline {2.2}Proses Pengawakan}{5}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Manfaat Pengawakan}{7}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Tujuan Pengawakan}{8}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Hasil Manajemen Pengawakan}{8}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Manfaat Manajemen Pengawakan}{8}{subsection.2.5.1}%
+\contentsline {section}{\numberline {2.5}Hasil dan Manfaat Manajemen Pengawakan}{8}{section.2.5}%
 \contentsline {section}{\numberline {2.6}MySQL dan Basis Data}{9}{section.2.6}%
 \contentsline {section}{\numberline {2.7}\textit {Framework} Laravel}{10}{section.2.7}%
 \contentsline {section}{\numberline {2.8}\textit {Domain}}{12}{section.2.8}%
